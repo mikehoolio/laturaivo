@@ -1,0 +1,1367 @@
+# Laturaivo text master (chronological)
+# Source: GAME_TEXTS_PLAYER_FACING_CLEAN.txt
+# Date: 2026-02-18
+# NOTE: FLAVOR_TEXT_ENABLED=false => many flavor lines are hidden by default during gameplay.
+# Columns:	ID	STATUS	PHASE	TEXT	PRIMARY_LOCATION	ALL_LOCATIONS
+0001	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Preloader	src/scenes/Preloader.ts:10	src/main.ts:637 | src/scenes/Preloader.ts:10
+0002	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	[AssetLoadError] type=${...} key=${...} src=${...}	src/scenes/Preloader.ts:23	src/scenes/Preloader.ts:23
+0003	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	[PreloaderAudio] loaded=${...}	src/scenes/Preloader.ts:30	src/scenes/Preloader.ts:30
+0004	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	[PreloaderAudio] cache-audio-unavailable	src/scenes/Preloader.ts:32	src/scenes/Preloader.ts:32
+0005	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Leaderboard init failed:	src/scenes/Preloader.ts:39	src/scenes/Preloader.ts:39
+0006	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Auth init failed:	src/scenes/Preloader.ts:40	src/scenes/Preloader.ts:40
+0007	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	DailyChallenge init failed:	src/scenes/Preloader.ts:41	src/scenes/Preloader.ts:41
+0008	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Tournament init failed:	src/scenes/Preloader.ts:42	src/scenes/Preloader.ts:42
+0009	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	[Preloader] Missing texture "${...}", aliased to "${...}"	src/scenes/Preloader.ts:80	src/scenes/Preloader.ts:80
+0010	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Fakta: tämä peli ei sisällä yhtään kiireetöntä hetkeä.	src/scenes/Preloader.ts:89	src/scenes/Preloader.ts:89
+0011	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Vinkki: jos paniikki nousee, paina silti eteenpäin.	src/scenes/Preloader.ts:90	src/scenes/Preloader.ts:90
+0012	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Muistutus: kahvi ei korvaa jarrutusta.	src/scenes/Preloader.ts:91	src/scenes/Preloader.ts:91
+0013	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Säävaroitus: paikallista draamaa ladulla.	src/scenes/Preloader.ts:92	src/scenes/Preloader.ts:92
+0014	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Päivän mantra: rauha, rytmi, raivo tarvittaessa.	src/scenes/Preloader.ts:93	src/scenes/Preloader.ts:93
+0015	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Loading...	src/scenes/Preloader.ts:107	src/scenes/Preloader.ts:107
+0016	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	#9fd7ff	src/scenes/Preloader.ts:116	src/scenes/Preloader.ts:116
+0017	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	#000000	src/scenes/SplashScene.ts:19	src/entities/Boss.ts:633 | src/entities/Boss.ts:1132 | src/entities/Enemy.ts:403 | src/entities/Enemy.ts:409 | src/entities/LitmanenParody.ts:133 | src/entities/PeterSync.ts:529 | src/entities/PowerUp.ts:273 | src/main.ts:283 | src/scenes/GameCompleteUIScene.ts:155 | src/scenes/GameCompleteUIScene.ts:171 | src/scenes/GameScene.ts:4487 | src/scenes/GameScene.ts:5432 | src/scenes/GameScene.ts:5530 | src/scenes/GameScene.ts:5705 | src/scenes/GameScene.ts:5734 | src/scenes/GameScene.ts:5771 | src/scenes/GameScene.ts:6602 | src/scenes/Preloader.ts:110 | src/scenes/Preloader.ts:117 | src/scenes/SplashScene.ts:19 | src/scenes/UberIntroScene.ts:19 | src/scenes/VictoryCutsceneScene.ts:110 | src/scenes/VictoryCutsceneScene.ts:276 | src/scenes/VictoryCutsceneScene.ts:311 | src/scenes/VictoryCutsceneScene.ts:340 | src/scenes/VictoryCutsceneScene.ts:375 | src/utils.ts:938
+0018	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Konsepti - Kenneth Sipilä\nTuotanto - Mikko Antikainen	src/scenes/SplashScene.ts:29	src/scenes/SplashScene.ts:29
+0019	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Napauta ruutua ohittaaksesi	src/scenes/SplashScene.ts:41	src/scenes/SplashScene.ts:41
+0020	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	#666666	src/scenes/SplashScene.ts:44	src/scenes/SplashScene.ts:44
+0021	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	#ffffff	src/scenes/UberIntroScene.ts:31	src/entities/Boss.ts:712 | src/entities/Boss.ts:952 | src/entities/Boss.ts:1131 | src/entities/Enemy.ts:398 | src/scenes/GameScene.ts:5516 | src/scenes/GameScene.ts:6601 | src/scenes/Preloader.ts:109 | src/scenes/SplashScene.ts:32 | src/scenes/UIScene.ts:3017 | src/scenes/UIScene.ts:3029 | src/scenes/UIScene.ts:3035 | src/scenes/UIScene.ts:3047 | src/scenes/UberIntroScene.ts:31
+0022	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	esittää	src/scenes/UberIntroScene.ts:39	src/scenes/UberIntroScene.ts:39
+0023	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	#cccccc	src/scenes/UberIntroScene.ts:42	src/scenes/UberIntroScene.ts:42
+0024	ACTIVE_OR_CONTEXTUAL	01_BOOT_SPLASH	Power2	src/scenes/UberIntroScene.ts:54	src/entities/AfterSkiAlpha.ts:147 | src/entities/AsianTechWorker.ts:162 | src/entities/BluetoothBomber.ts:115 | src/entities/Boss.ts:648 | src/entities/Boss.ts:765 | src/entities/Boss.ts:861 | src/entities/Boss.ts:968 | src/entities/Boss.ts:1147 | src/entities/BossFSM.ts:473 | src/entities/BrunchLady.ts:116 | src/entities/CityCyclist.ts:143 | src/entities/CrossfitBro.ts:117 | src/entities/CryptoBro.ts:131 | src/entities/DrunkPerson.ts:230 | src/entities/EScooterRider.ts:116 | src/entities/EnemyFSM.ts:218 | src/entities/EnemyFSM.ts:243 | src/entities/FamilyGroup.ts:201 | src/entities/GolfCartDriver.ts:118 | src/entities/HeadphoneWalker.ts:174 | src/entities/InfluencerSelfie.ts:126 | src/entities/LahtiPowerUp.ts:146 | src/entities/LitmanenParody.ts:145 | src/entities/LitmanenParody.ts:211 | src/entities/PadelPlayer.ts:133 | src/entities/PassiveGrandpa.ts:152 | src/entities/PeterSync.ts:543 | src/entities/PeterSyncFSM.ts:509 | src/entities/PowerUp.ts:186 | src/entities/PowerUp.ts:250 | src/entities/PowerUp.ts:286 | src/entities/PowerWalker.ts:136 | src/entities/PrivateSchoolSUV.ts:118 | src/entities/ProSkier.ts:220 | src/entities/RealEstateAgent.ts:127 | src/entities/SmokingLady.ts:178 | src/entities/SomaliSkier.ts:137 | src/entities/TennisPlayer.ts:133 | src/entities/WellnessWarrior.ts:135 | src/entities/WineMom.ts:116 | src/entities/YachtOwner.ts:116 | src/scenes/GameScene.ts:1407 | src/scenes/GameScene.ts:1450 | src/scenes/GameScene.ts:4501 | src/scenes/GameScene.ts:5415 | src/scenes/GameScene.ts:5541 | src/scenes/GameScene.ts:5721 | src/scenes/GameScene.ts:5748 | src/scenes/GameScene.ts:6682 | src/scenes/GameScene.ts:6716 | src/scenes/SplashScene.ts:55 | src/scenes/SplashScene.ts:64 | src/scenes/SplashScene.ts:73 | src/scenes/SplashScene.ts:101 | src/scenes/UberIntroScene.ts:54 | src/scenes/UberIntroScene.ts:63 | src/scenes/UberIntroScene.ts:72 | src/scenes/UberIntroScene.ts:100 | src/scenes/VictoryCutsceneScene.ts:225 | src/scenes/VictoryCutsceneScene.ts:422 | src/scenes/VictoryCutsceneScene.ts:464 | src/utils.ts:954
+0025	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	▶ NAPAUTA ALOITTAAKSESI ◀	src/scenes/TitleScreen.ts:29	src/scenes/TitleScreen.ts:29
+0026	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	Taistele tiesi läpi Espoon latujen!	src/scenes/TitleScreen.ts:30	src/scenes/TitleScreen.ts:30
+0027	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	Linear	src/scenes/TitleScreen.ts:183	src/entities/PlayerFSM.ts:431 | src/scenes/GameScene.ts:4063 | src/scenes/GameScene.ts:4767 | src/scenes/TitleScreen.ts:183 | src/scenes/VictoryCutsceneScene.ts:94
+0028	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	Sine.easeInOut	src/scenes/TitleScreen.ts:196	src/entities/CryptoBro.ts:76 | src/entities/Enemy.ts:421 | src/entities/Enemy.ts:431 | src/entities/GolfCartDriver.ts:68 | src/entities/InfluencerSelfie.ts:74 | src/entities/LahtiPowerUp.ts:110 | src/entities/LahtiPowerUp.ts:123 | src/entities/LitmanenParody.ts:95 | src/entities/PowerUp.ts:86 | src/entities/PowerUp.ts:99 | src/entities/PowerUp.ts:109 | src/entities/PowerUp.ts:124 | src/entities/PrivateSchoolSUV.ts:68 | src/entities/RealEstateAgent.ts:75 | src/scenes/GameCompleteUIScene.ts:203 | src/scenes/GameScene.ts:1928 | src/scenes/GameScene.ts:1944 | src/scenes/GameScene.ts:4892 | src/scenes/GameScene.ts:6057 | src/scenes/TitleScreen.ts:196 | src/scenes/VictoryCutsceneScene.ts:190 | src/scenes/VictoryUIScene.ts:149
+0029	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	#leaderboard-button	src/scenes/TitleScreen.ts:323	src/scenes/TitleScreen.ts:323
+0030	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	LeaderboardUIScene	src/scenes/TitleScreen.ts:350	src/main.ts:665 | src/scenes/LeaderboardUIScene.ts:25 | src/scenes/TitleScreen.ts:350 | src/scenes/TitleScreen.ts:359
+0031	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudio] locked=${...} mute=${...} volume=${...}	src/scenes/TitleScreen.ts:375	src/scenes/TitleScreen.ts:375
+0032	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudio] Initial play failed	src/scenes/TitleScreen.ts:388	src/scenes/TitleScreen.ts:388
+0033	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudio] bootstrap-timeout locked=${...} mute=${...} volume=${...}	src/scenes/TitleScreen.ts:410	src/scenes/TitleScreen.ts:410 | src/scenes/TitleScreen.ts:430
+0034	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] resume failed	src/scenes/TitleScreen.ts:484	src/scenes/TitleScreen.ts:484 | src/scenes/TitleScreen.ts:524
+0035	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] attempt src=${...}	src/scenes/TitleScreen.ts:502	src/scenes/TitleScreen.ts:502
+0036	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] playing src=${...}	src/scenes/TitleScreen.ts:504	src/scenes/TitleScreen.ts:504
+0037	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] play failed	src/scenes/TitleScreen.ts:514	src/scenes/TitleScreen.ts:514
+0038	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] laturaivo_theme URL not found in asset pack	src/scenes/TitleScreen.ts:543	src/scenes/TitleScreen.ts:543
+0039	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudioFallback] Failed to fetch asset pack	src/scenes/TitleScreen.ts:549	src/scenes/TitleScreen.ts:549
+0040	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[AudioBackendRecovery] HTML5 title audio timed out. Switching to WebAudio and reloading once.	src/scenes/TitleScreen.ts:578	src/scenes/TitleScreen.ts:578
+0041	ACTIVE_OR_CONTEXTUAL	02_TITLE_MENU	[TitleScreenAudio] Retry play failed	src/scenes/TitleScreen.ts:604	src/scenes/TitleScreen.ts:604
+0042	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	scale(1)	src/scenes/NameInputScene.ts:204	src/scenes/NameInputScene.ts:204 | src/scenes/TutorialUIScene.ts:276 | src/scenes/UIScene.ts:2682
+0043	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	scale(${...})	src/scenes/NameInputScene.ts:211	src/scenes/NameInputScene.ts:211 | src/scenes/UIScene.ts:565 | src/scenes/UIScene.ts:570 | src/scenes/UIScene.ts:575 | src/scenes/UIScene.ts:580 | src/scenes/UIScene.ts:634 | src/scenes/UIScene.ts:635 | src/scenes/UIScene.ts:650 | src/scenes/UIScene.ts:651 | src/scenes/UIScene.ts:2822
+0044	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	Enter	src/scenes/NameInputScene.ts:277	src/scenes/NameInputScene.ts:277
+0045	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	difficulty-${...}	src/scenes/NameInputScene.ts:315	src/scenes/NameInputScene.ts:315
+0046	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	HIIHTÄJÄ	src/scenes/NameInputScene.ts:347	src/managers/AuthManager.ts:245 | src/scenes/NameInputScene.ts:347
+0047	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	HEMOHES	src/scenes/NameInputScene.ts:359	src/scenes/NameInputScene.ts:359
+0048	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	🔱 GOD MODE ACTIVATED! Welcome, hemohes! 🔱	src/scenes/NameInputScene.ts:361	src/scenes/NameInputScene.ts:361
+0049	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	KIIA	src/scenes/NameInputScene.ts:366	src/scenes/NameInputScene.ts:366
+0050	ACTIVE_OR_CONTEXTUAL	03_NAME_INPUT	💃🕺 SECRET LEVEL UNLOCKED! Welcome to ICE CLUB ARENA: PETER KANTELE! 🕺💃	src/scenes/NameInputScene.ts:368	src/scenes/NameInputScene.ts:368
+0051	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	TutorialUIScene	src/scenes/TutorialUIScene.ts:35	src/main.ts:659 | src/scenes/GameCompleteUIScene.ts:503 | src/scenes/GameOverUIScene.ts:205 | src/scenes/GameOverUIScene.ts:253 | src/scenes/GameScene.ts:4941 | src/scenes/TutorialUIScene.ts:35 | src/scenes/TutorialUIScene.ts:431 | src/scenes/VictoryCutsceneScene.ts:527 | src/scenes/VictoryUIScene.ts:382 | src/scenes/VictoryUIScene.ts:419
+0052	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	OHITA TUTORIAALI	src/scenes/TutorialUIScene.ts:73	src/scenes/TutorialUIScene.ts:73
+0053	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	translateY(0)	src/scenes/TutorialUIScene.ts:149	src/scenes/AbilityUnlockUIScene.ts:157 | src/scenes/TutorialUIScene.ts:149 | src/scenes/UIScene.ts:2672
+0054	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	TUTORIAALI	src/scenes/TutorialUIScene.ts:154	src/scenes/TutorialUIScene.ts:154
+0055	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	Tervetuloa Laturaivoamaan! Käydään läpi kosketusohjaus.	src/scenes/TutorialUIScene.ts:155	src/scenes/TutorialUIScene.ts:155
+0056	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	LIIKKUMINEN	src/scenes/TutorialUIScene.ts:161	src/scenes/TutorialUIScene.ts:161
+0057	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	HYPPÄÄMINEN	src/scenes/TutorialUIScene.ts:181	src/scenes/TutorialUIScene.ts:181
+0058	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	SAUVAISKU	src/scenes/TutorialUIScene.ts:199	src/scenes/TutorialUIScene.ts:199
+0059	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	VOLTTI	src/scenes/TutorialUIScene.ts:217	src/scenes/TutorialUIScene.ts:217 | src/scenes/UIScene.ts:2789
+0060	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	w-3 h-3 rounded-full bg-green-500	src/scenes/TutorialUIScene.ts:254	src/scenes/TutorialUIScene.ts:254
+0061	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	w-3 h-3 rounded-full bg-yellow-400 animate-pulse	src/scenes/TutorialUIScene.ts:256	src/scenes/TutorialUIScene.ts:256
+0062	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	w-3 h-3 rounded-full bg-gray-600	src/scenes/TutorialUIScene.ts:258	src/scenes/TutorialUIScene.ts:258
+0063	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	scale(1.2)	src/scenes/TutorialUIScene.ts:267	src/scenes/AbilityUnlockUIScene.ts:216 | src/scenes/TutorialUIScene.ts:267
+0064	ACTIVE_OR_CONTEXTUAL	04_TUTORIAL	translateY(-20px)	src/scenes/TutorialUIScene.ts:418	src/scenes/AbilityUnlockUIScene.ts:243 | src/scenes/TutorialUIScene.ts:418
+0065	ACTIVE_OR_CONTEXTUAL	05_STORY	Espoossa asuu mies.\nKeski-ikäinen.\nVakituinen työ. Padottu mieli.\n\nHän ei huuda töissä.\nHän ei huuda kotona.\nHän huutaa ladulla.\n\nLatu on hänen purkautumispaikka.	src/scenes/StoryScene.ts:24	src/scenes/StoryScene.ts:24
+0066	ACTIVE_OR_CONTEXTUAL	05_STORY	Hän voittaa Marja-Liisan.\nHuuto voittaa järjen.\nHän ei pyydä anteeksi.\n\nEnsimmäistä kertaa\nraivo tuntuu tehokkaalta.	src/scenes/StoryScene.ts:38	src/scenes/StoryScene.ts:38
+0067	ACTIVE_OR_CONTEXTUAL	05_STORY	Tapiola.\nMies ei enää etsi rauhaa.\nHän etsii vastusta.\nHän lähtee Lahteen.	src/scenes/StoryScene.ts:50	src/scenes/StoryScene.ts:50
+0068	ACTIVE_OR_CONTEXTUAL	05_STORY	Hän kaataa legendan.\nEi voimalla,\nvaan itsepäisyydellä.\n\nJos Kuningas kaatuu,\nkuka tahansa voi.	src/scenes/StoryScene.ts:59	src/scenes/StoryScene.ts:59
+0069	ACTIVE_OR_CONTEXTUAL	05_STORY	Elon kaatuu.\nEi puhtaasti.\nEi kauniisti.\n\nMies tajuaa:\nReiluus on valinta.\nHän ei tee sitä.	src/scenes/StoryScene.ts:70	src/scenes/StoryScene.ts:70
+0070	ACTIVE_OR_CONTEXTUAL	05_STORY	haukilahti meri jäässä. mies myöskin. Mies lähtee turkuun, missä mikään ei toimi ja sehän suututtaa.	src/scenes/StoryScene.ts:83	src/scenes/StoryScene.ts:83
+0071	ACTIVE_OR_CONTEXTUAL	05_STORY	Otaniemi.\nAuto ladulla.\nSäännöt romahtavat.	src/scenes/StoryScene.ts:90	src/scenes/StoryScene.ts:90
+0072	ACTIVE_OR_CONTEXTUAL	05_STORY	Mies vaikenee.\nHiljaisuus sattuu enemmän.\n\nMies ymmärtää:\nhän ei tarvitse melua.\nHän on itse ääni.	src/scenes/StoryScene.ts:98	src/scenes/StoryScene.ts:98
+0073	ACTIVE_OR_CONTEXTUAL	05_STORY	Espoonlahti. Vi***taa jo valmiiksi, jytky ei auttanut.	src/scenes/StoryScene.ts:110	src/scenes/StoryScene.ts:110
+0074	ACTIVE_OR_CONTEXTUAL	05_STORY	Iso Timo kaatuu.\nMakkara putoaa lumeen.\nRaivo murtuu.\n\nMies ei voita raivolla Suomea.\nHän voittaa hetkeksi itsensä.\n\nLatu on tyhjä.\nRaivo on poissa.\nToistaiseksi.\n\nEnsi talveen.	src/scenes/StoryScene.ts:117	src/scenes/StoryScene.ts:117
+0075	ACTIVE_OR_CONTEXTUAL	05_STORY	NAPAUTA JATKAAKSESI	src/scenes/StoryScene.ts:156	src/scenes/StoryScene.ts:156
+0076	ACTIVE_OR_CONTEXTUAL	05_STORY	Story key "${...}" not found, using intro	src/scenes/StoryScene.ts:187	src/scenes/StoryScene.ts:187
+0077	ACTIVE_OR_CONTEXTUAL	05_STORY	GameCompleteUIScene	src/scenes/StoryScene.ts:435	src/main.ts:663 | src/scenes/GameCompleteUIScene.ts:42 | src/scenes/GameScene.ts:4953 | src/scenes/StoryScene.ts:435 | src/scenes/VictoryCutsceneScene.ts:499 | src/scenes/VictoryCutsceneScene.ts:536 | src/scenes/VictoryUIScene.ts:388
+0078	ACTIVE_OR_CONTEXTUAL	05_STORY	level_${...}	src/scenes/StoryScene.ts:483	src/scenes/StoryScene.ts:483 | src/scenes/VictoryCutsceneScene.ts:544 | src/scenes/VictoryUIScene.ts:436
+0079	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	KIRVES	src/scenes/AbilityUnlockUIScene.ts:23	src/scenes/AbilityUnlockUIScene.ts:23
+0080	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	Voimakas kirves-isku! Tuhoaa viholliset laajalla alueella.	src/scenes/AbilityUnlockUIScene.ts:24	src/scenes/AbilityUnlockUIScene.ts:24
+0081	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	LATURAIVO	src/scenes/AbilityUnlockUIScene.ts:30	src/scenes/AbilityUnlockUIScene.ts:30
+0082	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	Täytä raivomittari ja tuhoa KAIKKI viholliset ruudulla!	src/scenes/AbilityUnlockUIScene.ts:31	src/scenes/AbilityUnlockUIScene.ts:31
+0083	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	SYÖKSYISKU	src/scenes/AbilityUnlockUIScene.ts:37	src/scenes/AbilityUnlockUIScene.ts:37
+0084	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	Parannettu kirves! Syöksy eteenpäin ja tuhoa kaikki tieltäsi!	src/scenes/AbilityUnlockUIScene.ts:38	src/scenes/AbilityUnlockUIScene.ts:38
+0085	ACTIVE_OR_CONTEXTUAL	06_ABILITY_UNLOCK	AbilityUnlockUIScene	src/scenes/AbilityUnlockUIScene.ts:54	src/main.ts:660 | src/scenes/AbilityUnlockUIScene.ts:54 | src/scenes/AbilityUnlockUIScene.ts:251 | src/scenes/GameCompleteUIScene.ts:504 | src/scenes/GameOverUIScene.ts:206 | src/scenes/GameOverUIScene.ts:254 | src/scenes/GameScene.ts:4589 | src/scenes/GameScene.ts:4942 | src/scenes/VictoryCutsceneScene.ts:528 | src/scenes/VictoryUIScene.ts:383 | src/scenes/VictoryUIScene.ts:420
+0086	CONTEXTUAL	07_GAMEPLAY_CORE	RAIVO EI TOIMI BOSSIIN!	src/entities/Player.ts:660	src/entities/Player.ts:660
+0087	CONTEXTUAL	07_GAMEPLAY_CORE	rage_scream_${...}	src/entities/Player.ts:732	src/entities/Player.ts:732
+0088	CONTEXTUAL	07_GAMEPLAY_CORE	animationcomplete-${...}	src/entities/PlayerFSM.ts:270	src/entities/BossFSM.ts:164 | src/entities/BossFSM.ts:339 | src/entities/PlayerFSM.ts:270 | src/entities/PlayerFSM.ts:322 | src/entities/PlayerFSM.ts:390 | src/entities/PlayerFSM.ts:450 | src/entities/PlayerFSM.ts:500
+0089	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Pieni kuusi	src/scenes/GameScene.ts:166	src/scenes/GameScene.ts:166 | src/scenes/GameScene.ts:167
+0090	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tapiolan rakennukset	src/scenes/GameScene.ts:168	src/scenes/GameScene.ts:168
+0091	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahden kaupunkikyltti	src/scenes/GameScene.ts:169	src/scenes/GameScene.ts:169
+0092	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Espoon kaupunkikyltti	src/scenes/GameScene.ts:170	src/scenes/GameScene.ts:170
+0093	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Haukilahden vesitorni	src/scenes/GameScene.ts:171	src/scenes/GameScene.ts:171
+0094	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Turun tuomiokirkko	src/scenes/GameScene.ts:172	src/scenes/GameScene.ts:172
+0095	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Puuaita	src/scenes/GameScene.ts:173	src/scenes/GameScene.ts:173
+0096	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Haukilahden näkötorni	src/scenes/GameScene.ts:174	src/scenes/GameScene.ts:174
+0097	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tapiolan päärakennus	src/scenes/GameScene.ts:175	src/scenes/GameScene.ts:175
+0098	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahden kyltti	src/scenes/GameScene.ts:192	src/scenes/GameScene.ts:192
+0099	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahden radiomasto	src/scenes/GameScene.ts:193	src/scenes/GameScene.ts:193
+0100	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Salpausselän mäkihyppytornit	src/scenes/GameScene.ts:194	src/scenes/GameScene.ts:194
+0101	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun lapset on Ranskan kielikylvyssä	src/scenes/GameScene.ts:318	src/scenes/GameScene.ts:318
+0102	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää on vähän niinku meidän kesämökki, paitsi TALOSSA	src/scenes/GameScene.ts:319	src/scenes/GameScene.ts:319
+0103	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Padel on elämäntapa, ei harrastus	src/scenes/GameScene.ts:320	src/scenes/GameScene.ts:320
+0104	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Autopilot ajaa mut töihin	src/scenes/GameScene.ts:321	src/scenes/GameScene.ts:321
+0105	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Anteeks, en kuule, mul on AirPods Max	src/scenes/GameScene.ts:322	src/scenes/GameScene.ts:322
+0106	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun PT sanoo et hiihto on niin 2010	src/scenes/GameScene.ts:323	src/scenes/GameScene.ts:323 | src/scenes/GameScene.ts:6107
+0107	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Asutaanko Espoossa? No siis Westendissä...	src/scenes/GameScene.ts:324	src/scenes/GameScene.ts:324
+0108	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Täällähän on KÖYHIÄ HIIHTÄMÄSSÄ?!	src/scenes/GameScene.ts:325	src/scenes/GameScene.ts:325
+0109	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Onks täällä gluteenitonta sushia?	src/scenes/GameScene.ts:326	src/scenes/GameScene.ts:326
+0110	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Pitäis ladata Tesla, ehkä hiihdän kotiin	src/scenes/GameScene.ts:327	src/scenes/GameScene.ts:327
+0111	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Ei ollu dopingia, vaan vitamiineja!	src/scenes/GameScene.ts:332	src/scenes/GameScene.ts:332 | src/scenes/GameScene.ts:6537
+0112	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hemofarm? Mikä Hemofarm?	src/scenes/GameScene.ts:333	src/entities/LitmanenParody.ts:37 | src/scenes/GameScene.ts:333 | src/scenes/GameScene.ts:6365
+0113	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lääkäri käski ottaa!	src/scenes/GameScene.ts:334	src/scenes/GameScene.ts:334 | src/scenes/GameScene.ts:6538
+0114	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää on salaliitto Suomea vastaan!	src/scenes/GameScene.ts:335	src/scenes/GameScene.ts:335 | src/scenes/GameScene.ts:6562
+0115	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Olin vaan flunssassa, rehellisesti!	src/scenes/GameScene.ts:336	src/scenes/GameScene.ts:336 | src/scenes/GameScene.ts:6539
+0116	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kyllä ne kaikki käytti...	src/scenes/GameScene.ts:337	src/scenes/GameScene.ts:337
+0117	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Torvi on auki! Juomaan!	src/scenes/GameScene.ts:338	src/scenes/GameScene.ts:338 | src/scenes/GameScene.ts:6388
+0118	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Salpausselän kisat alkaa!	src/scenes/GameScene.ts:339	src/scenes/GameScene.ts:339
+0119	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Dopingtestaajat tulee!	src/scenes/GameScene.ts:340	src/scenes/GameScene.ts:340
+0120	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Salaiset lääkkeet taskussa...	src/scenes/GameScene.ts:341	src/scenes/GameScene.ts:341
+0121	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahden stadionilla mennyt monta kuppia!	src/scenes/GameScene.ts:342	src/scenes/GameScene.ts:342
+0122	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Radiomasto näkyy, ollaan lähellä!	src/scenes/GameScene.ts:343	src/scenes/GameScene.ts:343
+0123	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Täällä on aina dopinghuhuja...	src/scenes/GameScene.ts:344	src/scenes/GameScene.ts:344
+0124	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun ystävän kaveri käytti EPO:a!	src/scenes/GameScene.ts:345	src/scenes/GameScene.ts:345
+0125	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Voiko tätä ostaa Torvista?	src/scenes/GameScene.ts:346	src/scenes/GameScene.ts:346
+0126	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudio] key=${...} locked=${...} mute=${...} volume=${...}	src/scenes/GameScene.ts:657	src/scenes/GameScene.ts:657
+0127	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudio] Initial background music play failed	src/scenes/GameScene.ts:675	src/scenes/GameScene.ts:675
+0128	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameScene] iOS: Game paused due to background	src/scenes/GameScene.ts:742	src/scenes/GameScene.ts:742
+0129	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameScene] iOS: Game resumed from background	src/scenes/GameScene.ts:762	src/scenes/GameScene.ts:762
+0130	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudio] bootstrap-timeout locked=${...} mute=${...} volume=${...} key=${...}	src/scenes/GameScene.ts:800	src/scenes/GameScene.ts:800 | src/scenes/GameScene.ts:825
+0131	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] resume failed	src/scenes/GameScene.ts:878	src/scenes/GameScene.ts:878 | src/scenes/GameScene.ts:919
+0132	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] attempt key=${...} src=${...}	src/scenes/GameScene.ts:896	src/scenes/GameScene.ts:896
+0133	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] playing key=${...} src=${...}	src/scenes/GameScene.ts:898	src/scenes/GameScene.ts:898
+0134	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] play failed	src/scenes/GameScene.ts:908	src/scenes/GameScene.ts:908
+0135	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] URL not found for key=${...}	src/scenes/GameScene.ts:938	src/scenes/GameScene.ts:938
+0136	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudioFallback] Failed to fetch asset pack	src/scenes/GameScene.ts:944	src/scenes/GameScene.ts:944
+0137	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[GameSceneAudio] Retry play failed	src/scenes/GameScene.ts:999	src/scenes/GameScene.ts:999
+0138	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	NAAPURI TEKI MELUILMOITUKSEN	src/scenes/GameScene.ts:1133	src/scenes/GameScene.ts:1133
+0139	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	PULLA-COMBO! ILMAINEN SPECIAL VALMIS!	src/scenes/GameScene.ts:1177	src/scenes/GameScene.ts:1177
+0140	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Päivän mantra: pysy ladulla.	src/scenes/GameScene.ts:1209	src/scenes/GameScene.ts:1209
+0141	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kommentaattori: jatketaan.	src/scenes/GameScene.ts:1231	src/scenes/GameScene.ts:1231
+0142	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	MINITAPAHTUMA: LIUKAS SUOJATIE!	src/scenes/GameScene.ts:1265	src/scenes/GameScene.ts:1265
+0143	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	HÄTÄTILA: SAUNAVUORO ALKAA!	src/scenes/GameScene.ts:1274	src/scenes/GameScene.ts:1274
+0144	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	ILMAINEN ÄMPÄRI! VIHUT HÄMÄÄNTYVÄT!	src/scenes/GameScene.ts:1283	src/scenes/GameScene.ts:1283
+0145	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	KAHVITAUKO: +ENERGIAA, -VAUHTIA	src/scenes/GameScene.ts:1300	src/scenes/GameScene.ts:1300
+0146	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	MYÖHÄSSÄ TAAS!	src/scenes/GameScene.ts:1312	src/scenes/GameScene.ts:1312
+0147	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	POWER-UPIT POISTETTU!	src/scenes/GameScene.ts:1727	src/scenes/GameScene.ts:1727
+0148	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	clubhouse_level_${...}	src/scenes/GameScene.ts:1788	src/scenes/GameScene.ts:1788 | src/scenes/VictoryCutsceneScene.ts:49
+0149	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Background ${...} not found, using fallback	src/scenes/GameScene.ts:1803	src/scenes/GameScene.ts:1803
+0150	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahti landmark texture ${...} not found, skipping	src/scenes/GameScene.ts:2007	src/scenes/GameScene.ts:2007
+0151	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Decoration texture ${...} not found, using fallback	src/scenes/GameScene.ts:2060	src/scenes/GameScene.ts:2060
+0152	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[Clubhouse] Missing clubhouse texture for level ${...}, skipping spawn.	src/scenes/GameScene.ts:2139	src/scenes/GameScene.ts:2139
+0153	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	privateSchoolSUV	src/scenes/GameScene.ts:2719	src/scenes/GameScene.ts:2719 | src/scenes/GameScene.ts:2834
+0154	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	20€ SETELI	src/scenes/GameScene.ts:3167	src/scenes/GameScene.ts:3167
+0155	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	+50% NOPEUS	src/scenes/GameScene.ts:3168	src/scenes/GameScene.ts:3168
+0156	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	EI TOIMI BOSSILLA!	src/scenes/GameScene.ts:3179	src/scenes/GameScene.ts:3179 | src/scenes/GameScene.ts:3209 | src/scenes/GameScene.ts:3286 | src/scenes/GameScene.ts:3309
+0157	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	50€ SETELI	src/scenes/GameScene.ts:3197	src/scenes/GameScene.ts:3197
+0158	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	SUOJA + TÖRMÄYSVAHINKO	src/scenes/GameScene.ts:3198	src/scenes/GameScene.ts:3198
+0159	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	100€ SETELI	src/scenes/GameScene.ts:3226	src/scenes/GameScene.ts:3226
+0160	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	+${...} HP, +${...} ENERGIA	src/scenes/GameScene.ts:3227	src/scenes/GameScene.ts:3227
+0161	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	500€ SETELI	src/scenes/GameScene.ts:3245	src/scenes/GameScene.ts:3245
+0162	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	+1 ELÄMÄ	src/scenes/GameScene.ts:3246	src/scenes/GameScene.ts:3246
+0163	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	💉 PIIKKI	src/scenes/GameScene.ts:3278	src/scenes/GameScene.ts:3278
+0164	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🥤 COCA-COLA	src/scenes/GameScene.ts:3301	src/scenes/GameScene.ts:3301
+0165	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🧳 LÄÄKÄRILAUKKU	src/scenes/GameScene.ts:3323	src/scenes/GameScene.ts:3323
+0166	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☢️ HAPPOSADE! Nuuksio saastunut!	src/scenes/GameScene.ts:3538	src/scenes/GameScene.ts:3538
+0167	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☢️ HAPPO!	src/scenes/GameScene.ts:3626	src/scenes/GameScene.ts:3626
+0168	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☢️☢️ VOIMAKAS HAPPOSADE! ☢️☢️	src/scenes/GameScene.ts:3837	src/scenes/GameScene.ts:3837
+0169	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☢️ Happosade heikkenee...	src/scenes/GameScene.ts:3872	src/scenes/GameScene.ts:3872 | src/scenes/GameScene.ts:3951
+0170	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☀️ SÄÄ SELKENEE	src/scenes/GameScene.ts:3957	src/scenes/GameScene.ts:3957
+0171	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	❄️ LUMIMYRSKY!	src/scenes/GameScene.ts:3970	src/scenes/GameScene.ts:3970
+0172	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🌧️ RÄNTÄSADE! Latu sohjoinen!	src/scenes/GameScene.ts:4002	src/scenes/GameScene.ts:4002
+0173	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🌨️ LUMIPYRY! Näkyvyys heikko!	src/scenes/GameScene.ts:4075	src/scenes/GameScene.ts:4075
+0174	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🧊 MUSTA JÄÄ! Liukasta!	src/scenes/GameScene.ts:4115	src/scenes/GameScene.ts:4115
+0175	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	☀️ HÄIKÄISEE!	src/scenes/GameScene.ts:4165	src/scenes/GameScene.ts:4165
+0176	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🥶 PAKKASAALTO! -30°C	src/scenes/GameScene.ts:4218	src/scenes/GameScene.ts:4218
+0177	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	KIMPO! 3x MAX	src/scenes/GameScene.ts:4386	src/scenes/GameScene.ts:4386
+0178	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	STOMP x${...}!${...}	src/scenes/GameScene.ts:4476	src/scenes/GameScene.ts:4476
+0179	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	STOMP!	src/scenes/GameScene.ts:4477	src/scenes/GameScene.ts:4477
+0180	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ffff00	src/scenes/GameScene.ts:4481	src/entities/Boss.ts:845 | src/entities/PowerUp.ts:257 | src/scenes/GameScene.ts:4481 | src/scenes/GameScene.ts:5733 | src/utils.ts:937
+0181	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[BossSpawnError] Failed to spawn Peter Kantele boss.	src/scenes/GameScene.ts:4646	src/scenes/GameScene.ts:4646
+0182	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[BossSpawnError] Failed to spawn boss type=${...} level=${...}.	src/scenes/GameScene.ts:4673	src/scenes/GameScene.ts:4673
+0183	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tyypillinen espoolainen uhka	src/scenes/GameScene.ts:4688	src/scenes/GameScene.ts:4688
+0184	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Päivän tekosyy: latu oli vino.	src/scenes/GameScene.ts:4944	src/scenes/GameScene.ts:4944
+0185	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VictoryUIScene	src/scenes/GameScene.ts:4963	src/main.ts:661 | src/scenes/GameScene.ts:4963 | src/scenes/VictoryUIScene.ts:32
+0186	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	[BossUpdateError] Boss update failed; recovering by ending boss fight.	src/scenes/GameScene.ts:5278	src/scenes/GameScene.ts:5278
+0187	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	GameOverUIScene	src/scenes/GameScene.ts:5367	src/main.ts:664 | src/scenes/GameOverUIScene.ts:26 | src/scenes/GameScene.ts:5367
+0188	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ff4444	src/scenes/GameScene.ts:5431	src/scenes/GameScene.ts:5431 | src/scenes/GameScene.ts:5519
+0189	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#44ff44	src/scenes/GameScene.ts:5506	src/scenes/GameScene.ts:5506
+0190	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	BOSSI RAIVOSTUU!	src/scenes/GameScene.ts:5700	src/scenes/GameScene.ts:5700
+0191	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Energia x2!	src/scenes/GameScene.ts:5729	src/scenes/GameScene.ts:5729
+0192	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ffe082	src/scenes/GameScene.ts:5770	src/scenes/GameScene.ts:5770
+0193	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Sine.easeOut	src/scenes/GameScene.ts:5786	src/scenes/GameCompleteUIScene.ts:251 | src/scenes/GameScene.ts:5786
+0194	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Sine.easeIn	src/scenes/GameScene.ts:5795	src/scenes/GameCompleteUIScene.ts:280 | src/scenes/GameCompleteUIScene.ts:314 | src/scenes/GameScene.ts:5795
+0195	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Dj Lussu - Jytky (Bass Ventura Tilipaiva REMIX)	src/scenes/GameScene.ts:5808	src/scenes/GameScene.ts:5808
+0196	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LATU ON AUTOILLE!	src/scenes/GameScene.ts:5914	src/scenes/GameScene.ts:5914
+0197	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	PADEL ON PARAS URHEILU IKINÄ!	src/scenes/GameScene.ts:5931	src/scenes/GameScene.ts:5931
+0198	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tennistä? LOL, se on NIIN vanhaa	src/scenes/GameScene.ts:5932	src/scenes/GameScene.ts:5932
+0199	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meillä on privaattikenttä kotona	src/scenes/GameScene.ts:5933	src/scenes/GameScene.ts:5933
+0200	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Padel on Espoon golf	src/scenes/GameScene.ts:5934	src/scenes/GameScene.ts:5934
+0201	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Maksettiin vaan 1,2 miljoonaa!	src/scenes/GameScene.ts:5953	src/scenes/GameScene.ts:5953
+0202	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Neliöhinta on aika edullinen, vain 8000€	src/scenes/GameScene.ts:5954	src/scenes/GameScene.ts:5954
+0203	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Se on vähän niinku kesämökki, paitsi TALOSSA	src/scenes/GameScene.ts:5955	src/scenes/GameScene.ts:5955
+0204	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Naapurimme maksoi 2 miljoonaa, HUHHUH!	src/scenes/GameScene.ts:5956	src/scenes/GameScene.ts:5956
+0205	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meidän takapihalta näkee merelle... joskus	src/scenes/GameScene.ts:5957	src/scenes/GameScene.ts:5957
+0206	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Anteeks en kuule, AirPods Max	src/scenes/GameScene.ts:5976	src/scenes/GameScene.ts:5976
+0207	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	*ei reagoi mihinkään*	src/scenes/GameScene.ts:5977	src/scenes/GameScene.ts:5977
+0208	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hmmm? Sanoitko jotain?	src/scenes/GameScene.ts:5978	src/scenes/GameScene.ts:5978
+0209	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Podcasti on niin hyvä kohdassa...	src/scenes/GameScene.ts:5979	src/scenes/GameScene.ts:5979
+0210	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Onks täällä gluteenitonta kahvia?!	src/scenes/GameScene.ts:6000	src/scenes/GameScene.ts:6000
+0211	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun nutritionisti kieltää hiilihydraatit	src/scenes/GameScene.ts:6001	src/scenes/GameScene.ts:6001
+0212	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää on KETO-latu vai?	src/scenes/GameScene.ts:6002	src/scenes/GameScene.ts:6002
+0213	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Missä on OATLY-kojut?!	src/scenes/GameScene.ts:6003	src/scenes/GameScene.ts:6003
+0214	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	En voi hiihtää ilman proteiinismoothieta	src/scenes/GameScene.ts:6004	src/scenes/GameScene.ts:6004
+0215	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meidän lapset on Ranskan kielikylvyssä	src/scenes/GameScene.ts:6020	src/scenes/GameScene.ts:6020
+0216	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Aino-Sofia puhuu jo kolmea kieltä, HÄN ON 4!	src/scenes/GameScene.ts:6021	src/scenes/GameScene.ts:6021
+0217	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Onni-Matias on ihan normaali nero	src/scenes/GameScene.ts:6022	src/scenes/GameScene.ts:6022
+0218	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Bilingual daycare maksaa vaan 2000€/kk	src/scenes/GameScene.ts:6023	src/scenes/GameScene.ts:6023
+0219	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	IB-koulu oli SELVÄ valinta	src/scenes/GameScene.ts:6024	src/scenes/GameScene.ts:6024
+0220	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	AUTOPILOT CALCULATIONS... ERROR	src/scenes/GameScene.ts:6063	src/scenes/GameScene.ts:6063
+0221	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Eikun tää toimii, mä vannoin!	src/scenes/GameScene.ts:6072	src/scenes/GameScene.ts:6072
+0222	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Nää on Fischer Carbonlite, 1200€	src/scenes/GameScene.ts:6082	src/scenes/GameScene.ts:6082
+0223	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun sukset maksoi enemmän ku sun auto	src/scenes/GameScene.ts:6083	src/scenes/GameScene.ts:6083
+0224	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää takki on Arc'teryx, ei mikään Halti	src/scenes/GameScene.ts:6084	src/scenes/GameScene.ts:6084
+0225	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Nää on Swix-hanskat, KILPASARJA	src/scenes/GameScene.ts:6085	src/scenes/GameScene.ts:6085
+0226	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää hiihtokellon maksoi 800€	src/scenes/GameScene.ts:6086	src/scenes/GameScene.ts:6086
+0227	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mikset oo crossfitissä niinku normaalit?	src/scenes/GameScene.ts:6108	src/scenes/GameScene.ts:6108
+0228	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hiihto EI kehitä corea tarpeeks!	src/scenes/GameScene.ts:6109	src/scenes/GameScene.ts:6109
+0229	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun trainer suosittelee bikramia	src/scenes/GameScene.ts:6110	src/scenes/GameScene.ts:6110
+0230	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hiihto? Missä on PROGRESSIVE OVERLOAD?	src/scenes/GameScene.ts:6111	src/scenes/GameScene.ts:6111
+0231	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Asutaanko Espoossa? No siis WESTENDISSÄ...	src/scenes/GameScene.ts:6130	src/scenes/GameScene.ts:6130
+0232	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Se on eri asia asua Westensissä kuin muualla	src/scenes/GameScene.ts:6131	src/scenes/GameScene.ts:6131
+0233	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Haukilahti on jo vähän... noh...	src/scenes/GameScene.ts:6132	src/scenes/GameScene.ts:6132
+0234	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tapiola? Eli periaatteessa lähiö?	src/scenes/GameScene.ts:6133	src/scenes/GameScene.ts:6133
+0235	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Sanokaa Espoo jos haluatte, me sanotaan RANTA	src/scenes/GameScene.ts:6134	src/scenes/GameScene.ts:6134
+0236	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Ootkos miettiny cryptoo? Mä voin neuvoo	src/scenes/GameScene.ts:6156	src/scenes/GameScene.ts:6156
+0237	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	BITCOIN ON TULEVAISUUS, sheeple!	src/scenes/GameScene.ts:6157	src/scenes/GameScene.ts:6157
+0238	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun portfolio on -80% mut se on STRATEGIA	src/scenes/GameScene.ts:6158	src/scenes/GameScene.ts:6158
+0239	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	HODL! Tää on vaan market correction	src/scenes/GameScene.ts:6159	src/scenes/GameScene.ts:6159
+0240	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	NFT-sukset tulee, mä tiedän sisäpiiriltä	src/scenes/GameScene.ts:6160	src/scenes/GameScene.ts:6160
+0241	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Fiat on kuolemassa, lue whitepaper!	src/scenes/GameScene.ts:6161	src/scenes/GameScene.ts:6161
+0242	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	AINOA syy käydä Sellon puolella on LIDL	src/scenes/GameScene.ts:6179	src/scenes/GameScene.ts:6179
+0243	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tapiola keskus on niin autio, rakastan sitä	src/scenes/GameScene.ts:6180	src/scenes/GameScene.ts:6180
+0244	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Stockalla oli ALE, ostin 400€ edestä	src/scenes/GameScene.ts:6181	src/scenes/GameScene.ts:6181
+0245	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Verkkokauppa.com on meidän pyhättö	src/scenes/GameScene.ts:6182	src/scenes/GameScene.ts:6182
+0246	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Emmäksen tunnen, käyn vaan Isossa Omenassa	src/scenes/GameScene.ts:6183	src/scenes/GameScene.ts:6183
+0247	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mun startup sai just pre-seed fundingin	src/scenes/GameScene.ts:6199	src/scenes/GameScene.ts:6199
+0248	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Oon perustaja, CTO ja hallituksen pj	src/scenes/GameScene.ts:6200	src/scenes/GameScene.ts:6200
+0249	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Pivot-taanpa hiihdon AI-pohjaiseks!	src/scenes/GameScene.ts:6201	src/scenes/GameScene.ts:6201
+0250	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Series A tulee kohta, ehkä, toivottavasti	src/scenes/GameScene.ts:6202	src/scenes/GameScene.ts:6202
+0251	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mä disruptoin hiihtoalaa, stealth-modessa	src/scenes/GameScene.ts:6203	src/scenes/GameScene.ts:6203
+0252	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meidän valuation on 10 miljoonaa... melkein	src/scenes/GameScene.ts:6204	src/scenes/GameScene.ts:6204
+0253	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Parkkeeraan vaan 5 MINUUTTIA!	src/scenes/GameScene.ts:6220	src/scenes/GameScene.ts:6220
+0254	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Ei oo tilaa parkkiksella, sori!	src/scenes/GameScene.ts:6221	src/scenes/GameScene.ts:6221
+0255	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää X7 ei mahdu normaaleihin ruutuihin	src/scenes/GameScene.ts:6222	src/scenes/GameScene.ts:6222
+0256	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mä oon vaan hakemassa lasta, RELAX!	src/scenes/GameScene.ts:6223	src/scenes/GameScene.ts:6223
+0257	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hälytysvilkut = voin parkkeerata MIHIN VAAN	src/scenes/GameScene.ts:6224	src/scenes/GameScene.ts:6224
+0258	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Koulun VANHEMPAINYHDISTYS on sota-alue!	src/scenes/GameScene.ts:6246	src/scenes/GameScene.ts:6246
+0259	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kuka päättää pikkujoulujen teeman?!	src/scenes/GameScene.ts:6247	src/scenes/GameScene.ts:6247
+0260	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lapsemme sai B+, tää on KATASTROFI!	src/scenes/GameScene.ts:6248	src/scenes/GameScene.ts:6248
+0261	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Opettaja EI YMMÄRRÄ Ollin lahjakkuutta	src/scenes/GameScene.ts:6249	src/scenes/GameScene.ts:6249
+0262	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Rehtori kuulee tästä, LUOTA SIIHEN!	src/scenes/GameScene.ts:6250	src/scenes/GameScene.ts:6250
+0263	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Steinerilläkin on omat haasteensa...	src/scenes/GameScene.ts:6251	src/scenes/GameScene.ts:6251
+0264	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hugo-Maximus tarvitsee TILAA!	src/scenes/GameScene.ts:6269	src/scenes/GameScene.ts:6269
+0265	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Labradoodle on hypoallergeeninen, KIITOS	src/scenes/GameScene.ts:6270	src/scenes/GameScene.ts:6270
+0266	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Koira maksoi 3000€, kyllä se SAA olla ladulla	src/scenes/GameScene.ts:6271	src/scenes/GameScene.ts:6271
+0267	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meidän Bichon on influensseri, 5k seuraajaa	src/scenes/GameScene.ts:6272	src/scenes/GameScene.ts:6272
+0268	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	KAKKAPUSSI? Se on luonnonmukaista lannoitetta!	src/scenes/GameScene.ts:6273	src/scenes/GameScene.ts:6273
+0269	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Koira ON perheenjäsen, entä suksesi?	src/scenes/GameScene.ts:6274	src/scenes/GameScene.ts:6274
+0270	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Meidän mökillä on WIFI ja AC	src/scenes/GameScene.ts:6290	src/scenes/GameScene.ts:6290
+0271	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mökki? Siis kesäasunto saaristossa	src/scenes/GameScene.ts:6291	src/scenes/GameScene.ts:6291
+0272	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	60m rantaviivaa, oma laituri, NBD	src/scenes/GameScene.ts:6292	src/scenes/GameScene.ts:6292
+0273	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Naapurimökki myytiin 800k, meidän on PAREMPI	src/scenes/GameScene.ts:6293	src/scenes/GameScene.ts:6293
+0274	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Vuokraanko mökin? Ei kiitos, se on MEILLE	src/scenes/GameScene.ts:6294	src/scenes/GameScene.ts:6294
+0275	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mökkitie on yksityinen, ei saa ajaa	src/scenes/GameScene.ts:6295	src/scenes/GameScene.ts:6295
+0276	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LAITTOIKO TUO MUOVIN BIOJÄTTEESEEN?!	src/scenes/GameScene.ts:6311	src/scenes/GameScene.ts:6311
+0277	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kompostointi on elämäntapa, ei harrastus	src/scenes/GameScene.ts:6312	src/scenes/GameScene.ts:6312
+0278	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kierrätyspiste on 50m, EI OO VAIKEETA!	src/scenes/GameScene.ts:6313	src/scenes/GameScene.ts:6313
+0279	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mä tutkin sun roskat, oli siellä VIRHEITÄ	src/scenes/GameScene.ts:6314	src/scenes/GameScene.ts:6314
+0280	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää suksenvoide EI OO biopohjaista!	src/scenes/GameScene.ts:6315	src/scenes/GameScene.ts:6315
+0281	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Espoon kierrätysaste on HÄPEÄLLINEN!	src/scenes/GameScene.ts:6316	src/scenes/GameScene.ts:6316
+0282	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	DOPINGTESTI ALKAA! JUOSKAA!	src/scenes/GameScene.ts:6337	src/scenes/GameScene.ts:6337
+0283	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	WADA-valvojat tulee!	src/scenes/GameScene.ts:6338	src/scenes/GameScene.ts:6338
+0284	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Piilottakaa neuloittat!	src/scenes/GameScene.ts:6339	src/scenes/GameScene.ts:6339
+0285	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kuka tilasi EPO:n tänne?!	src/scenes/GameScene.ts:6340	src/scenes/GameScene.ts:6340
+0286	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Hemofarm-kuorma saapuu!	src/scenes/GameScene.ts:6363	src/scenes/GameScene.ts:6363
+0287	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Vitamiinitoimitus täällä!	src/scenes/GameScene.ts:6364	src/scenes/GameScene.ts:6364
+0288	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää on vaan... rautalisää!	src/scenes/GameScene.ts:6366	src/scenes/GameScene.ts:6366
+0289	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kuka maksaa kierroksen Torvissa?	src/scenes/GameScene.ts:6389	src/scenes/GameScene.ts:6389
+0290	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Torvin terassilla näkee mäet!	src/scenes/GameScene.ts:6390	src/scenes/GameScene.ts:6390
+0291	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Voittajajuhlat Torvissa!	src/scenes/GameScene.ts:6391	src/scenes/GameScene.ts:6391
+0292	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Torvin oluet on parhaita!	src/scenes/GameScene.ts:6392	src/scenes/GameScene.ts:6392
+0293	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Salpausselän tornit näkyy!	src/scenes/GameScene.ts:6412	src/scenes/GameScene.ts:6412
+0294	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mäkihyppy on oikeaa urheilua!	src/scenes/GameScene.ts:6413	src/scenes/GameScene.ts:6413
+0295	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kuka hyppää ensin?	src/scenes/GameScene.ts:6414	src/scenes/GameScene.ts:6414
+0296	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tornit on Lahden symboli!	src/scenes/GameScene.ts:6415	src/scenes/GameScene.ts:6415
+0297	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Janne Ahonen hyppäs tuolta!	src/scenes/GameScene.ts:6416	src/scenes/GameScene.ts:6416
+0298	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Mikä tää neula on?!	src/scenes/GameScene.ts:6435	src/scenes/GameScene.ts:6435
+0299	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Se on... vitamiinipiikki!	src/scenes/GameScene.ts:6436	src/scenes/GameScene.ts:6436
+0300	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kenen EPO-ruisku tää on?!	src/scenes/GameScene.ts:6437	src/scenes/GameScene.ts:6437
+0301	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää on B-vitamiinia, luota muhun!	src/scenes/GameScene.ts:6438	src/scenes/GameScene.ts:6438
+0302	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Piilota se nopeesti!	src/scenes/GameScene.ts:6439	src/scenes/GameScene.ts:6439
+0303	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Radiomasto näkyy! Ollaan lähellä!	src/scenes/GameScene.ts:6460	src/scenes/GameScene.ts:6460
+0304	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Suurin radiomasto Suomessa!	src/scenes/GameScene.ts:6461	src/scenes/GameScene.ts:6461
+0305	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Masto on 150m korkea!	src/scenes/GameScene.ts:6462	src/scenes/GameScene.ts:6462
+0306	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Näkyy kauas Salpausselälle!	src/scenes/GameScene.ts:6463	src/scenes/GameScene.ts:6463
+0307	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	SALPAUSSELÄN KISAT ALKAA!	src/scenes/GameScene.ts:6479	src/scenes/GameScene.ts:6479
+0308	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Pujotellaan stadionille!	src/scenes/GameScene.ts:6480	src/scenes/GameScene.ts:6480
+0309	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kaikki kilpailuun!	src/scenes/GameScene.ts:6481	src/scenes/GameScene.ts:6481
+0310	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Salpausselkä 2001 vibes!	src/scenes/GameScene.ts:6482	src/scenes/GameScene.ts:6482
+0311	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Maailmancup-tunnelmaa!	src/scenes/GameScene.ts:6483	src/scenes/GameScene.ts:6483
+0312	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	BENSA-PÄÄT TULEE!	src/scenes/GameScene.ts:6508	src/scenes/GameScene.ts:6508
+0313	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kuka viritti tän Corollan?!	src/scenes/GameScene.ts:6509	src/scenes/GameScene.ts:6509
+0314	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Bassot soi, latu tärisee!	src/scenes/GameScene.ts:6510	src/scenes/GameScene.ts:6510
+0315	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Lahden parkkipaikka-rallii!	src/scenes/GameScene.ts:6511	src/scenes/GameScene.ts:6511
+0316	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Tää Bemari on tuunattu!	src/scenes/GameScene.ts:6512	src/scenes/GameScene.ts:6512
+0317	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Se oli vaan proteiinijuoma!	src/scenes/GameScene.ts:6540	src/scenes/GameScene.ts:6540
+0318	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Kaikki käyttää, mä jäin vaan kiinni!	src/scenes/GameScene.ts:6541	src/scenes/GameScene.ts:6541
+0319	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Norjalaiset lavasti tän!	src/scenes/GameScene.ts:6563	src/scenes/GameScene.ts:6563
+0320	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Ruotsalaiset haluu meidät ulos!	src/scenes/GameScene.ts:6564	src/scenes/GameScene.ts:6564
+0321	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	WADA vihaa suomalaisia!	src/scenes/GameScene.ts:6565	src/scenes/GameScene.ts:6565
+0322	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Media liioittelee!	src/scenes/GameScene.ts:6566	src/scenes/GameScene.ts:6566
+0323	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Suomi-neito itkee!	src/scenes/GameScene.ts:6567	src/scenes/GameScene.ts:6567
+0324	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	EI TOIMI BOSSILLA	src/scenes/GameScene.ts:6645	src/scenes/GameScene.ts:6645
+0325	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Back.easeOut	src/scenes/GameScene.ts:6672	src/scenes/GameScene.ts:6672 | src/scenes/VictoryCutsceneScene.ts:144 | src/scenes/VictoryUIScene.ts:96 | src/scenes/VictoryUIScene.ts:104
+0326	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	TAUKO	src/scenes/UIScene.ts:68	src/scenes/UIScene.ts:68
+0327	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	Napauta jatkaaksesi	src/scenes/UIScene.ts:69	src/scenes/UIScene.ts:69
+0328	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	UIScene	src/scenes/UIScene.ts:73	src/main.ts:658 | src/scenes/GameCompleteUIScene.ts:502 | src/scenes/GameOverUIScene.ts:204 | src/scenes/GameOverUIScene.ts:252 | src/scenes/GameScene.ts:683 | src/scenes/GameScene.ts:5380 | src/scenes/UIScene.ts:73 | src/scenes/UIScene.ts:1123 | src/scenes/VictoryCutsceneScene.ts:498 | src/scenes/VictoryCutsceneScene.ts:526 | src/scenes/VictoryUIScene.ts:381 | src/scenes/VictoryUIScene.ts:418
+0329	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🆕 🪓 X = Kirves AVATTU!	src/scenes/UIScene.ts:161	src/scenes/UIScene.ts:161
+0330	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🆕 😤 V = LATURAIVO AVATTU!	src/scenes/UIScene.ts:167	src/scenes/UIScene.ts:167
+0331	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🆕 💶 POWER-UPIT AVATTU!	src/scenes/UIScene.ts:173	src/scenes/UIScene.ts:173
+0332	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%) scale(1)	src/scenes/UIScene.ts:195	src/scenes/UIScene.ts:195 | src/scenes/UIScene.ts:1406 | src/scenes/UIScene.ts:3360 | src/scenes/UIScene.ts:3405
+0333	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%) scale(0.8)	src/scenes/UIScene.ts:199	src/scenes/UIScene.ts:199 | src/scenes/UIScene.ts:1412 | src/scenes/UIScene.ts:1465 | src/scenes/UIScene.ts:1644 | src/scenes/UIScene.ts:1737 | src/scenes/UIScene.ts:1775 | src/scenes/UIScene.ts:3366
+0334	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#top-hud-bar > div:last-child	src/scenes/UIScene.ts:544	src/scenes/UIScene.ts:544
+0335	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	${...}px	src/scenes/UIScene.ts:559	src/main.ts:554 | src/main.ts:555 | src/scenes/GameCompleteUIScene.ts:153 | src/scenes/GameCompleteUIScene.ts:169 | src/scenes/UIScene.ts:559 | src/scenes/UIScene.ts:560 | src/scenes/UIScene.ts:567 | src/scenes/UIScene.ts:568 | src/scenes/UIScene.ts:572 | src/scenes/UIScene.ts:573 | src/scenes/UIScene.ts:577 | src/scenes/UIScene.ts:578 | src/scenes/UIScene.ts:588 | src/scenes/UIScene.ts:596 | src/scenes/UIScene.ts:607 | src/scenes/UIScene.ts:618 | src/scenes/UIScene.ts:657 | src/scenes/UIScene.ts:658
+0336	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	top left	src/scenes/UIScene.ts:564	src/scenes/UIScene.ts:564
+0337	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	bottom left	src/scenes/UIScene.ts:569	src/scenes/UIScene.ts:569
+0338	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	bottom right	src/scenes/UIScene.ts:574	src/scenes/UIScene.ts:574
+0339	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	top right	src/scenes/UIScene.ts:579	src/scenes/UIScene.ts:579
+0340	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%)	src/scenes/UIScene.ts:784	src/scenes/UIScene.ts:784
+0341	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🤫 tästä ei puhuta	src/scenes/UIScene.ts:848	src/scenes/UIScene.ts:848
+0342	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#mobile-movement-controls, #mobile-attack-controls, #mobile-center-controls	src/scenes/UIScene.ts:906	src/scenes/UIScene.ts:906
+0343	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	MYKISTETTY	src/scenes/UIScene.ts:1137	src/scenes/UIScene.ts:1137
+0344	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-clickable-red-700 px-3 py-2 flex items-center gap-2 opacity-90 hover:opacity-100 transition-opacity cursor-pointer	src/scenes/UIScene.ts:1138	src/scenes/UIScene.ts:1138
+0345	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	ÄÄNI	src/scenes/UIScene.ts:1141	src/scenes/UIScene.ts:1141
+0346	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-clickable-gray-700 px-3 py-2 flex items-center gap-2 opacity-70 hover:opacity-100 transition-opacity cursor-pointer	src/scenes/UIScene.ts:1142	src/scenes/UIScene.ts:1142
+0347	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateX(-50%) scale(1.1)	src/scenes/UIScene.ts:1332	src/scenes/UIScene.ts:1332
+0348	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateX(-50%) scale(1)	src/scenes/UIScene.ts:1335	src/scenes/UIScene.ts:1335
+0349	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateX(-50%) scale(0.8)	src/scenes/UIScene.ts:1341	src/scenes/UIScene.ts:1341
+0350	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VAIHE 1	src/scenes/UIScene.ts:1350	src/scenes/UIScene.ts:1350
+0351	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VAIHE 2 - VAARALLISEMPI!	src/scenes/UIScene.ts:1350	src/scenes/UIScene.ts:1350
+0352	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VAIHE 3 - RAIVOISA!	src/scenes/UIScene.ts:1350	src/scenes/UIScene.ts:1350
+0353	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VAIHE ${...}	src/scenes/UIScene.ts:1351	src/scenes/UIScene.ts:1351
+0354	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	RYNNÄKKÖ!	src/scenes/UIScene.ts:1369	src/scenes/UIScene.ts:1369
+0355	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	COMBO!	src/scenes/UIScene.ts:1373	src/scenes/UIScene.ts:1373
+0356	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-red-600 px-8 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1390	src/scenes/UIScene.ts:1390
+0357	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	bossAttackWarningPulse 0.12s infinite	src/scenes/UIScene.ts:1391	src/scenes/UIScene.ts:1391
+0358	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-orange-600 px-8 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1393	src/scenes/UIScene.ts:1393
+0359	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	bossAttackWarningPulse 0.15s infinite	src/scenes/UIScene.ts:1394	src/scenes/UIScene.ts:1394 | src/scenes/UIScene.ts:3349
+0360	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%) scale(1.2)	src/scenes/UIScene.ts:1399	src/scenes/UIScene.ts:1399 | src/scenes/UIScene.ts:1732 | src/scenes/UIScene.ts:1770 | src/scenes/UIScene.ts:3353
+0361	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ff0000	src/scenes/UIScene.ts:1418	src/entities/Boss.ts:632 | src/scenes/GameScene.ts:4479 | src/scenes/GameScene.ts:5510 | src/scenes/GameScene.ts:5704 | src/scenes/UIScene.ts:1418 | src/scenes/UIScene.ts:1456
+0362	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ff8800	src/scenes/UIScene.ts:1418	src/scenes/GameScene.ts:4480 | src/scenes/GameScene.ts:5513 | src/scenes/UIScene.ts:1418
+0363	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#dc2626	src/scenes/UIScene.ts:1422	src/scenes/UIScene.ts:1422
+0364	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	${...}xl	src/scenes/UIScene.ts:1450	src/scenes/UIScene.ts:1450
+0365	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%) scale(1.5)	src/scenes/UIScene.ts:1452	src/scenes/UIScene.ts:1452
+0366	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ff6600	src/scenes/UIScene.ts:1458	src/scenes/UIScene.ts:1458
+0367	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ffaa00	src/scenes/UIScene.ts:1460	src/scenes/UIScene.ts:1460
+0368	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-700 h-4 transition-all duration-100	src/scenes/UIScene.ts:1473	src/scenes/UIScene.ts:1473 | src/scenes/UIScene.ts:2534
+0369	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-yellow-500 px-6 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1530	src/scenes/UIScene.ts:1530
+0370	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#000	src/scenes/UIScene.ts:1531	src/scenes/UIScene.ts:1531 | src/scenes/UIScene.ts:1537
+0371	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-yellow-900 text-lg font-bold	src/scenes/UIScene.ts:1532	src/scenes/UIScene.ts:1532
+0372	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-cyan-400 px-6 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1536	src/scenes/UIScene.ts:1536
+0373	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-cyan-900 text-lg font-bold	src/scenes/UIScene.ts:1538	src/scenes/UIScene.ts:1538
+0374	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-blue-500 px-6 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1542	src/scenes/UIScene.ts:1542
+0375	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#fff	src/scenes/UIScene.ts:1543	src/scenes/UIScene.ts:1543 | src/scenes/UIScene.ts:1549
+0376	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-green-300 text-lg font-bold	src/scenes/UIScene.ts:1544	src/scenes/UIScene.ts:1544
+0377	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	1px 1px 0px #000	src/scenes/UIScene.ts:1545	src/scenes/UIScene.ts:1545 | src/scenes/UIScene.ts:1551
+0378	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-gray-800 px-6 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:1548	src/scenes/UIScene.ts:1548
+0379	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-yellow-300 text-lg font-bold	src/scenes/UIScene.ts:1550	src/scenes/UIScene.ts:1550
+0380	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	powerupNotificationPopBig 1.2s ease-out forwards	src/scenes/UIScene.ts:1556	src/scenes/UIScene.ts:1556
+0381	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateX(0)	src/scenes/UIScene.ts:1577	src/scenes/UIScene.ts:1577
+0382	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	powerupSlideIn 0.3s ease-out forwards	src/scenes/UIScene.ts:1578	src/scenes/UIScene.ts:1578
+0383	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	opacity 0.3s ease, transform 0.3s ease	src/scenes/UIScene.ts:1579	src/scenes/UIScene.ts:1579
+0384	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	opacity 0.5s ease, transform 0.5s ease	src/scenes/UIScene.ts:1582	src/scenes/UIScene.ts:1582
+0385	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateX(-30px) scale(0.9)	src/scenes/UIScene.ts:1584	src/scenes/UIScene.ts:1584
+0386	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	powerupPulse 0.3s infinite	src/scenes/UIScene.ts:1613	src/scenes/UIScene.ts:1613
+0387	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	ESPOOLAISET POIS LADULTA!	src/scenes/UIScene.ts:1636	src/scenes/UIScene.ts:1636
+0388	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LAHTELAISET POIS LADULTA!	src/scenes/UIScene.ts:1636	src/scenes/UIScene.ts:1636
+0389	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, -50%) scale(1.3)	src/scenes/UIScene.ts:1640	src/scenes/UIScene.ts:1640
+0390	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	rageEdgeGlowPulse 0.3s infinite	src/scenes/UIScene.ts:1651	src/scenes/UIScene.ts:1651
+0391	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	0 0 10px #ff0000	src/scenes/UIScene.ts:1667	src/scenes/UIScene.ts:1667
+0392	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🏆 MEGA-ESPOOLAINEN	src/scenes/UIScene.ts:1700	src/scenes/UIScene.ts:1700
+0393	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🏆 MEGA-LAHTELAINEN	src/scenes/UIScene.ts:1700	src/scenes/UIScene.ts:1700
+0394	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚠️ BOSS TITLE	src/scenes/UIScene.ts:1701	src/scenes/UIScene.ts:1701
+0395	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚠️ ESPOOLAINEN UHKA	src/scenes/UIScene.ts:1701	src/scenes/UIScene.ts:1701
+0396	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚠️ LAHTELAINEN UHKA	src/scenes/UIScene.ts:1701	src/scenes/UIScene.ts:1701
+0397	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	JETI	src/scenes/UIScene.ts:1702	src/LevelManager.ts:32 | src/LevelManager.ts:33 | src/scenes/UIScene.ts:1702
+0398	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, 0) scale(1.1)	src/scenes/UIScene.ts:1708	src/scenes/UIScene.ts:1708
+0399	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translate(-50%, 0) scale(0.8)	src/scenes/UIScene.ts:1720	src/scenes/UIScene.ts:1720
+0400	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	BOSSI VOITETTU!	src/scenes/UIScene.ts:1730	src/scenes/UIScene.ts:1730
+0401	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	PÄÄBOSSI VOITETTU!	src/scenes/UIScene.ts:1730	src/scenes/UIScene.ts:1730
+0402	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VOLTTI TÄYDELLINEN!	src/scenes/UIScene.ts:1765	src/scenes/UIScene.ts:1765
+0403	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	healthCriticalPulse 0.5s infinite	src/scenes/UIScene.ts:2536	src/scenes/UIScene.ts:2536 | src/scenes/UIScene.ts:3252
+0404	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-orange-500 h-4 transition-all duration-100	src/scenes/UIScene.ts:2540	src/scenes/UIScene.ts:2540 | src/scenes/UIScene.ts:3160 | src/scenes/UIScene.ts:3190
+0405	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-500 h-4 transition-all duration-100	src/scenes/UIScene.ts:2546	src/scenes/UIScene.ts:2546 | src/scenes/UIScene.ts:2589 | src/scenes/UIScene.ts:3169 | src/scenes/UIScene.ts:3188
+0406	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	criticalHealthGlowPulse 1.5s ease-in-out infinite	src/scenes/UIScene.ts:2561	src/scenes/UIScene.ts:2561
+0407	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-orange-400 h-4 transition-all duration-100	src/scenes/UIScene.ts:2594	src/scenes/UIScene.ts:2594
+0408	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-yellow-400 h-4 transition-all duration-100	src/scenes/UIScene.ts:2599	src/scenes/UIScene.ts:2599 | src/scenes/UIScene.ts:2898
+0409	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	scale(1.15)	src/scenes/UIScene.ts:2674	src/scenes/UIScene.ts:2674
+0410	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#4ade80	src/scenes/UIScene.ts:2675	src/scenes/UIScene.ts:2675 | src/scenes/UIScene.ts:2896 | src/scenes/UIScene.ts:2991
+0411	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateY(-15px)	src/scenes/UIScene.ts:2681	src/scenes/UIScene.ts:2681
+0412	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	${...}m	src/scenes/UIScene.ts:2719	src/scenes/UIScene.ts:2719 | src/scenes/UIScene.ts:2868
+0413	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#fbbf24	src/scenes/UIScene.ts:2726	src/scenes/UIScene.ts:2726 | src/scenes/UIScene.ts:2900 | src/scenes/UIScene.ts:2928
+0414	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#c084fc	src/scenes/UIScene.ts:2730	src/scenes/UIScene.ts:2730
+0415	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#67e8f9	src/scenes/UIScene.ts:2734	src/scenes/UIScene.ts:2734
+0416	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#22c55e	src/scenes/UIScene.ts:2767	src/scenes/UIScene.ts:2767 | src/scenes/UIScene.ts:2769
+0417	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	VALMIS!	src/scenes/UIScene.ts:2768	src/scenes/UIScene.ts:2768
+0418	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#a855f7	src/scenes/UIScene.ts:2788	src/scenes/UIScene.ts:2788
+0419	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#d8b4fe	src/scenes/UIScene.ts:2790	src/scenes/UIScene.ts:2790
+0420	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	ILMALENTO x${...}	src/scenes/UIScene.ts:2818	src/scenes/UIScene.ts:2818
+0421	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-yellow-300 text-2xl font-bold	src/scenes/UIScene.ts:2827	src/scenes/UIScene.ts:2827
+0422	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-orange-400 text-xl font-bold	src/scenes/UIScene.ts:2834	src/scenes/UIScene.ts:2834
+0423	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-purple-300 text-xl font-bold	src/scenes/UIScene.ts:2841	src/scenes/UIScene.ts:2841
+0424	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-purple-400 text-lg font-bold	src/scenes/UIScene.ts:2848	src/scenes/UIScene.ts:2848
+0425	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-green-400 h-4 transition-all duration-100	src/scenes/UIScene.ts:2894	src/scenes/UIScene.ts:2894
+0426	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-cyan-400 h-4 transition-all duration-100	src/scenes/UIScene.ts:2902	src/scenes/UIScene.ts:2902
+0427	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#22d3ee	src/scenes/UIScene.ts:2904	src/scenes/UIScene.ts:2904 | src/scenes/UIScene.ts:2931 | src/scenes/UIScene.ts:2993
+0428	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-green-500 h-4 transition-all duration-100	src/scenes/UIScene.ts:2906	src/scenes/UIScene.ts:2906
+0429	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	${...} km/h	src/scenes/UIScene.ts:2921	src/scenes/UIScene.ts:2921
+0430	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#a5b4fc	src/scenes/UIScene.ts:2934	src/scenes/UIScene.ts:2934
+0431	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	${...}s ILMASSA	src/scenes/UIScene.ts:2947	src/scenes/UIScene.ts:2947
+0432	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🔄 VOLTTI!	src/scenes/UIScene.ts:2985	src/scenes/UIScene.ts:2985
+0433	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	rotate(${...}deg) scale(${...})	src/scenes/UIScene.ts:2987	src/scenes/UIScene.ts:2987
+0434	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LUMIMYRSKY! DRAAMAA!	src/scenes/UIScene.ts:3016	src/scenes/UIScene.ts:3016
+0435	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-blue-800 px-2 py-1	src/scenes/UIScene.ts:3018	src/scenes/UIScene.ts:3018
+0436	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	RÄNTÄSADE!	src/scenes/UIScene.ts:3022	src/scenes/UIScene.ts:3022
+0437	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#aabbcc	src/scenes/UIScene.ts:3023	src/scenes/UIScene.ts:3023
+0438	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-gray-700 px-2 py-1	src/scenes/UIScene.ts:3024	src/scenes/UIScene.ts:3024
+0439	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LUMIPYRY! DRAAMAA!	src/scenes/UIScene.ts:3028	src/scenes/UIScene.ts:3028
+0440	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-blue-600 px-2 py-1	src/scenes/UIScene.ts:3030	src/scenes/UIScene.ts:3030
+0441	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	LIUKASTA! PAIKALLISTA DRAAMAA!	src/scenes/UIScene.ts:3034	src/scenes/UIScene.ts:3034
+0442	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-cyan-700 px-2 py-1	src/scenes/UIScene.ts:3036	src/scenes/UIScene.ts:3036
+0443	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	HÄIKÄISEE!	src/scenes/UIScene.ts:3040	src/scenes/UIScene.ts:3040
+0444	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ffff88	src/scenes/UIScene.ts:3041	src/scenes/UIScene.ts:3041
+0445	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-yellow-600 px-2 py-1	src/scenes/UIScene.ts:3042	src/scenes/UIScene.ts:3042
+0446	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	PAKKANEN!	src/scenes/UIScene.ts:3046	src/scenes/UIScene.ts:3046
+0447	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-blue-900 px-2 py-1	src/scenes/UIScene.ts:3048	src/scenes/UIScene.ts:3048
+0448	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	HAPPOSADE!	src/scenes/UIScene.ts:3052	src/scenes/UIScene.ts:3052
+0449	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	#ccff77	src/scenes/UIScene.ts:3053	src/scenes/UIScene.ts:3053
+0450	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	flex items-center gap-1 game-pixel-container-green-900 px-2 py-1	src/scenes/UIScene.ts:3054	src/scenes/UIScene.ts:3054
+0451	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-yellow-400 h-4 transition-all duration-150	src/scenes/UIScene.ts:3079	src/scenes/UIScene.ts:3079
+0452	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-yellow-300 text-[10px] font-bold animate-pulse	src/scenes/UIScene.ts:3080	src/scenes/UIScene.ts:3080
+0453	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-orange-500 h-4 transition-all duration-150	src/scenes/UIScene.ts:3084	src/scenes/UIScene.ts:3084
+0454	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-orange-300 text-[10px] font-bold	src/scenes/UIScene.ts:3085	src/scenes/UIScene.ts:3085
+0455	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-600 h-4 transition-all duration-150	src/scenes/UIScene.ts:3089	src/scenes/UIScene.ts:3089
+0456	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-red-300 text-[10px] font-bold	src/scenes/UIScene.ts:3090	src/scenes/UIScene.ts:3090
+0457	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚔️ TASO ${...} - PÄÄBOSSI: TIMO SOINI ⚔️	src/scenes/UIScene.ts:3096	src/scenes/UIScene.ts:3096
+0458	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-yellow-400 text-xs font-bold uppercase tracking-wider	src/scenes/UIScene.ts:3097	src/scenes/UIScene.ts:3097
+0459	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚔️ TASO ${...} - ${...} ⚔️	src/scenes/UIScene.ts:3101	src/scenes/UIScene.ts:3101
+0460	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	⚔️ TASO ${...} - BOSSI ⚔️	src/scenes/UIScene.ts:3101	src/scenes/UIScene.ts:3101
+0461	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	text-red-500 text-xs font-bold uppercase tracking-wider	src/scenes/UIScene.ts:3102	src/scenes/UIScene.ts:3102
+0462	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	bossEnragedPulse 0.5s infinite	src/scenes/UIScene.ts:3108	src/scenes/UIScene.ts:3108
+0463	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	0%	src/scenes/UIScene.ts:3135	src/scenes/UIScene.ts:3135 | src/scenes/UIScene.ts:3211
+0464	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	TASO 3	src/scenes/UIScene.ts:3137	src/scenes/UIScene.ts:3137
+0465	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	🔒 TASO 3	src/scenes/UIScene.ts:3141	src/scenes/UIScene.ts:3141
+0466	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	EI BOSSILLA	src/scenes/UIScene.ts:3150	src/scenes/UIScene.ts:3150
+0467	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	100%	src/scenes/UIScene.ts:3159	src/scenes/UIScene.ts:3159 | src/scenes/UIScene.ts:3168 | src/scenes/UIScene.ts:3170 | src/scenes/UIScene.ts:3219 | src/scenes/UIScene.ts:3223 | src/scenes/UIScene.ts:3225
+0468	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	RAIVOAA!	src/scenes/UIScene.ts:3162	src/scenes/UIScene.ts:3162
+0469	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	RAIVO	src/scenes/UIScene.ts:3171	src/scenes/UIScene.ts:3171 | src/scenes/UIScene.ts:3195
+0470	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-red-600 px-2 py-1 flex items-center justify-center	src/scenes/UIScene.ts:3174	src/scenes/UIScene.ts:3174
+0471	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	V: RAIVO	src/scenes/UIScene.ts:3176	src/scenes/UIScene.ts:3176 | src/scenes/UIScene.ts:3200
+0472	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-600 h-4 transition-all duration-100	src/scenes/UIScene.ts:3192	src/scenes/UIScene.ts:3192
+0473	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-gray-800 px-2 py-1 flex items-center justify-center opacity-40	src/scenes/UIScene.ts:3198	src/scenes/UIScene.ts:3198
+0474	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-600 h-full transition-all duration-150	src/scenes/UIScene.ts:3212	src/scenes/UIScene.ts:3212 | src/scenes/UIScene.ts:3216 | src/scenes/UIScene.ts:3233
+0475	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-orange-500 h-full transition-all duration-150	src/scenes/UIScene.ts:3220	src/scenes/UIScene.ts:3220 | src/scenes/UIScene.ts:3231 | src/scenes/UIScene.ts:3254
+0476	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-500 h-full transition-all duration-150	src/scenes/UIScene.ts:3224	src/scenes/UIScene.ts:3224 | src/scenes/UIScene.ts:3229 | src/scenes/UIScene.ts:3257 | src/scenes/UIScene.ts:3272
+0477	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-red-700 h-full transition-all duration-150	src/scenes/UIScene.ts:3251	src/scenes/UIScene.ts:3251
+0478	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-orange-400 h-full transition-all duration-150	src/scenes/UIScene.ts:3274	src/scenes/UIScene.ts:3274
+0479	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-progress-fill-yellow-400 h-full transition-all duration-150	src/scenes/UIScene.ts:3276	src/scenes/UIScene.ts:3276
+0480	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	SUPER COMBO!	src/scenes/UIScene.ts:3297	src/scenes/UIScene.ts:3297
+0481	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	SUOJA PÄÄLLÄ!	src/scenes/UIScene.ts:3299	src/scenes/UIScene.ts:3299
+0482	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	TURBO!	src/scenes/UIScene.ts:3301	src/scenes/UIScene.ts:3301
+0483	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	healthCriticalPulse 0.3s infinite	src/scenes/UIScene.ts:3322	src/scenes/UIScene.ts:3322
+0484	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-red-700 px-8 py-4 flex flex-col items-center gap-2	src/scenes/UIScene.ts:3348	src/scenes/UIScene.ts:3348
+0485	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	POWER-UPIT POIS!	src/scenes/UIScene.ts:3386	src/scenes/UIScene.ts:3386
+0486	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	game-pixel-container-orange-700 px-4 py-2 flex flex-col items-center gap-1	src/scenes/UIScene.ts:3388	src/scenes/UIScene.ts:3388
+0487	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	50%	src/scenes/UIScene.ts:3394	src/scenes/UIScene.ts:3394 | src/scenes/UIScene.ts:3404
+0488	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateY(-50%) scale(0.5)	src/scenes/UIScene.ts:3395	src/scenes/UIScene.ts:3395
+0489	ACTIVE_OR_CONTEXTUAL	07_GAMEPLAY_CORE	translateY(-50%) scale(0.3)	src/scenes/UIScene.ts:3400	src/scenes/UIScene.ts:3400
+0490	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIEDÄTKÖ KUKA MUN MIES ON?!	src/entities/Boss.ts:14	src/entities/Boss.ts:14
+0491	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ ON YKSITYINEN LATU!	src/entities/Boss.ts:15	src/entities/Boss.ts:15
+0492	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN LAPSET ON STEINERKOULUSSA!	src/entities/Boss.ts:16	src/entities/Boss.ts:16
+0493	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SOITAN HALLITUKSEN PUHEENJOHTAJALLE!	src/entities/Boss.ts:17	src/entities/Boss.ts:17
+0494	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MEILLÄ ON KESÄMÖKKI NAANTALISSA!	src/entities/Boss.ts:18	src/entities/Boss.ts:18
+0495	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN PERSONAL TRAINER EI HYVÄKSY TÄTÄ!	src/entities/Boss.ts:19	src/entities/Boss.ts:19
+0496	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ MENEE FACEBOOKKIIN!	src/entities/Boss.ts:20	src/entities/Boss.ts:20
+0497	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPOO ON PAREMPI KUIN HELSINKI!	src/entities/Boss.ts:21	src/entities/Boss.ts:21
+0498	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MÄ TUNNEN KAUPUNGINJOHTAJAN!	src/entities/Boss.ts:22	src/entities/Boss.ts:22
+0499	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN TESLA LATAA JUST NYT!	src/entities/Boss.ts:23	src/entities/Boss.ts:23
+0500	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AJAX FOREVER!	src/entities/Boss.ts:27	src/entities/Boss.ts:27
+0501	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EI OLLU DOPINGIA!	src/entities/Boss.ts:28	src/entities/Boss.ts:28
+0502	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HEMOFARM? MIKÄ HEMOFARM?	src/entities/Boss.ts:29	src/entities/Boss.ts:29
+0503	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAHTI ON URHEILUKAUPUNKI!	src/entities/Boss.ts:30	src/entities/Boss.ts:30
+0504	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OLIN VAAN FLUNSSASSA!	src/entities/Boss.ts:31	src/entities/Boss.ts:31
+0505	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SYYTÄ LÄÄKÄRIÄ!	src/entities/Boss.ts:32	src/entities/Boss.ts:32
+0506	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄÄ ON SALALIITTO!	src/entities/Boss.ts:33	src/entities/Boss.ts:33
+0507	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PELASIN BARCELONASSA!	src/entities/Boss.ts:34	src/entities/Boss.ts:34
+0508	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JANSEN PAANSEN, AJAX!	src/entities/Boss.ts:35	src/entities/Boss.ts:35
+0509	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMEN PARAS JALKAPALLOILIJA!	src/entities/Boss.ts:36	src/entities/Boss.ts:36
+0510	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN AUTOPILOT ON PAREMPI KUIN SÄ!	src/entities/Boss.ts:40	src/entities/Boss.ts:40
+0511	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OLETKO KOKEILLUT BITCOINIA?	src/entities/Boss.ts:41	src/entities/Boss.ts:41
+0512	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN STARTUP SAI JUST RAHOTUKSEN!	src/entities/Boss.ts:42	src/entities/Boss.ts:42
+0513	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MINULLA ON MODEL S PLAID!	src/entities/Boss.ts:43	src/entities/Boss.ts:43
+0514	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LUKEN ELON MUSKIN TWITTERIÄ!	src/entities/Boss.ts:44	src/entities/Boss.ts:44
+0515	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN SALKKU ON VIHREÄLLÄ!	src/entities/Boss.ts:45	src/entities/Boss.ts:45
+0516	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KRYPTOT ON TULEVAISUUS!	src/entities/Boss.ts:46	src/entities/Boss.ts:46
+0517	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ASUN WESTENDISSÄ, OBVIOUSLY!	src/entities/Boss.ts:47	src/entities/Boss.ts:47
+0518	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN ÄLYKELLO MAKSOI 2000€!	src/entities/Boss.ts:48	src/entities/Boss.ts:48
+0519	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KÄYN TÖISSÄ KEILAHDESSA!	src/entities/Boss.ts:49	src/entities/Boss.ts:49
+0520	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN HANDICAP ON 5!	src/entities/Boss.ts:53	src/entities/Boss.ts:53
+0521	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NÄHDÄÄN KLUBILLA!	src/entities/Boss.ts:54	src/entities/Boss.ts:54
+0522	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN PURJEVENE ON SATAMASSA!	src/entities/Boss.ts:55	src/entities/Boss.ts:55
+0523	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLFIN JÄLKEEN MENNÄÄN SAUNAAN!	src/entities/Boss.ts:56	src/entities/Boss.ts:56
+0524	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIEDÄTKÖ PALJON GREEN FEE MAKSAA?	src/entities/Boss.ts:57	src/entities/Boss.ts:57
+0525	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN GOLF-MEMBERSHIP MAKSOI 50K!	src/entities/Boss.ts:58	src/entities/Boss.ts:58
+0526	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KÄYN AINA ESPOO GOLF CLUBILLA!	src/entities/Boss.ts:59	src/entities/Boss.ts:59
+0527	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN CADDIE ON LOMALLA!	src/entities/Boss.ts:60	src/entities/Boss.ts:60
+0528	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄÄLLÄ HAISEE KÖYHÄLTÄ!	src/entities/Boss.ts:61	src/entities/Boss.ts:61
+0529	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN ROLEX ON AITO!	src/entities/Boss.ts:62	src/entities/Boss.ts:62
+0530	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NYT POISTUT LADULTA!	src/entities/Boss.ts:66	src/entities/Boss.ts:66
+0531	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄÄ ON TURUN LATU, EI KÄVELYKATU!	src/entities/Boss.ts:67	src/entities/Boss.ts:67
+0532	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AURAJOKI NÄKEE KAIKEN!	src/entities/Boss.ts:68	src/entities/Boss.ts:68
+0533	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FÖLI TULEE, VÄISTÄ!	src/entities/Boss.ts:69	src/entities/Boss.ts:69
+0534	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FUNIKULAARIKIN TOIMII PAREMMIN KUIN SÄ!	src/entities/Boss.ts:70	src/entities/Boss.ts:70
+0535	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TURKU EI PERUUTA!	src/entities/Boss.ts:71	src/entities/Boss.ts:71
+0536	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN HERMOT ON JO JÄÄSSÄ!	src/entities/Boss.ts:72	src/entities/Boss.ts:72
+0537	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NÄYTÄN MITÄ TARKOITTAA LATURAIVO!	src/entities/Boss.ts:73	src/entities/Boss.ts:73
+0538	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HESEN KAUTTA KOTIIN, JOS PÄÄSET!	src/entities/Boss.ts:74	src/entities/Boss.ts:74
+0539	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄSTÄ EI KÄVELLÄ OHI!	src/entities/Boss.ts:75	src/entities/Boss.ts:75
+0540	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JANSEN PAANSEN!	src/entities/Boss.ts:79	src/entities/Boss.ts:79
+0541	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MÄ OLEN KANSAN MIES!	src/entities/Boss.ts:80	src/entities/Boss.ts:80
+0542	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MISSÄ ON MUN PANNUKAKKU?!	src/entities/Boss.ts:81	src/entities/Boss.ts:81
+0543	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ ON MINUN HIIHTOLADUN!	src/entities/Boss.ts:82	src/entities/Boss.ts:82
+0544	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN VILLA GRANDESSA ON SAUNA!	src/entities/Boss.ts:83	src/entities/Boss.ts:83
+0545	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	POLITIIKKA ON TEATTERIA!	src/entities/Boss.ts:84	src/entities/Boss.ts:84
+0546	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TULIN ESPOO GOLFISTA!	src/entities/Boss.ts:85	src/entities/Boss.ts:85
+0547	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN LIHAPULLAT ON PARHAITA!	src/entities/Boss.ts:86	src/entities/Boss.ts:86
+0548	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EN ANNA PERIKSI KOSKAAN!	src/entities/Boss.ts:87	src/entities/Boss.ts:87
+0549	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPOO KUULUU MEILLE!	src/entities/Boss.ts:88	src/entities/Boss.ts:88
+0550	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAITAN SINUT JÄÄHYLLE!	src/entities/Boss.ts:89	src/entities/Boss.ts:89
+0551	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN TUKKA ON LUONNOLLINEN!	src/entities/Boss.ts:90	src/entities/Boss.ts:90
+0552	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NYT RIITTI! SOITAN POLIISILLE!	src/entities/Boss.ts:97	src/entities/Boss.ts:97
+0553	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN ASIANAJAJA KUULEE TÄSTÄ!	src/entities/Boss.ts:98	src/entities/Boss.ts:98
+0554	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ ON EPÄOIKEUDENMUKAISTA!	src/entities/Boss.ts:99	src/entities/Boss.ts:99
+0555	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AJAX MODE ACTIVATED!	src/entities/Boss.ts:102	src/entities/Boss.ts:102
+0556	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KULTAINEN KENKÄ TULEE!	src/entities/Boss.ts:103	src/entities/Boss.ts:103
+0557	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMEN KUNINGAS HYÖKKÄÄ!	src/entities/Boss.ts:104	src/entities/Boss.ts:104
+0558	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LUDICROUS MODE ACTIVATED!	src/entities/Boss.ts:107	src/entities/Boss.ts:107
+0559	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FULL SELF-DRIVING ATTACK!	src/entities/Boss.ts:108	src/entities/Boss.ts:108
+0560	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TO THE MOON! 🚀	src/entities/Boss.ts:109	src/entities/Boss.ts:109
+0561	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NYT TULEE EAGLE!	src/entities/Boss.ts:112	src/entities/Boss.ts:112
+0562	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN SWING ON TÄYDELLINEN!	src/entities/Boss.ts:113	src/entities/Boss.ts:113
+0563	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BUNKERISTA BIRDIE!	src/entities/Boss.ts:114	src/entities/Boss.ts:114
+0564	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NYT LÄHTEE TURUN MYRSKY!	src/entities/Boss.ts:117	src/entities/Boss.ts:117
+0565	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LATU TUTISEE, PYSY PINNALLA!	src/entities/Boss.ts:118	src/entities/Boss.ts:118
+0566	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄÄ EI OLE HARJOITUS!	src/entities/Boss.ts:119	src/entities/Boss.ts:119
+0567	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERSUT EI ANNA PERIKSI!	src/entities/Boss.ts:122	src/entities/Boss.ts:122
+0568	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MINUN VUORONI LYÖDÄ!	src/entities/Boss.ts:123	src/entities/Boss.ts:123
+0569	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MAMUKRIITIKKO MODE!	src/entities/Boss.ts:124	src/entities/Boss.ts:124
+0570	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	APUA! HÄTÄNUMERO!	src/entities/Boss.ts:131	src/entities/Boss.ts:131
+0571	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN HIUKSET!	src/entities/Boss.ts:132	src/entities/Boss.ts:132
+0572	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MITEN KEHTAAT?!	src/entities/Boss.ts:133	src/entities/Boss.ts:133
+0573	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN AJAX-PAITA!	src/entities/Boss.ts:136	src/entities/Boss.ts:136
+0574	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERKELE!	src/entities/Boss.ts:137	src/entities/Boss.ts:137 | src/entities/LitmanenParody.ts:204
+0575	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TAAS LOUKKAANNUIN!	src/entities/Boss.ts:138	src/entities/Boss.ts:138
+0576	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SYSTEM ERROR!	src/entities/Boss.ts:141	src/entities/Boss.ts:141
+0577	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN OSAKKEET!	src/entities/Boss.ts:142	src/entities/Boss.ts:142
+0578	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CRASH DETECTED!	src/entities/Boss.ts:143	src/entities/Boss.ts:143
+0579	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BOGEY! EI!	src/entities/Boss.ts:146	src/entities/Boss.ts:146
+0580	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN POLO-PAITA!	src/entities/Boss.ts:147	src/entities/Boss.ts:147
+0581	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OUT OF BOUNDS!	src/entities/Boss.ts:148	src/entities/Boss.ts:148
+0582	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NÄITKÖ NYT MITÄ TEIT?	src/entities/Boss.ts:151	src/entities/Boss.ts:151
+0583	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JÄÄ TÄHÄN, ÄLÄ LUISU!	src/entities/Boss.ts:152	src/entities/Boss.ts:152
+0584	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HERMOT MENEE!	src/entities/Boss.ts:153	src/entities/Boss.ts:153
+0585	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAALIT HÄVIÄÄ!	src/entities/Boss.ts:156	src/entities/Boss.ts:156
+0586	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MUN SUOSIO!	src/entities/Boss.ts:157	src/entities/Boss.ts:157
+0587	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EI NÄIN!	src/entities/Boss.ts:158	src/entities/Boss.ts:158
+0588	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BOSSI SAAPUU!	src/entities/Boss.ts:320	src/entities/Boss.ts:320
+0589	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	[Boss] Missing animation key for bossType=${...} action=${...}, using fallback=${...}	src/entities/Boss.ts:383	src/entities/Boss.ts:383
+0590	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	[BossAnimationError] ${...} anim=${...}	src/entities/Boss.ts:394	src/entities/Boss.ts:394
+0591	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MIEHENI TULEE HOITAMAAN TÄMÄN!	src/entities/Boss.ts:611	src/entities/Boss.ts:611
+0592	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIEDÄTKÖ KUKA MINÄ OLEN?!!	src/entities/Boss.ts:628	src/entities/Boss.ts:628
+0593	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	-${...} HP!	src/entities/Boss.ts:662	src/entities/Boss.ts:662 | src/entities/Boss.ts:738 | src/entities/Boss.ts:780 | src/entities/Boss.ts:875 | src/entities/Boss.ts:982
+0594	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HALUATKO MAISTAA ETERIÄ?!	src/entities/Boss.ts:670	src/entities/Boss.ts:670
+0595	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ADD	src/entities/Boss.ts:691	src/entities/Boss.ts:691
+0596	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VALKOINEN KULTA!	src/entities/Boss.ts:708	src/entities/Boss.ts:708
+0597	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	#333333	src/entities/Boss.ts:713	src/entities/Boss.ts:713
+0598	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HOLE IN ONE, KÖYHÄ!	src/entities/Boss.ts:746	src/entities/Boss.ts:746
+0599	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄSS SINULLE ISO JYTKY!	src/entities/Boss.ts:790	src/entities/Boss.ts:790
+0600	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ISO JYTKY!	src/entities/Boss.ts:841	src/entities/Boss.ts:841
+0601	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	#0000aa	src/entities/Boss.ts:846	src/entities/Boss.ts:846
+0602	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AJAX TULOSSA! JANSEN PAANSEN!	src/entities/Boss.ts:883	src/entities/Boss.ts:883
+0603	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Power2.easeIn	src/entities/Boss.ts:934	src/entities/Boss.ts:934
+0604	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AJAX AMSTERDAM!	src/entities/Boss.ts:948	src/entities/Boss.ts:948
+0605	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	#cc0000	src/entities/Boss.ts:953	src/entities/Boss.ts:953
+0606	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Power1.easeIn	src/entities/Boss.ts:1029	src/entities/Boss.ts:1029
+0607	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	boss_${...}	src/entities/BossFSM.ts:427	src/entities/BossFSM.ts:427
+0608	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ LATU ON VARATTU!	src/entities/Enemy.ts:11	src/entities/Enemy.ts:11
+0609	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VÄISTÄ TAI VÄISTÄN PUOLESTASI!	src/entities/Enemy.ts:12	src/entities/Enemy.ts:12
+0610	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OSAATKO EDES LUKEA LATUMERKKEJÄ?!	src/entities/Enemy.ts:13	src/entities/Enemy.ts:13
+0611	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KAHDEKSANSATAA EUROA SUKSET JA SÄ TUUT TÄHÄN?!	src/entities/Enemy.ts:14	src/entities/Enemy.ts:14
+0612	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPOO ON SUOMEN MONACO!	src/entities/Enemy.ts:15	src/entities/Enemy.ts:15
+0613	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KEHÄ KOLMOSEN SISÄPUOLELLA EI OO LATUJA!	src/entities/Enemy.ts:16	src/entities/Enemy.ts:16
+0614	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SÄÄNNÖT ON KEKSITTY SUN TAKIA!	src/entities/Enemy.ts:17	src/entities/Enemy.ts:17
+0615	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KAUSIKORTTI TASKUSSA, ASENNE KOHDILLAAN!	src/entities/Enemy.ts:18	src/entities/Enemy.ts:18
+0616	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LATUPOLIISI ON SPEED DIALISSA!	src/entities/Enemy.ts:19	src/entities/Enemy.ts:19
+0617	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TESLA LÄMMITTELEE PARKKIKSELLA!	src/entities/Enemy.ts:20	src/entities/Enemy.ts:20
+0618	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OLIN TÄÄLLÄ ENNEN SUN SYNTYMÄÄ!	src/entities/Enemy.ts:23	src/entities/Enemy.ts:23
+0619	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JURISTI VAIMONI HOITAA TÄMÄN!	src/entities/Enemy.ts:24	src/entities/Enemy.ts:24
+0620	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOOGLAA NIMENI!	src/entities/Enemy.ts:25	src/entities/Enemy.ts:25
+0621	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLFKENTTÄ SULKI NIIN TULIN TÄNNE!	src/entities/Enemy.ts:26	src/entities/Enemy.ts:26
+0622	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAPSENI ON LAHJAKKAAMPI KUIN SINÄ!	src/entities/Enemy.ts:27	src/entities/Enemy.ts:27
+0623	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WESTENDIN PARAS HIIHTOASU PÄÄLLÄ!	src/entities/Enemy.ts:28	src/entities/Enemy.ts:28
+0624	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PADEL ON LIIAN HELPPOA MULLE!	src/entities/Enemy.ts:29	src/entities/Enemy.ts:29
+0625	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SYKEMITTARINI ON KALLIIMPI KUIN ASUNTOSI!	src/entities/Enemy.ts:30	src/entities/Enemy.ts:30
+0626	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOIRAT KUULUU KOIRALADULLE!	src/entities/Enemy.ts:31	src/entities/Enemy.ts:31
+0627	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LATU EI OO LEIKKIKENTTÄ!	src/entities/Enemy.ts:32	src/entities/Enemy.ts:32
+0628	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MÖKKI NAANTALISSA, SIELÄ EI OO TÄLLAISIA!	src/entities/Enemy.ts:35	src/entities/Enemy.ts:35
+0629	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIIHDIN SDP:TÄ NOPEAMMIN!	src/entities/Enemy.ts:36	src/entities/Enemy.ts:36
+0630	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HOT JOOGAN JÄLKEEN OON VAARALLINEN!	src/entities/Enemy.ts:37	src/entities/Enemy.ts:37
+0631	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	14 EURON SMOOTHIE VIRTAA SUONISSANI!	src/entities/Enemy.ts:38	src/entities/Enemy.ts:38
+0632	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTONI PAINAA ENEMMÄN KUIN ELÄMÄSI!	src/entities/Enemy.ts:39	src/entities/Enemy.ts:39
+0633	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VEGAANISUUS TEKEE MINUT YLIVOIMAISEKSI!	src/entities/Enemy.ts:40	src/entities/Enemy.ts:40
+0634	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOMBUCHALLA ON VOIMAA!	src/entities/Enemy.ts:41	src/entities/Enemy.ts:41
+0635	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TUBETTAJA-PT OPETTI TÄMÄN LIIKKEEN!	src/entities/Enemy.ts:42	src/entities/Enemy.ts:42
+0636	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ALEXA! SOITA LATUPOLIISI!	src/entities/Enemy.ts:43	src/entities/Enemy.ts:43
+0637	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUN ÄITIS TEKI MULLE AAMUPALAN!	src/entities/Enemy.ts:44	src/entities/Enemy.ts:44
+0638	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PREMIUMILLA ON MERKITYSTÄ!	src/entities/Enemy.ts:47	src/entities/Enemy.ts:47
+0639	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NFT:NI ON KOHTA ARVOKAS!	src/entities/Enemy.ts:48	src/entities/Enemy.ts:48
+0640	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NAVIGAATTORI SANOO OLEVASI VÄÄRÄSSÄ!	src/entities/Enemy.ts:49	src/entities/Enemy.ts:49
+0641	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PSYKOLOGINI VAROITTI SUN KALTAISISTA!	src/entities/Enemy.ts:50	src/entities/Enemy.ts:50
+0642	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOIRANI EI KESTÄ KÖYHIÄ!	src/entities/Enemy.ts:51	src/entities/Enemy.ts:51
+0643	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WOLT TUO MULLE AVOKADOT TÄNNEKIN!	src/entities/Enemy.ts:52	src/entities/Enemy.ts:52
+0644	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BIOHAKKEROINTI TEKI MINUT TÄYDELLISEKSI!	src/entities/Enemy.ts:53	src/entities/Enemy.ts:53
+0645	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	16:8 PAASTO ON ELÄMÄNTAPA!	src/entities/Enemy.ts:54	src/entities/Enemy.ts:54
+0646	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLF-HANDICAP KOLME, MITÄ SULLA?	src/entities/Enemy.ts:55	src/entities/Enemy.ts:55
+0647	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GUCCI-ASU, GUCCI-ASENNE!	src/entities/Enemy.ts:56	src/entities/Enemy.ts:56
+0648	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HYPPIMINEN KIELLETTY TÄÄLLÄ!	src/entities/Enemy.ts:59	src/entities/Enemy.ts:59
+0649	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	COLD PLUNGE TEKI MINUT KOVAKSI!	src/entities/Enemy.ts:60	src/entities/Enemy.ts:60
+0650	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KRYPTO PORTFOLIONI DOMINOI!	src/entities/Enemy.ts:61	src/entities/Enemy.ts:61
+0651	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AMBIVERTTINÄ VIHAAN KAIKKIA TASAPUOLISESTI!	src/entities/Enemy.ts:62	src/entities/Enemy.ts:62
+0652	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TERAPEUTTI KUULEE TÄSTÄ!	src/entities/Enemy.ts:63	src/entities/Enemy.ts:63
+0653	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STRAVA-SEURANTANI NÄKEE KAIKEN!	src/entities/Enemy.ts:64	src/entities/Enemy.ts:64
+0654	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HUONO AURASI PILAA PÄIVÄNI!	src/entities/Enemy.ts:65	src/entities/Enemy.ts:65
+0655	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	20 VUOTTA TÄÄLLÄ JA SÄ TUUT NYT?!	src/entities/Enemy.ts:66	src/entities/Enemy.ts:66
+0656	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SE SAUVAKULMASI ON TÄYSIN VÄÄRIN!	src/entities/Enemy.ts:67	src/entities/Enemy.ts:67
+0657	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	30K SEURAAJAA ODOTTAA SISÄLTÖÄ!	src/entities/Enemy.ts:68	src/entities/Enemy.ts:68
+0658	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LUNTA NAAMAAN!	src/entities/Enemy.ts:73	src/entities/Enemy.ts:73
+0659	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NYT OPETELLAAN!	src/entities/Enemy.ts:74	src/entities/Enemy.ts:74
+0660	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ ON OPETUSHETKI!	src/entities/Enemy.ts:75	src/entities/Enemy.ts:75
+0661	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPOO-STYLE!	src/entities/Enemy.ts:76	src/entities/Enemy.ts:76
+0662	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HÄPEÄ ITSEÄSI!	src/entities/Enemy.ts:77	src/entities/Enemy.ts:77
+0663	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUKSESI KUOLEE!	src/entities/Enemy.ts:78	src/entities/Enemy.ts:78
+0664	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BRUNCHITON SUNNUNTAI SULLE!	src/entities/Enemy.ts:79	src/entities/Enemy.ts:79
+0665	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PADEL-SMASH!	src/entities/Enemy.ts:80	src/entities/Enemy.ts:80
+0666	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIIHTOKOULU EI OPETTANUT TÄTÄ!	src/entities/Enemy.ts:81	src/entities/Enemy.ts:81
+0667	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WESTEND SPECIAL!	src/entities/Enemy.ts:82	src/entities/Enemy.ts:82
+0668	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITINI KUULEE TÄSTÄ!	src/entities/Enemy.ts:83	src/entities/Enemy.ts:83
+0669	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PULSSI 180, LYÖNTI TULOSSA!	src/entities/Enemy.ts:84	src/entities/Enemy.ts:84
+0670	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PROTEIINIVOIMA!	src/entities/Enemy.ts:85	src/entities/Enemy.ts:85
+0671	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTOPILOT HYÖKKÄYS!	src/entities/Enemy.ts:86	src/entities/Enemy.ts:86
+0672	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLFLYÖNTI!	src/entities/Enemy.ts:87	src/entities/Enemy.ts:87
+0673	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MINDFUL MUKILOINTI!	src/entities/Enemy.ts:88	src/entities/Enemy.ts:88
+0674	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOTIRUOKAENERGIA!	src/entities/Enemy.ts:89	src/entities/Enemy.ts:89
+0675	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AVOKADO-ISKU!	src/entities/Enemy.ts:90	src/entities/Enemy.ts:90
+0676	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PREMIUM-POTKU!	src/entities/Enemy.ts:91	src/entities/Enemy.ts:91
+0677	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	UNBOXING: SUN NAAMA!	src/entities/Enemy.ts:92	src/entities/Enemy.ts:92
+0678	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TERVEELLINEN VÄKIVALTA!	src/entities/Enemy.ts:93	src/entities/Enemy.ts:93
+0679	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIIHTÄJÄN KUNNIA!	src/entities/Enemy.ts:94	src/entities/Enemy.ts:94
+0680	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUKSIVOIDE SUONISSA!	src/entities/Enemy.ts:95	src/entities/Enemy.ts:95
+0681	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAKTOOSITON LÄIMÄYTYS!	src/entities/Enemy.ts:96	src/entities/Enemy.ts:96
+0682	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AU! GORE-TEX REPEÄÄ!	src/entities/Enemy.ts:101	src/entities/Enemy.ts:101
+0683	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	APUVA!	src/entities/Enemy.ts:102	src/entities/Enemy.ts:102
+0684	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	112! 112! 112!	src/entities/Enemy.ts:103	src/entities/Enemy.ts:103
+0685	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SE TAKKI MAKSOI TONNIN!	src/entities/Enemy.ts:104	src/entities/Enemy.ts:104
+0686	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NÄIN EI TEHTY TAPIOLASSA!	src/entities/Enemy.ts:105	src/entities/Enemy.ts:105
+0687	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FACEBOOK-RYHMÄ KUULEE TÄSTÄ!	src/entities/Enemy.ts:106	src/entities/Enemy.ts:106 | src/utils.ts:841
+0688	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	APPLE WATCH HAJOSI!	src/entities/Enemy.ts:107	src/entities/Enemy.ts:107
+0689	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄSTÄ TULEE INSTAGRAM-STORY!	src/entities/Enemy.ts:108	src/entities/Enemy.ts:108
+0690	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIUSTENVÄRJÄYS MENI PILALLE!	src/entities/Enemy.ts:109	src/entities/Enemy.ts:109
+0691	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITINI SOITTAA ISÄLLESI!	src/entities/Enemy.ts:110	src/entities/Enemy.ts:110
+0692	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AURANI REPEÄÄ!	src/entities/Enemy.ts:111	src/entities/Enemy.ts:111
+0693	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOOGLE-ARVOSTELU TULOSSA!	src/entities/Enemy.ts:112	src/entities/Enemy.ts:112
+0694	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KYNSILLE TULI NAARMU!	src/entities/Enemy.ts:113	src/entities/Enemy.ts:113
+0695	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CHAKRANI SEKOITTUU!	src/entities/Enemy.ts:114	src/entities/Enemy.ts:114
+0696	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ EI OLE WELLNESS!	src/entities/Enemy.ts:115	src/entities/Enemy.ts:115
+0697	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SMOOTHIENI KAATUI!	src/entities/Enemy.ts:116	src/entities/Enemy.ts:116
+0698	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JURISTI SPEED DIALISSA!	src/entities/Enemy.ts:117	src/entities/Enemy.ts:117
+0699	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EGONI EI KESTÄ!	src/entities/Enemy.ts:118	src/entities/Enemy.ts:118
+0700	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FLOW-TILA KATOSI!	src/entities/Enemy.ts:119	src/entities/Enemy.ts:119
+0701	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HENGITYSHARJOITUS KESKEYTYY!	src/entities/Enemy.ts:120	src/entities/Enemy.ts:120
+0702	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAKAVASTI!? IHAN OIKEESTI!?	src/entities/Enemy.ts:121	src/entities/Enemy.ts:121
+0703	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ISÄ TIETÄÄ IHMISIÄ!	src/entities/Enemy.ts:122	src/entities/Enemy.ts:122
+0704	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SELF-CARE-PÄIVÄ PILALLA!	src/entities/Enemy.ts:123	src/entities/Enemy.ts:123
+0705	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAKUUTUS KORVAA!	src/entities/Enemy.ts:124	src/entities/Enemy.ts:124
+0706	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DESIGNER-HANSKAT LIKAANTUI!	src/entities/Enemy.ts:125	src/entities/Enemy.ts:125
+0707	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄSTÄ TEHDÄÄN PODCAST!	src/entities/Enemy.ts:126	src/entities/Enemy.ts:126
+0708	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ILMOITAN KULUTTAJAVIRASTOON!	src/entities/Enemy.ts:127	src/entities/Enemy.ts:127
+0709	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄTÄ EN TILANNUT!	src/entities/Enemy.ts:128	src/entities/Enemy.ts:128
+0710	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	#222222	src/entities/Enemy.ts:399	src/entities/Enemy.ts:399
+0711	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Power1	src/entities/EnemyFSM.ts:166	src/entities/Boss.ts:822 | src/entities/EnemyFSM.ts:166
+0712	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Ei ollu dopingia!	src/entities/LitmanenParody.ts:33	src/entities/LitmanenParody.ts:33
+0713	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Ajax Forever!	src/entities/LitmanenParody.ts:34	src/entities/LitmanenParody.ts:34
+0714	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Olin vaan flunssassa!	src/entities/LitmanenParody.ts:35	src/entities/LitmanenParody.ts:35
+0715	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Syytä lääkäriä!	src/entities/LitmanenParody.ts:36	src/entities/LitmanenParody.ts:36
+0716	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Tää on salaliitto!	src/entities/LitmanenParody.ts:38	src/entities/LitmanenParody.ts:38
+0717	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	#ff6666	src/entities/LitmanenParody.ts:132	src/entities/LitmanenParody.ts:132
+0718	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	YOU THINK YOU CAN SKI?	src/entities/PeterSync.ts:11	src/entities/PeterSync.ts:11
+0719	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	THIS TRAIL IS MINE!	src/entities/PeterSync.ts:12	src/entities/PeterSync.ts:12
+0720	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	TOO SLOW, AMATEUR!	src/entities/PeterSync.ts:13	src/entities/PeterSync.ts:13
+0721	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	WATCH AND LEARN!	src/entities/PeterSync.ts:14	src/entities/PeterSync.ts:14
+0722	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	I OWN THIS ARENA!	src/entities/PeterSync.ts:15	src/entities/PeterSync.ts:15
+0723	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	STEP ASIDE, LOSER!	src/entities/PeterSync.ts:16	src/entities/PeterSync.ts:16
+0724	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	YOU CALL THAT SKIING?	src/entities/PeterSync.ts:17	src/entities/PeterSync.ts:17
+0725	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	PREPARE TO BE HUMILIATED!	src/entities/PeterSync.ts:18	src/entities/PeterSync.ts:18
+0726	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	PETER KANTELE RULES THE ICE!	src/entities/PeterSync.ts:19	src/entities/PeterSync.ts:19
+0727	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	YOU'RE NOT EVEN A CHALLENGE!	src/entities/PeterSync.ts:20	src/entities/PeterSync.ts:20
+0728	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	NOW I'M REALLY MAD!	src/entities/PeterSync.ts:24	src/entities/PeterSync.ts:24
+0729	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	YOU'LL REGRET THAT!	src/entities/PeterSync.ts:25	src/entities/PeterSync.ts:25
+0730	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	NO MORE MERCY!	src/entities/PeterSync.ts:26	src/entities/PeterSync.ts:26
+0731	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	MY OUTFIT!	src/entities/PeterSync.ts:30	src/entities/PeterSync.ts:30
+0732	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	YOU'LL PAY FOR THAT!	src/entities/PeterSync.ts:31	src/entities/PeterSync.ts:31
+0733	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	LUCKY SHOT!	src/entities/PeterSync.ts:32	src/entities/PeterSync.ts:32
+0734	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	TIME TO TURN UP THE BEAT!	src/entities/PeterSync.ts:348	src/entities/PeterSync.ts:348
+0735	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	DISCO INFERNO!	src/entities/PeterSync.ts:386	src/entities/PeterSync.ts:386
+0736	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	#ff00ff	src/entities/PeterSync.ts:528	src/entities/PeterSync.ts:528 | src/entities/PowerUp.ts:262
+0737	CONTEXTUAL	08_ENEMY_BOSS_COMBAT	THE MUSIC... STOPS...	src/entities/PeterSyncFSM.ts:488	src/entities/PeterSyncFSM.ts:488
+0738	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	KOMBO 1	src/humor/HumorPack.ts:37	src/humor/HumorPack.ts:37
+0739	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	KOMBO 2	src/humor/HumorPack.ts:38	src/humor/HumorPack.ts:38
+0740	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	KOMBO 3	src/humor/HumorPack.ts:39	src/humor/HumorPack.ts:39
+0741	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	KOMBO 4	src/humor/HumorPack.ts:40	src/humor/HumorPack.ts:40
+0742	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	KOMBO 5	src/humor/HumorPack.ts:41	src/humor/HumorPack.ts:41
+0743	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Kriittinen osuma!	src/humor/HumorPack.ts:45	src/humor/HumorPack.ts:45
+0744	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Täysosuma!	src/humor/HumorPack.ts:46	src/humor/HumorPack.ts:46
+0745	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Napakka isku!	src/humor/HumorPack.ts:47	src/humor/HumorPack.ts:47
+0746	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Väistö onnistui!	src/humor/HumorPack.ts:51	src/humor/HumorPack.ts:51
+0747	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Läheltä piti!	src/humor/HumorPack.ts:52	src/humor/HumorPack.ts:52
+0748	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Sivuaskel onnistui!	src/humor/HumorPack.ts:53	src/humor/HumorPack.ts:53
+0749	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	SAAVUTUS: Selviydyit ilman kirosanaa.	src/humor/HumorPack.ts:61	src/humor/HumorPack.ts:61
+0750	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	SAAVUTUS: Voltti väärässä paikassa 10 kertaa.	src/humor/HumorPack.ts:62	src/humor/HumorPack.ts:62
+0751	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	SAAVUTUS: Käytit Raivoa heti sen valmistuttua.	src/humor/HumorPack.ts:63	src/humor/HumorPack.ts:63
+0752	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Heikkous: rakentava palaute	src/humor/HumorPack.ts:71	src/humor/HumorPack.ts:71
+0753	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Mene pois eestä, tai saat kepistä!	src/humor/HumorPack.ts:77	src/humor/HumorPack.ts:77
+0754	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Varo tai saat kyytiä!	src/humor/HumorPack.ts:78	src/humor/HumorPack.ts:78
+0755	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Vi*** pelle, nyt väistät!	src/humor/HumorPack.ts:79	src/humor/HumorPack.ts:79
+0756	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Latu on mun, painu sivuun!	src/humor/HumorPack.ts:80	src/humor/HumorPack.ts:80
+0757	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Raivo päälle, nyt rytisee!	src/humor/HumorPack.ts:81	src/humor/HumorPack.ts:81
+0758	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Älä testaa mua, en jarruta!	src/humor/HumorPack.ts:82	src/humor/HumorPack.ts:82
+0759	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Saat sauvasta jos et väistä!	src/humor/HumorPack.ts:83	src/humor/HumorPack.ts:83
+0760	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Nyt mennään läpi vaikka väkisin!	src/humor/HumorPack.ts:84	src/humor/HumorPack.ts:84
+0761	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Ai sa***na, osui kunnolla!	src/humor/HumorPack.ts:88	src/humor/HumorPack.ts:88
+0762	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Vi*** mikä osuma!	src/humor/HumorPack.ts:89	src/humor/HumorPack.ts:89
+0763	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Sattui, mutta nyt suututtaa!	src/humor/HumorPack.ts:90	src/humor/HumorPack.ts:90
+0764	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Nyt meni kuppi nurin!	src/humor/HumorPack.ts:91	src/humor/HumorPack.ts:91
+0765	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Tuosta vielä maksetaan takaisin!	src/humor/HumorPack.ts:92	src/humor/HumorPack.ts:92
+0766	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Energia loppumassa.	src/humor/HumorPack.ts:101	src/humor/HumorPack.ts:101
+0767	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Varoitus: energia matala.	src/humor/HumorPack.ts:102	src/humor/HumorPack.ts:102
+0768	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Elämäpisteet matalat.	src/humor/HumorPack.ts:105	src/humor/HumorPack.ts:105
+0769	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Varoitus: terveys matala.	src/humor/HumorPack.ts:106	src/humor/HumorPack.ts:106
+0770	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Energia täynnä.	src/humor/HumorPack.ts:109	src/humor/HumorPack.ts:109
+0771	CURRENTLY_HIDDEN_BY_DEFAULT	08_ENEMY_BOSS_COMBAT	Elämäpisteet palautettu.	src/humor/HumorPack.ts:112	src/humor/HumorPack.ts:112
+0772	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	updateMeleeTrigger: invalid facingDirection "${...}", falling back to "right"	src/utils.ts:99	src/utils.ts:99
+0773	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	resetOriginAndOffset: invalid facingDirection "${...}", falling back to "right"	src/utils.ts:150	src/utils.ts:150
+0774	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	resetOriginAndOffset: animations metadata missing, using default origin/offset values	src/utils.ts:158	src/utils.ts:158
+0775	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	resetOriginAndOffset: animation config not found for key: ${...}, using defaults	src/utils.ts:174	src/utils.ts:174
+0776	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	initScale input parameter maxDisplayHeight and maxDisplayWidth cannot be undefined at the same time	src/utils.ts:234	src/utils.ts:234
+0777	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	1200€ SUKSET JA NÄIN KÄVI?!	src/utils.ts:401	src/utils.ts:401
+0778	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAKIMIES KUULEE TÄSTÄ!	src/utils.ts:402	src/utils.ts:402
+0779	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TUNNEN ESPOON KAUPUNGINJOHTAJAN!	src/utils.ts:403	src/utils.ts:403
+0780	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ALOITIN JUST PADELIN!	src/utils.ts:404	src/utils.ts:404
+0781	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TESLA JÄÄTYY PARKKIKSELLE!	src/utils.ts:405	src/utils.ts:405
+0782	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AINO-SOFIA EI SAA TIETÄÄ!	src/utils.ts:406	src/utils.ts:406
+0783	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PT VAROITTI TÄSTÄ!	src/utils.ts:407	src/utils.ts:407
+0784	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VEROVÄHENNYS MENETETTY!	src/utils.ts:408	src/utils.ts:408
+0785	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NAAPURIT KUULEE!	src/utils.ts:409	src/utils.ts:409
+0786	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WESTEND MENETTI PARHAANSA!	src/utils.ts:410	src/utils.ts:410
+0787	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AIRPODSIT LENTÄÄ!	src/utils.ts:411	src/utils.ts:411
+0788	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VERONMAKSAJA KAATUU!	src/utils.ts:412	src/utils.ts:412
+0789	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	COACH EI PUHUNUT TÄSTÄ!	src/utils.ts:413	src/utils.ts:413
+0790	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MITEN LINKEDIN-POSTAUKSENI?!	src/utils.ts:414	src/utils.ts:414
+0791	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PADEL-VARAUS MENEE HUKKAAN!	src/utils.ts:415	src/utils.ts:415
+0792	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KAIKKI SAUNAVUOROT TURHA!	src/utils.ts:416	src/utils.ts:416
+0793	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KESÄMÖKKISUUNNITELMAT ROMUTTUU!	src/utils.ts:417	src/utils.ts:417
+0794	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLF-JÄSENYYS PÄÄTTYY NÄIN?!	src/utils.ts:418	src/utils.ts:418
+0795	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HODL... IKUISESTI...	src/utils.ts:425	src/utils.ts:425
+0796	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EI MULLA OLLU PRIVATE KEYT!	src/utils.ts:426	src/utils.ts:426
+0797	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BITCOIN KORJAA... EI KORJAA...	src/utils.ts:427	src/utils.ts:427
+0798	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NFT:T HÄVIÄÄ MUKANA!	src/utils.ts:428	src/utils.ts:428
+0799	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ ON VAIN... DIP... permanentti dip...	src/utils.ts:429	src/utils.ts:429
+0800	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WAGMI... EIKU...	src/utils.ts:430	src/utils.ts:430
+0801	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LEDGER VARASTETAAN!	src/utils.ts:431	src/utils.ts:431
+0802	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIMANTTIKÄDET MURSKAKSI!	src/utils.ts:432	src/utils.ts:432
+0803	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ELON! TWIITTAA JOTAIN!	src/utils.ts:433	src/utils.ts:433
+0804	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAMBO... EHKÄ ENSI ELÄMÄSSÄ...	src/utils.ts:434	src/utils.ts:434
+0805	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KUKA MYI?! KEN MYI?!	src/utils.ts:435	src/utils.ts:435
+0806	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TO THE MOON... YKSIN...	src/utils.ts:436	src/utils.ts:436 | src/utils.ts:859
+0807	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIINILASI KAATUU LUMEEN!	src/utils.ts:441	src/utils.ts:441
+0808	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BOOK CLUB EI USKO TÄTÄ!	src/utils.ts:442	src/utils.ts:442
+0809	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ROSÉ ALL DAY... LOPPUU...	src/utils.ts:443	src/utils.ts:443
+0810	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PROSECCO-BRUNCHI PERUUNTUU!	src/utils.ts:444	src/utils.ts:444
+0811	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GIRLS NIGHT KESKEYTYY!	src/utils.ts:445	src/utils.ts:445
+0812	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	YOGA-RETREATTI OLI TURHA!	src/utils.ts:446	src/utils.ts:446
+0813	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MINDFULNESS EI AUTA NYT!	src/utils.ts:447	src/utils.ts:447
+0814	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WELLNESS-MATKA JÄI KESKEN!	src/utils.ts:448	src/utils.ts:448
+0815	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAPSET NÄKEE TÄMÄN!	src/utils.ts:449	src/utils.ts:449
+0816	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STORY JÄÄÄ POSTAAMATTA!	src/utils.ts:450	src/utils.ts:450
+0817	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITIRYHMÄ KESKUSTELEE!	src/utils.ts:451	src/utils.ts:451
+0818	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DRINKKINI LÄIKKYY!	src/utils.ts:452	src/utils.ts:452 | src/utils.ts:611
+0819	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SOITAN TAKASIN! ...tai en...	src/utils.ts:457	src/utils.ts:457
+0820	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AIRPODS MAX LENTÄÄ!	src/utils.ts:458	src/utils.ts:458
+0821	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OOTAS, PUHELU... katkee...	src/utils.ts:459	src/utils.ts:459
+0822	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FACETIME NÄYTTÄÄ KAIKEN!	src/utils.ts:460	src/utils.ts:460
+0823	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BLUETOOTH YHTEYS KATKEAA!	src/utils.ts:461	src/utils.ts:461
+0824	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIDEOPUHELU SAA PÄÄTÖKSEN!	src/utils.ts:462	src/utils.ts:462
+0825	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOKOUS PÄÄTTYY NÄIN!	src/utils.ts:463	src/utils.ts:463
+0826	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TEAMS-MEETING STRIIMAA TÄTÄ!	src/utils.ts:464	src/utils.ts:464
+0827	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITI NÄKEE ZOOMISSA!	src/utils.ts:465	src/utils.ts:465
+0828	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SOITTOÄÄNI VAIKENEE!	src/utils.ts:466	src/utils.ts:466
+0829	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KALENTERIIN: KUOLEMA 15:30	src/utils.ts:467	src/utils.ts:467
+0830	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OUTLOOK REMINDER TURHA!	src/utils.ts:468	src/utils.ts:468
+0831	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SPOTIFY-LISTA KESKETYY!	src/utils.ts:473	src/utils.ts:473
+0832	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PODCAST JÄÄÄ KUULEMATTA!	src/utils.ts:474	src/utils.ts:474
+0833	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NOISE CANCELLING TOIMI LIIANKIN HYVIN!	src/utils.ts:475	src/utils.ts:475
+0834	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EN KUULLUT MITÄÄN! KIRJAIMELLISESTI!	src/utils.ts:476	src/utils.ts:476
+0835	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BEATS PUTOS!	src/utils.ts:477	src/utils.ts:477
+0836	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄÄNIKIRJA OLI JUURI JÄNNÄSSÄ KOHDASSA!	src/utils.ts:478	src/utils.ts:478
+0837	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TRUE WIRELESS, TRUE KUOLEMA!	src/utils.ts:479	src/utils.ts:479
+0838	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MIKÄ SE BIISI OLIKAAN...	src/utils.ts:480	src/utils.ts:480
+0839	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PREMIUM TURHA!	src/utils.ts:481	src/utils.ts:481
+0840	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SHUFFLE SHUFFLASI ELÄMÄNI!	src/utils.ts:482	src/utils.ts:482
+0841	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BASSO TIPPU!	src/utils.ts:483	src/utils.ts:483
+0842	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KUUNTELIN MEDITAATIOTA!	src/utils.ts:484	src/utils.ts:484
+0843	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PADEL ON PAREMPI KUIN... kaikki...	src/utils.ts:489	src/utils.ts:489
+0844	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MAILA TIPPUU!	src/utils.ts:490	src/utils.ts:490
+0845	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VARAUS MENI HUKKAAN!	src/utils.ts:491	src/utils.ts:491
+0846	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ELO-RANKING LASKEE!	src/utils.ts:492	src/utils.ts:492
+0847	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MATCH POINT SINULLE, PELI MULLE!	src/utils.ts:493	src/utils.ts:493
+0848	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	60€ KENTTÄAIKA MENI HARAKOILLE!	src/utils.ts:494	src/utils.ts:494
+0849	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPANJAN PADEL-LOMA PERUUNTUU!	src/utils.ts:495	src/utils.ts:495
+0850	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RANNE ANTOI PERIKSI!	src/utils.ts:496	src/utils.ts:496
+0851	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	COACH EI VAROITTANUT!	src/utils.ts:497	src/utils.ts:497
+0852	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LASI HAJOSI... SIIS KENTÄN LASI!	src/utils.ts:498	src/utils.ts:498
+0853	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PAREJA EI LÖYDY ENÄÄ!	src/utils.ts:499	src/utils.ts:499
+0854	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SYKEMITTARI PYSÄHTYY!	src/utils.ts:504	src/utils.ts:504
+0855	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	INTERVALLIT KESKEYTYI PAHASTI!	src/utils.ts:505	src/utils.ts:505
+0856	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SAUVAT LENTÄÄ!	src/utils.ts:506	src/utils.ts:506
+0857	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STRAVA EI SAANUT TÄTÄ TALTEEN!	src/utils.ts:507	src/utils.ts:507
+0858	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GPS-KELLO KADOTTI SIGNAALIN!	src/utils.ts:508	src/utils.ts:508
+0859	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	10K ASKELTA PUUTTUU!	src/utils.ts:509	src/utils.ts:509
+0860	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	POLVET ANTOI PERIKSI!	src/utils.ts:510	src/utils.ts:510
+0861	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RASVANPOLTO PÄÄTTYI!	src/utils.ts:511	src/utils.ts:511
+0862	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PT EI MAININNUT TÄSTÄ!	src/utils.ts:512	src/utils.ts:512
+0863	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JUOKSUKENGÄT EI AUTTANUT!	src/utils.ts:513	src/utils.ts:513
+0864	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VO2MAX LOPPU!	src/utils.ts:514	src/utils.ts:514
+0865	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	COOPER-TESTI EPÄONNISTUU!	src/utils.ts:515	src/utils.ts:515
+0866	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NOSTATKO SÄ EDES?!	src/utils.ts:520	src/utils.ts:520
+0867	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WOD KESKEYTYI!	src/utils.ts:521	src/utils.ts:521
+0868	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BURPEES... IKUISESTI... eiku...	src/utils.ts:522	src/utils.ts:522
+0869	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CROSSFIT-BOKSI MENETTÄÄ JÄSENEN!	src/utils.ts:523	src/utils.ts:523
+0870	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GAINSSIT KATOSI!	src/utils.ts:524	src/utils.ts:524
+0871	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PROTEIINISHEIKKI VALUI!	src/utils.ts:525	src/utils.ts:525
+0872	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OVERHEAD SQUAT FEILASI!	src/utils.ts:526	src/utils.ts:526
+0873	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PUNTTEJA EI VOI KULJETTAA MUKAAN!	src/utils.ts:527	src/utils.ts:527
+0874	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SNATCH MISSASI!	src/utils.ts:528	src/utils.ts:528
+0875	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BRO... SPLIT... PYSYVÄSTI...	src/utils.ts:529	src/utils.ts:529
+0876	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KEHO ON TEMPPELI... RAUNIO...	src/utils.ts:530	src/utils.ts:530
+0877	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PR JÄÄÄ TEKEMÄTTÄ!	src/utils.ts:531	src/utils.ts:531
+0878	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FOLLOWERSIT EI NÄE TÄTÄ!	src/utils.ts:536	src/utils.ts:536
+0879	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ EI OLE INSTAGRAMMABLE!	src/utils.ts:537	src/utils.ts:537
+0880	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ENGAGEMENT RATE TIPPUU!	src/utils.ts:538	src/utils.ts:538
+0881	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CONTENT... WAS... KING...	src/utils.ts:539	src/utils.ts:539
+0882	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BRAND DEAL PERUUNTUU!	src/utils.ts:540	src/utils.ts:540
+0883	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MIKÄÄN FILTTERI EI AUTA TÄHÄN!	src/utils.ts:541	src/utils.ts:541
+0884	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AESTHETIC MENI!	src/utils.ts:542	src/utils.ts:542
+0885	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STORY JÄÄÄ IKUISESTI POSTAAMATTA!	src/utils.ts:543	src/utils.ts:543
+0886	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	COLLAB CANCELLED!	src/utils.ts:544	src/utils.ts:544
+0887	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LIKE AND SUBSCRIBE... TAIVAASEEN...	src/utils.ts:545	src/utils.ts:545
+0888	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ALGORITMI HYLKÄÄ!	src/utils.ts:546	src/utils.ts:546
+0889	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN POSTAUS!	src/utils.ts:547	src/utils.ts:547
+0890	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SIJAINTI SIJAINTI KUOLEMA!	src/utils.ts:552	src/utils.ts:552
+0891	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MYYNTILISTA LYHENEE!	src/utils.ts:553	src/utils.ts:553
+0892	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ OLI UPEA TILAISUUS!	src/utils.ts:554	src/utils.ts:554
+0893	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NÄYTTÖ PERUUNTUU PYSYVÄSTI!	src/utils.ts:555	src/utils.ts:555
+0894	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PROVISIO JÄÄ SAAMATTA!	src/utils.ts:556	src/utils.ts:556
+0895	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ASUNTO-OSAKKEET MYYMÄTTÄ!	src/utils.ts:557	src/utils.ts:557
+0896	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KÄYNTIKORTTEJA EI ENÄÄ TARVITA!	src/utils.ts:558	src/utils.ts:558
+0897	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TARJOUKSIA EI ENÄÄ TULE!	src/utils.ts:559	src/utils.ts:559
+0898	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HINTA OLI NEUVOTELTAVISSA!	src/utils.ts:560	src/utils.ts:560
+0899	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AVOIMET OVET SULKEUTUU!	src/utils.ts:561	src/utils.ts:561
+0900	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ASUNTOKAUPPA KARIUTUU!	src/utils.ts:562	src/utils.ts:562
+0901	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ETUOVI.COM POISTAA ILMOITUKSEN!	src/utils.ts:563	src/utils.ts:563
+0902	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PYÖRÄ HAJOSI!	src/utils.ts:568	src/utils.ts:568
+0903	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PYÖRÄILIJÄN OIKEUDET TALLOTTU!	src/utils.ts:569	src/utils.ts:569
+0904	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KYPÄRÄ EI RIITTÄNYT!	src/utils.ts:570	src/utils.ts:570
+0905	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PYÖRÄTIE OLI MINUN!	src/utils.ts:571	src/utils.ts:571
+0906	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SHIMANO-VAIHTEET VAURIOITUI!	src/utils.ts:572	src/utils.ts:572
+0907	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PYÖRÄKAISTAT OLIS TARVINNUT!	src/utils.ts:573	src/utils.ts:573
+0908	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LYCRA REPESI!	src/utils.ts:574	src/utils.ts:574
+0909	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTOILIJAT VOITTI... tällä kertaa...	src/utils.ts:575	src/utils.ts:575
+0910	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FILLARI RUTISTUI!	src/utils.ts:576	src/utils.ts:576
+0911	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CRITICAL MASS JATKUU ILMAN MINUA!	src/utils.ts:577	src/utils.ts:577
+0912	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	POLKUPYÖRÄVAKUUTUS!	src/utils.ts:578	src/utils.ts:578
+0913	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KETJUT KATKESI!	src/utils.ts:579	src/utils.ts:579
+0914	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AKKU LOPPU... MINÄKIN!	src/utils.ts:584	src/utils.ts:584
+0915	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LIME TIME OVER!	src/utils.ts:585	src/utils.ts:585
+0916	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIER TIPAHTAA!	src/utils.ts:586	src/utils.ts:586
+0917	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	15KM/H EI RIITTÄNYT PAKOON!	src/utils.ts:587	src/utils.ts:587
+0918	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VUOKRA-AIKA PÄÄTTYI!	src/utils.ts:588	src/utils.ts:588
+0919	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JALKAKÄYTÄVÄ VOITTI!	src/utils.ts:589	src/utils.ts:589
+0920	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VOI VIETIIN!	src/utils.ts:590	src/utils.ts:590
+0921	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SKUUTTI SKUUTTAA POIS!	src/utils.ts:591	src/utils.ts:591
+0922	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN KYYTI!	src/utils.ts:592	src/utils.ts:592
+0923	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SÄHKÖ SAMMUI!	src/utils.ts:593	src/utils.ts:593
+0924	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PARKKEERASIN VÄÄRIN!	src/utils.ts:594	src/utils.ts:594
+0925	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KAUPUNKIPYÖRÄ OLIS OLLUT TURVALLISEMPI!	src/utils.ts:595	src/utils.ts:595
+0926	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIC... MISSÄS TÄÄ ON...?	src/utils.ts:600	src/utils.ts:600
+0927	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KALJA KAATU!	src/utils.ts:601	src/utils.ts:601
+0928	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LONKERO... viimeinen...	src/utils.ts:602	src/utils.ts:602
+0929	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EN OLE EDES KÄNNISSÄ! ...niin kännissä...	src/utils.ts:603	src/utils.ts:603
+0930	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KARHU KARKASI!	src/utils.ts:604	src/utils.ts:604
+0931	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SEURAAVA KIERROS PERUUNTUU!	src/utils.ts:605	src/utils.ts:605
+0932	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TERASSIKAUSI PÄÄTTYI!	src/utils.ts:606	src/utils.ts:606
+0933	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LISÄÄ SKUMPPAA... EIKU...	src/utils.ts:607	src/utils.ts:607
+0934	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AFTER SKI AFTER LIFE!	src/utils.ts:608	src/utils.ts:608
+0935	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KIPPIS! HIC! ...kuolema...	src/utils.ts:609	src/utils.ts:609
+0936	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BAARI SULKEUTUU!	src/utils.ts:610	src/utils.ts:610
+0937	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TUPAKKA SAMMU!	src/utils.ts:616	src/utils.ts:616
+0938	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEISET HENKOSET!	src/utils.ts:617	src/utils.ts:617
+0939	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SÄHKÖTUPAKKA HAJOSI!	src/utils.ts:618	src/utils.ts:618
+0940	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAPE NATION... FALLEN...	src/utils.ts:619	src/utils.ts:619
+0941	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NIKOTIINIVIEROITUS ALKAA!	src/utils.ts:620	src/utils.ts:620
+0942	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RÖÖKITAUKO PÄÄTTYI!	src/utils.ts:621	src/utils.ts:621
+0943	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MARLBORO MIES KAATUI!	src/utils.ts:622	src/utils.ts:622
+0944	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄMÄ OLIKIN VIIMEINEN!	src/utils.ts:623	src/utils.ts:623
+0945	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MENTHOL-MAKU KATOSI!	src/utils.ts:624	src/utils.ts:624
+0946	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAROITUS PAKETIN KYLJESSÄ OLI TOTTA!	src/utils.ts:625	src/utils.ts:625
+0947	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SAVUA ILMAN TULTA... eiku...	src/utils.ts:626	src/utils.ts:626
+0948	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KEUHKOT KIITTÄÄ... EI OIKEESTI!	src/utils.ts:627	src/utils.ts:627
+0949	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MEIDÄN AIKAAN KUNNIOITETTIIN VANHUKSIA!	src/utils.ts:632	src/utils.ts:632
+0950	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NUORISO NYKYÄÄN...	src/utils.ts:633	src/utils.ts:633
+0951	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LONKAT PETTI!	src/utils.ts:634	src/utils.ts:634
+0952	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ENNEN OLI PAREMMIN!	src/utils.ts:635	src/utils.ts:635
+0953	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ROLLAATTORI KAATUI!	src/utils.ts:636	src/utils.ts:636
+0954	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ELÄKE MENI TURHUUTEEN!	src/utils.ts:637	src/utils.ts:637
+0955	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VERENPAINEET NOUSI!	src/utils.ts:638	src/utils.ts:638
+0956	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KYLLÄ MÄ VIELÄ... EIKU EN...	src/utils.ts:639	src/utils.ts:639
+0957	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TERVEYSKESKUS EI AUTA ENÄÄ!	src/utils.ts:640	src/utils.ts:640
+0958	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ENNEN TÄÄLLÄ OLI KUNNIOITUSTA!	src/utils.ts:641	src/utils.ts:641
+0959	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KELAN LOMAKE JÄÄ TÄYTTÄMÄTTÄ!	src/utils.ts:642	src/utils.ts:642
+0960	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	APTEEKKI JÄÄ KÄYMÄTTÄ!	src/utils.ts:643	src/utils.ts:643
+0961	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAPSET JUOSKAA! ...liian myöhään...	src/utils.ts:648	src/utils.ts:648
+0962	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITIYSLOMA PÄÄTTYI NÄIN?!	src/utils.ts:649	src/utils.ts:649
+0963	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RATTAAT KAATUI!	src/utils.ts:650	src/utils.ts:650
+0964	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERHEAUTO JÄÄÄ YKSIN!	src/utils.ts:651	src/utils.ts:651
+0965	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ISÄNPÄIVÄ PILALLA!	src/utils.ts:652	src/utils.ts:652
+0966	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LASTENHOITAJA SAA LISÄTYÖTÄ!	src/utils.ts:653	src/utils.ts:653
+0967	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITIPIIRI SAA AIHETTA!	src/utils.ts:654	src/utils.ts:654
+0968	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NEUVOLA EI VAROITTANUT!	src/utils.ts:655	src/utils.ts:655
+0969	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAPSET ENSIN... SITTEN VANHEMMAT...	src/utils.ts:656	src/utils.ts:656
+0970	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAUVAVUOSI PÄÄTTYI!	src/utils.ts:657	src/utils.ts:657
+0971	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PÄIVÄKOTIPAIKKOJA VAPAUTUU!	src/utils.ts:658	src/utils.ts:658
+0972	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PIRKKO-TÄTI HOITAA NYT!	src/utils.ts:659	src/utils.ts:659
+0973	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VOLVO XC90 ROMUTTUU!	src/utils.ts:664	src/utils.ts:664
+0974	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	YKSITYISKOULU ODOTTAA TURHAAN!	src/utils.ts:665	src/utils.ts:665
+0975	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RANGE ROVER RANKKASI!	src/utils.ts:666	src/utils.ts:666
+0976	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PENKINLÄMMITYS EI AUTA!	src/utils.ts:667	src/utils.ts:667
+0977	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BMW X7 RÄJÄHTI!	src/utils.ts:668	src/utils.ts:668
+0978	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NELIVETO EI RIITTÄNYT!	src/utils.ts:669	src/utils.ts:669
+0979	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PARKKIRUUTU JÄÄ TYHJÄKSI!	src/utils.ts:670	src/utils.ts:670
+0980	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTOPESU PERUUNTUU!	src/utils.ts:671	src/utils.ts:671
+0981	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTOETU PÄÄTTYY!	src/utils.ts:672	src/utils.ts:672
+0982	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LEASING LOPPU!	src/utils.ts:673	src/utils.ts:673
+0983	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAKUUTUSYHTIÖ EI KORVAA!	src/utils.ts:674	src/utils.ts:674
+0984	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HUOLTOKIRJA SULKEUTUU!	src/utils.ts:675	src/utils.ts:675
+0985	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FIAT PANDA ROMPSI!	src/utils.ts:680	src/utils.ts:680
+0986	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SPOILERI SPOILATTIIN!	src/utils.ts:681	src/utils.ts:681
+0987	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TÄYSLEDIT SAMMUU!	src/utils.ts:682	src/utils.ts:682
+0988	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUBWOOFERI HILJENI!	src/utils.ts:683	src/utils.ts:683
+0989	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MADALLUS MAADOITTI!	src/utils.ts:684	src/utils.ts:684
+0990	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MOOTTORI SAMMU!	src/utils.ts:685	src/utils.ts:685
+0991	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RACING STRIPES EI RIITTÄNYT!	src/utils.ts:686	src/utils.ts:686
+0992	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NITRO TYHJÄ!	src/utils.ts:687	src/utils.ts:687
+0993	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NEONVALOT PIMENI!	src/utils.ts:688	src/utils.ts:688
+0994	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VAUHTI LOPPU!	src/utils.ts:689	src/utils.ts:689
+0995	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KATSELUAUTO KATSELTIIN!	src/utils.ts:690	src/utils.ts:690
+0996	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN KAAHARI!	src/utils.ts:691	src/utils.ts:691
+0997	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLF CART GOLFFATTIIN!	src/utils.ts:696	src/utils.ts:696
+0998	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HANDICAP NOUSI ÄÄRETTÖMIIN!	src/utils.ts:697	src/utils.ts:697
+0999	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TEE TIME PERUUNTUU!	src/utils.ts:698	src/utils.ts:698
+1000	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DOUBLE BOGEY... triple... kuolema...	src/utils.ts:699	src/utils.ts:699
+1001	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JÄSENYYS PÄÄTTYY!	src/utils.ts:700	src/utils.ts:700
+1002	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BUNKKERI VOITTI!	src/utils.ts:701	src/utils.ts:701
+1003	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN PUTTI!	src/utils.ts:702	src/utils.ts:702
+1004	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CLUBHOUSE ODOTTAA TURHAAN!	src/utils.ts:703	src/utils.ts:703
+1005	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CADDIE EI VOI AUTTAA!	src/utils.ts:704	src/utils.ts:704
+1006	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PAR JÄÄÄ SAAVUTTAMATTA!	src/utils.ts:705	src/utils.ts:705
+1007	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	19. REIKÄ LÖYTYI!	src/utils.ts:706	src/utils.ts:706
+1008	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLFKÄRRY KÄRRYTTIIN!	src/utils.ts:707	src/utils.ts:707
+1009	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	NAMASTE... GOODBYE!	src/utils.ts:712	src/utils.ts:712
+1010	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CHAKRAT SEKAISIN!	src/utils.ts:713	src/utils.ts:713
+1011	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KARMA ISKI TAKAISIN!	src/utils.ts:714	src/utils.ts:714
+1012	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ENERGIAT LOPPU!	src/utils.ts:715	src/utils.ts:715
+1013	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KRISTALLIT EI AUTTANUT!	src/utils.ts:716	src/utils.ts:716
+1014	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MEDITAATIO KESKEYTYY!	src/utils.ts:717	src/utils.ts:717
+1015	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HENGITÄ SISÄÄN... UL... ei enää...	src/utils.ts:718	src/utils.ts:718
+1016	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AURA SAMMUU!	src/utils.ts:719	src/utils.ts:719
+1017	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MANIFESTOIN VÄÄRIN!	src/utils.ts:720	src/utils.ts:720
+1018	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	REIKI EI RIITÄ!	src/utils.ts:721	src/utils.ts:721
+1019	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WELLNESS MENI UNWELL!	src/utils.ts:722	src/utils.ts:722
+1020	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOLMAS SILMÄ SULKEUTUU!	src/utils.ts:723	src/utils.ts:723
+1021	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PURJEVENE JÄÄ SATAMAAN!	src/utils.ts:728	src/utils.ts:728
+1022	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	REGATTA PERUUNTUI!	src/utils.ts:729	src/utils.ts:729
+1023	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JOLLAPAIKKA JÄÄ TYHJÄKSI!	src/utils.ts:730	src/utils.ts:730
+1024	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MERENRANTAHUVILA ODOTTAA!	src/utils.ts:731	src/utils.ts:731
+1025	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KIPPARI JÄÄ YKSIN!	src/utils.ts:732	src/utils.ts:732
+1026	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ANKKURI LASKETTIIN VIIMEISEN KERRAN!	src/utils.ts:733	src/utils.ts:733
+1027	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SATAMAMAKSUT TURHA!	src/utils.ts:734	src/utils.ts:734
+1028	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TUULI TYYNTYI PYSYVÄSTI!	src/utils.ts:735	src/utils.ts:735
+1029	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	YACHT CLUB MENETTÄÄ JÄSENEN!	src/utils.ts:736	src/utils.ts:736
+1030	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KÖYSI KATKESI!	src/utils.ts:737	src/utils.ts:737
+1031	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PURJEHDUSKAUSI PÄÄTTYI!	src/utils.ts:738	src/utils.ts:738
+1032	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MERIKORTIT TURHAT!	src/utils.ts:739	src/utils.ts:739
+1033	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PÖYTÄVARAUS PERUUNTUU!	src/utils.ts:744	src/utils.ts:744
+1034	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AVOKADOLEIPÄ LEVISI LUMEEN!	src/utils.ts:745	src/utils.ts:745
+1035	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MIMOSA KAATUI!	src/utils.ts:746	src/utils.ts:746
+1036	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EGGS BENEDICT KYLMENEE IKUISESTI!	src/utils.ts:747	src/utils.ts:747
+1037	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BRUNCH-PAIKKA MENETTÄÄ ASIAKKAAN!	src/utils.ts:748	src/utils.ts:748
+1038	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MENUA EN ENÄÄ LUE!	src/utils.ts:749	src/utils.ts:749
+1039	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ARVOSTELU JÄÄ KIRJOITTAMATTA!	src/utils.ts:750	src/utils.ts:750
+1040	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TARJOILIJA EI ENÄÄ TULE!	src/utils.ts:751	src/utils.ts:751
+1041	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FOODIE-INSTA PÄÄTTYY!	src/utils.ts:752	src/utils.ts:752
+1042	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIPPIÄ EI JÄÄ!	src/utils.ts:753	src/utils.ts:753
+1043	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KAHVIT KYLMENEE!	src/utils.ts:754	src/utils.ts:754
+1044	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CROISSANTIT TURHAT!	src/utils.ts:755	src/utils.ts:755
+1045	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TENNISTUNTI PERUUNTUU!	src/utils.ts:760	src/utils.ts:760
+1046	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SERVE EPÄONNISTUI!	src/utils.ts:761	src/utils.ts:761
+1047	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	WILSON HAJOSI!	src/utils.ts:762	src/utils.ts:762
+1048	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MATCH POINT SINULLE!	src/utils.ts:763	src/utils.ts:763
+1049	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TENNISKYYNÄRPÄÄ TAPPOI!	src/utils.ts:764	src/utils.ts:764
+1050	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KENTTÄVARAUS TURHA!	src/utils.ts:765	src/utils.ts:765
+1051	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TENNISHAME LIKAANTUI!	src/utils.ts:766	src/utils.ts:766
+1052	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LOVE TARKOITTAA NOLLAA... JA NIIN TARKOITTAA ELÄMÄNI NYT!	src/utils.ts:767	src/utils.ts:767
+1053	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN SMASH!	src/utils.ts:768	src/utils.ts:768
+1054	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DOUBLE FAULT FOREVER!	src/utils.ts:769	src/utils.ts:769
+1055	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MAILA KATKESI!	src/utils.ts:770	src/utils.ts:770
+1056	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PALLOT LOPPU!	src/utils.ts:771	src/utils.ts:771
+1057	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AFTER SKI IS OVER!	src/utils.ts:776	src/utils.ts:776
+1058	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KUOHUVIINI KAATUI!	src/utils.ts:777	src/utils.ts:777
+1059	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	YÖKERHO SULKEE!	src/utils.ts:778	src/utils.ts:778
+1060	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIP-PÖYTÄ JÄÄ TYHJÄKSI!	src/utils.ts:779	src/utils.ts:779
+1061	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BILEET LOPPUI!	src/utils.ts:780	src/utils.ts:780
+1062	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SHOTIT SAMMUI!	src/utils.ts:781	src/utils.ts:781
+1063	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DJ LOPETTI!	src/utils.ts:782	src/utils.ts:782
+1064	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	RINNERAVINTOLA MENETTI VIP:IN!	src/utils.ts:783	src/utils.ts:783
+1065	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SKUMPPA LÄIKKYI LUMEEN!	src/utils.ts:784	src/utils.ts:784
+1066	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HISSIKORTTI JÄÄ KÄYTTÄMÄTTÄ!	src/utils.ts:785	src/utils.ts:785
+1067	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PARTY PEOPLE MENETTI YHDEN!	src/utils.ts:786	src/utils.ts:786
+1068	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VIIMEINEN TANSSI!	src/utils.ts:787	src/utils.ts:787
+1069	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MAAILMANCUP PÄÄTTYY!	src/utils.ts:792	src/utils.ts:792
+1070	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PUJOTTELU PUJOTELTIIN!	src/utils.ts:793	src/utils.ts:793
+1071	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SPONSORIT KATOAA!	src/utils.ts:794	src/utils.ts:794
+1072	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	OLYMPIAUNELMAT OHI!	src/utils.ts:795	src/utils.ts:795
+1073	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VALMENTAJA EI VAROITTANUT!	src/utils.ts:796	src/utils.ts:796
+1074	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KILPAILU HÄVITTY PAHASTI!	src/utils.ts:797	src/utils.ts:797
+1075	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KISAPUKU REPESI!	src/utils.ts:798	src/utils.ts:798
+1076	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LASKUAIKA EI RIITÄ!	src/utils.ts:799	src/utils.ts:799
+1077	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUKSIVOIDE EI AUTTANUT!	src/utils.ts:800	src/utils.ts:800
+1078	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KULTAMITALI KATOSI!	src/utils.ts:801	src/utils.ts:801
+1079	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KANSALLISSANKARI KAATUI!	src/utils.ts:802	src/utils.ts:802
+1080	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	URHEILUELÄMÄ PÄÄTTYY!	src/utils.ts:803	src/utils.ts:803
+1081	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMEN TALVI ON KOVA!	src/utils.ts:808	src/utils.ts:808
+1082	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIIHTOTUNTI JÄÄÄ KESKEN!	src/utils.ts:809	src/utils.ts:809
+1083	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AFROSKIING FOREVER!	src/utils.ts:810	src/utils.ts:810
+1084	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LATU OLI KAUNIS!	src/utils.ts:811	src/utils.ts:811
+1085	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HIIHTOLOMAAN ASTI... EIKU...	src/utils.ts:812	src/utils.ts:812
+1086	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VUOKRASUKSET PALAUTUU AJOISSA!	src/utils.ts:813	src/utils.ts:813
+1087	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LUMI ON KYLMÄÄ!	src/utils.ts:814	src/utils.ts:814
+1088	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TERMOSPULLO KAATUI!	src/utils.ts:815	src/utils.ts:815
+1089	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HARJOITTELU JATKUU... JOSSAIN...	src/utils.ts:816	src/utils.ts:816
+1090	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SOMALIA-SUOMI-SNOW!	src/utils.ts:817	src/utils.ts:817
+1091	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	INTEGRAATIO EDISTYY!	src/utils.ts:818	src/utils.ts:818
+1092	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMALAISTUIN LIIKAA!	src/utils.ts:819	src/utils.ts:819
+1093	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STARTUP LOPPU!	src/utils.ts:824	src/utils.ts:824
+1094	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SPRINT FEILASI!	src/utils.ts:825	src/utils.ts:825
+1095	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MACBOOK HAJOSI!	src/utils.ts:826	src/utils.ts:826
+1096	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DAILY STANDUP PERUUNTUU!	src/utils.ts:827	src/utils.ts:827
+1097	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SLACK-VIESTI JÄÄ LUKEMATTA!	src/utils.ts:828	src/utils.ts:828
+1098	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	DEPLOY KAATUI... NIIN MINÄKIN!	src/utils.ts:829	src/utils.ts:829
+1099	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STOCK OPTIOT ARVOTON!	src/utils.ts:830	src/utils.ts:830
+1100	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AGILE EI AUTTANUT!	src/utils.ts:831	src/utils.ts:831
+1101	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SCRUM MASTER EI PELASTA!	src/utils.ts:832	src/utils.ts:832
+1102	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SERIES A JÄÄÄ SAAMATTA!	src/utils.ts:833	src/utils.ts:833
+1103	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KOODI JÄÄÄ COMMITOIMATTA!	src/utils.ts:834	src/utils.ts:834
+1104	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PIVOTTI EI PELASTA!	src/utils.ts:835	src/utils.ts:835
+1105	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TIEDÄTKÖ KUKA MIEHENI ON?!	src/utils.ts:840	src/utils.ts:840
+1106	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ESPOO-KORTTI EI PELASTA!	src/utils.ts:842	src/utils.ts:842
+1107	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	STEINERKOULUN JOHTOKUNTA KOSTAA!	src/utils.ts:843	src/utils.ts:843
+1108	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERSONAL TRAINER PETTYI!	src/utils.ts:844	src/utils.ts:844
+1109	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ÄITIYSPAKKAUS OLI PAREMPI!	src/utils.ts:845	src/utils.ts:845
+1110	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AJAX MUISTAA IKUISESTI!	src/utils.ts:849	src/utils.ts:849 | src/utils.ts:895
+1111	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EI OLLUT DOPINGIA... LUPAAN!	src/utils.ts:850	src/utils.ts:850
+1112	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KULTAINEN KENKÄ JÄÄ HAAVEEKSI!	src/utils.ts:851	src/utils.ts:851
+1113	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAHTI PETTI TAAS!	src/utils.ts:852	src/utils.ts:852
+1114	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMEN KUNINGAS KAATUI!	src/utils.ts:853	src/utils.ts:853
+1115	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HEMOFARM EI VASTAA!	src/utils.ts:854	src/utils.ts:854
+1116	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AUTOPILOT CRASHED!	src/utils.ts:858	src/utils.ts:858
+1117	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PORTFOLION ARVO: NOLLA!	src/utils.ts:860	src/utils.ts:860
+1118	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	BITCOIN KUOLEE... NIIN MINÄKIN...	src/utils.ts:861	src/utils.ts:861
+1119	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	ELON EI TWIITTAA APUA!	src/utils.ts:862	src/utils.ts:862
+1120	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MARS JÄÄ SAAVUTTAMATTA!	src/utils.ts:863	src/utils.ts:863
+1121	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HOLE IN ONE... HAUTAAN!	src/utils.ts:867	src/utils.ts:867
+1122	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GREEN FEE MENI HUKKAAN!	src/utils.ts:868	src/utils.ts:868
+1123	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HANDICAP INFINITY!	src/utils.ts:869	src/utils.ts:869
+1124	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	CADDIE EI PELASTA!	src/utils.ts:870	src/utils.ts:870
+1125	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	GOLF CART KARKAS!	src/utils.ts:871	src/utils.ts:871
+1126	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MÄKIHYPPY OLI PAREMPI LAJI!	src/utils.ts:872	src/utils.ts:872
+1127	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	AURAJOKI JÄÄTYI... JA NIIN MINÄKIN!	src/utils.ts:876	src/utils.ts:876
+1128	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FUNIKULAARI JÄI VÄLIIN!	src/utils.ts:877	src/utils.ts:877
+1129	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	FÖLI KULKEE ILMAN MUA...	src/utils.ts:878	src/utils.ts:878
+1130	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	TURUN LATU EI ANTANUT ARMOO!	src/utils.ts:879	src/utils.ts:879
+1131	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	HESEN BURGERI JÄI HAAVEEKSI!	src/utils.ts:880	src/utils.ts:880
+1132	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JETI SULI HANKEEN!	src/utils.ts:881	src/utils.ts:881
+1133	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	JYTKY LYTKÄHTI!	src/utils.ts:885	src/utils.ts:885
+1134	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERUSSUOMALAISET MUISTAA!	src/utils.ts:886	src/utils.ts:886
+1135	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PANNUKAKKU KYLMENEE!	src/utils.ts:887	src/utils.ts:887
+1136	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	VILLA GRANDE ODOTTAA... TURHAAN!	src/utils.ts:888	src/utils.ts:888
+1137	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	PERSUT EI ANNA PERIKSI... YLEENSÄ!	src/utils.ts:889	src/utils.ts:889
+1138	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	POLITIIKKA ON VAIKEAA!	src/utils.ts:890	src/utils.ts:890
+1139	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	EI OLLUT DOPINGIA... EHKÄ VÄHÄN...	src/utils.ts:896	src/utils.ts:896
+1140	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	KULTAINEN KENKÄ KATOSI!	src/utils.ts:897	src/utils.ts:897
+1141	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	LAHTI ON URHEILUKAUPUNKI... OLI...	src/utils.ts:898	src/utils.ts:898
+1142	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	SUOMEN KUNINGAS SYÖSTIIN VALTAISTUIMELTA!	src/utils.ts:899	src/utils.ts:899
+1143	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	MAAJOUKKUE PELAA ILMAN MINUA!	src/utils.ts:900	src/utils.ts:900
+1144	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Sound "${...}" not found in cache	src/utils.ts:1001	src/utils.ts:1001
+1145	CONDITIONAL_OR_PARTLY_HIDDEN	08_ENEMY_BOSS_COMBAT	Failed to play sound "${...}":	src/utils.ts:1008	src/utils.ts:1008
+1146	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	PELAAJA	src/scenes/VictoryCutsceneScene.ts:14	src/scenes/GameCompleteUIScene.ts:51 | src/scenes/GameCompleteUIScene.ts:93 | src/scenes/VictoryCutsceneScene.ts:14 | src/scenes/VictoryCutsceneScene.ts:30
+1147	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	TASO ${...} LÄPÄISTY!	src/scenes/VictoryCutsceneScene.ts:105	src/scenes/VictoryCutsceneScene.ts:105 | src/scenes/VictoryUIScene.ts:261
+1148	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	#FFD700	src/scenes/VictoryCutsceneScene.ts:109	src/scenes/GameCompleteUIScene.ts:154 | src/scenes/VictoryCutsceneScene.ts:109 | src/scenes/VictoryCutsceneScene.ts:330
+1149	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Quad.easeOut	src/scenes/VictoryCutsceneScene.ts:181	src/scenes/VictoryCutsceneScene.ts:181 | src/scenes/VictoryCutsceneScene.ts:202 | src/scenes/VictoryUIScene.ts:140 | src/scenes/VictoryUIScene.ts:162 | src/scenes/VictoryUIScene.ts:194 | src/scenes/VictoryUIScene.ts:218
+1150	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Matka: ${...}m	src/scenes/VictoryCutsceneScene.ts:259	src/scenes/VictoryCutsceneScene.ts:259 | src/scenes/VictoryCutsceneScene.ts:265
+1151	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Lahtelaiset kaadettu: ${...}	src/scenes/VictoryCutsceneScene.ts:260	src/scenes/VictoryCutsceneScene.ts:260
+1152	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Tuning-autoilta säästytty: ${...}	src/scenes/VictoryCutsceneScene.ts:261	src/scenes/VictoryCutsceneScene.ts:261
+1153	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Dopingnäytteitä piilotettu: ${...}	src/scenes/VictoryCutsceneScene.ts:262	src/scenes/VictoryCutsceneScene.ts:262
+1154	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Pisteet: ${...}	src/scenes/VictoryCutsceneScene.ts:263	src/scenes/VictoryCutsceneScene.ts:263 | src/scenes/VictoryCutsceneScene.ts:268
+1155	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Espoolaiset kaadettu: ${...}	src/scenes/VictoryCutsceneScene.ts:266	src/scenes/VictoryCutsceneScene.ts:266
+1156	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Tesloilta säästytty: ${...}	src/scenes/VictoryCutsceneScene.ts:267	src/scenes/VictoryCutsceneScene.ts:267
+1157	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	#FFFFFF	src/scenes/VictoryCutsceneScene.ts:275	src/scenes/VictoryCutsceneScene.ts:275 | src/scenes/VictoryCutsceneScene.ts:330
+1158	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	TULOSTAULUKKO	src/scenes/VictoryCutsceneScene.ts:307	src/scenes/VictoryCutsceneScene.ts:307
+1159	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	#00FFFF	src/scenes/VictoryCutsceneScene.ts:310	src/scenes/VictoryCutsceneScene.ts:310
+1160	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	#${...} ${...} - ${...} pts	src/scenes/VictoryCutsceneScene.ts:335	src/scenes/VictoryCutsceneScene.ts:335
+1161	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	JATKA SEURAAVALLE TASOLLE	src/scenes/VictoryCutsceneScene.ts:365	src/scenes/VictoryCutsceneScene.ts:365
+1162	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	PELI LÄPISTÄ!	src/scenes/VictoryCutsceneScene.ts:365	src/scenes/VictoryCutsceneScene.ts:365
+1163	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	#00FF00	src/scenes/VictoryCutsceneScene.ts:374	src/scenes/VictoryCutsceneScene.ts:374
+1164	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Leaderboard validation failed:	src/scenes/VictoryCutsceneScene.ts:518	src/scenes/VictoryCutsceneScene.ts:518
+1165	ACTIVE_OR_CONTEXTUAL	09_VICTORY_CUTSCENE	Failed to save score:	src/scenes/VictoryCutsceneScene.ts:521	src/scenes/VictoryCutsceneScene.ts:521
+1166	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	NAPAUTA JATKAAKSESI ➡️	src/scenes/VictoryUIScene.ts:26	src/scenes/VictoryUIScene.ts:26
+1167	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	Quad.easeIn	src/scenes/VictoryUIScene.ts:235	src/scenes/VictoryUIScene.ts:235 | src/scenes/VictoryUIScene.ts:245
+1168	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	TUTORIAALI LÄPÄISTY!	src/scenes/VictoryUIScene.ts:261	src/scenes/VictoryUIScene.ts:261
+1169	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	Espoolaiset	src/scenes/VictoryUIScene.ts:266	src/scenes/VictoryUIScene.ts:266
+1170	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	Lahtelaiset	src/scenes/VictoryUIScene.ts:266	src/scenes/VictoryUIScene.ts:266
+1171	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	Going to next level from: ${...}, currentLevel: ${...}	src/scenes/VictoryUIScene.ts:344	src/scenes/VictoryUIScene.ts:344
+1172	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	No next level found for: ${...}	src/scenes/VictoryUIScene.ts:401	src/scenes/VictoryUIScene.ts:401
+1173	ACTIVE_OR_CONTEXTUAL	10_VICTORY_UI	Next level: ${...}	src/scenes/VictoryUIScene.ts:405	src/scenes/VictoryUIScene.ts:405
+1174	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	Jälkipelihaastattelu: Miltä nyt tuntuu?	src/scenes/GameCompleteUIScene.ts:35	src/scenes/GameCompleteUIScene.ts:35
+1175	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	Päivän tekosyy: lumi oli vino.	src/scenes/GameCompleteUIScene.ts:36	src/scenes/GameCompleteUIScene.ts:36
+1176	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	Failed to submit tournament score:	src/scenes/GameCompleteUIScene.ts:107	src/scenes/GameCompleteUIScene.ts:107
+1177	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	Failed to update profile:	src/scenes/GameCompleteUIScene.ts:115	src/scenes/GameCompleteUIScene.ts:115
+1178	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	OLET PARAS	src/scenes/GameCompleteUIScene.ts:150	src/scenes/GameCompleteUIScene.ts:150
+1179	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	LATURAIVOOJA!	src/scenes/GameCompleteUIScene.ts:166	src/scenes/GameCompleteUIScene.ts:166
+1180	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	#FF4500	src/scenes/GameCompleteUIScene.ts:170	src/scenes/GameCompleteUIScene.ts:170
+1181	ACTIVE_OR_CONTEXTUAL	11_GAME_COMPLETE	Bounce.easeOut	src/scenes/GameCompleteUIScene.ts:184	src/scenes/GameCompleteUIScene.ts:184 | src/scenes/GameCompleteUIScene.ts:192
+1182	ACTIVE_OR_CONTEXTUAL	12_GAME_OVER	EI ENÄÄ ELÄMIÄ!	src/scenes/GameOverUIScene.ts:20	src/scenes/GameOverUIScene.ts:20
+1183	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	#leaderboard-list	src/scenes/LeaderboardUIScene.ts:78	src/scenes/LeaderboardUIScene.ts:78
+1184	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	bg-gray-800 bg-opacity-50	src/scenes/LeaderboardUIScene.ts:105	src/scenes/LeaderboardUIScene.ts:105
+1185	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	bg-yellow-900 bg-opacity-40	src/scenes/LeaderboardUIScene.ts:110	src/scenes/LeaderboardUIScene.ts:110
+1186	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	bg-gray-700 bg-opacity-40	src/scenes/LeaderboardUIScene.ts:114	src/scenes/LeaderboardUIScene.ts:114
+1187	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	bg-orange-900 bg-opacity-30	src/scenes/LeaderboardUIScene.ts:118	src/scenes/LeaderboardUIScene.ts:118
+1188	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	bg-blue-800 bg-opacity-60 border-2 border-blue-400	src/scenes/LeaderboardUIScene.ts:123	src/scenes/LeaderboardUIScene.ts:123
+1189	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	🟡 OFFLINE	src/scenes/LeaderboardUIScene.ts:163	src/scenes/LeaderboardUIScene.ts:163
+1190	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	🟢 ONLINE	src/scenes/LeaderboardUIScene.ts:163	src/scenes/LeaderboardUIScene.ts:163
+1191	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	#back-button	src/scenes/LeaderboardUIScene.ts:247	src/scenes/LeaderboardUIScene.ts:247
+1192	ACTIVE_OR_CONTEXTUAL	13_LEADERBOARD	#refresh-button	src/scenes/LeaderboardUIScene.ts:248	src/scenes/LeaderboardUIScene.ts:248 | src/scenes/LeaderboardUIScene.ts:311
+1193	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Marja-Liisa Westend	src/LevelManager.ts:11	src/LevelManager.ts:11 | src/LevelManager.ts:12
+1194	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Leppävaaran latukunkku - huuto voittaa järjen!	src/LevelManager.ts:13	src/LevelManager.ts:13
+1195	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kuningas	src/LevelManager.ts:18	src/LevelManager.ts:18 | src/LevelManager.ts:19
+1196	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Legenda. Myyttti. Jos hän kaatuu, kuka tahansa voi.	src/LevelManager.ts:20	src/LevelManager.ts:20
+1197	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Elon	src/LevelManager.ts:25	src/LevelManager.ts:25 | src/LevelManager.ts:26
+1198	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Hämärä diileri - veripussit lumessa, ei puhtaasti.	src/LevelManager.ts:27	src/LevelManager.ts:27
+1199	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Turun ladun raivopomo. Älä jää alle.	src/LevelManager.ts:34	src/LevelManager.ts:34
+1200	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Sun Isoisä	src/LevelManager.ts:39	src/LevelManager.ts:39 | src/LevelManager.ts:40
+1201	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Torvi soi. Hiljaisuus sattuu enemmän.	src/LevelManager.ts:41	src/LevelManager.ts:41
+1202	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Iso Timo	src/LevelManager.ts:46	src/LevelManager.ts:46 | src/LevelManager.ts:47
+1203	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Makkara putoaa lumeen. Raivo murtuu.	src/LevelManager.ts:48	src/LevelManager.ts:48
+1204	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Peter Kantele	src/LevelManager.ts:54	src/LevelManager.ts:54 | src/LevelManager.ts:55
+1205	CONTEXTUAL	99_OTHER_OR_UNKNOWN	90-luvun poikabändilegenda. Jäätanssin mestari. KANTELE VS CHAOS!	src/LevelManager.ts:56	src/LevelManager.ts:56
+1206	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tutoriaali: Ensimmäiset Askeleet	src/LevelManager.ts:253	src/LevelManager.ts:253
+1207	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Hiihtäjä Menetti Malttinsa Ladulla	src/LevelManager.ts:254	src/LevelManager.ts:254
+1208	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tilanne Eskaloitui Sunnuntaiaamuna	src/LevelManager.ts:255	src/LevelManager.ts:255
+1209	CONTEXTUAL	99_OTHER_OR_UNKNOWN	TAPIOLA: Kulttuuriväki Liikkeellä!	src/LevelManager.ts:256	src/LevelManager.ts:256
+1210	CONTEXTUAL	99_OTHER_OR_UNKNOWN	LAHTI: Dopingskandaali Ladulla!	src/LevelManager.ts:257	src/LevelManager.ts:257
+1211	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Silminnäkijä: 'Tämä Lähti Käsistä'	src/LevelManager.ts:258	src/LevelManager.ts:258
+1212	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Turussa Latu Suljettiin: JETI SAAPUU	src/LevelManager.ts:259	src/LevelManager.ts:259
+1213	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Hiihtäjien Välille Syntyi Kahakka	src/LevelManager.ts:260	src/LevelManager.ts:260
+1214	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kaupunki Kommentoi Tapahtunutta	src/LevelManager.ts:261	src/LevelManager.ts:261
+1215	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tapaus Jatkotoimenpiteissä	src/LevelManager.ts:262	src/LevelManager.ts:262
+1216	CONTEXTUAL	99_OTHER_OR_UNKNOWN	ICE CLUB ARENA: PETER KANTELE!	src/LevelManager.ts:263	src/LevelManager.ts:263
+1217	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Taso ${...}	src/LevelManager.ts:265	src/LevelManager.ts:265
+1218	CONTEXTUAL	99_OTHER_OR_UNKNOWN	DIAMOND HANDS!	src/entities/CryptoBro.ts:30	src/entities/CryptoBro.ts:30
+1219	CONTEXTUAL	99_OTHER_OR_UNKNOWN	TO THE MOON!	src/entities/CryptoBro.ts:31	src/entities/CryptoBro.ts:31
+1220	CONTEXTUAL	99_OTHER_OR_UNKNOWN	HODL!	src/entities/CryptoBro.ts:32	src/entities/CryptoBro.ts:32
+1221	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Buy the dip!	src/entities/CryptoBro.ts:33	src/entities/CryptoBro.ts:33
+1222	CONTEXTUAL	99_OTHER_OR_UNKNOWN	This is FUD!	src/entities/CryptoBro.ts:34	src/entities/CryptoBro.ts:34
+1223	CONTEXTUAL	99_OTHER_OR_UNKNOWN	WAGMI!	src/entities/CryptoBro.ts:35	src/entities/CryptoBro.ts:35
+1224	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Wait, I need a pic!	src/entities/InfluencerSelfie.ts:30	src/entities/InfluencerSelfie.ts:30
+1225	CONTEXTUAL	99_OTHER_OR_UNKNOWN	For the gram!	src/entities/InfluencerSelfie.ts:31	src/entities/InfluencerSelfie.ts:31
+1226	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Like and subscribe!	src/entities/InfluencerSelfie.ts:32	src/entities/InfluencerSelfie.ts:32
+1227	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Use my promo code!	src/entities/InfluencerSelfie.ts:33	src/entities/InfluencerSelfie.ts:33
+1228	CONTEXTUAL	99_OTHER_OR_UNKNOWN	This is SO aesthetic!	src/entities/InfluencerSelfie.ts:34	src/entities/InfluencerSelfie.ts:34
+1229	CONTEXTUAL	99_OTHER_OR_UNKNOWN	PIIKKI! +70% NOPEUS	src/entities/LahtiPowerUp.ts:33	src/entities/LahtiPowerUp.ts:33
+1230	CONTEXTUAL	99_OTHER_OR_UNKNOWN	COCA-COLA! SUOJA + VAHINKO	src/entities/LahtiPowerUp.ts:42	src/entities/LahtiPowerUp.ts:42
+1231	CONTEXTUAL	99_OTHER_OR_UNKNOWN	LÄÄKÄRILAUKKU! +60 HP	src/entities/LahtiPowerUp.ts:50	src/entities/LahtiPowerUp.ts:50
+1232	CONTEXTUAL	99_OTHER_OR_UNKNOWN	#ffdd00	src/entities/PowerUp.ts:259	src/entities/PowerUp.ts:259
+1233	CONTEXTUAL	99_OTHER_OR_UNKNOWN	+NOPEUS!	src/entities/PowerUp.ts:259	src/entities/PowerUp.ts:259
+1234	CONTEXTUAL	99_OTHER_OR_UNKNOWN	#00ffff	src/entities/PowerUp.ts:260	src/entities/PowerUp.ts:260
+1235	CONTEXTUAL	99_OTHER_OR_UNKNOWN	+SUOJA!	src/entities/PowerUp.ts:260	src/entities/PowerUp.ts:260
+1236	CONTEXTUAL	99_OTHER_OR_UNKNOWN	#00ff00	src/entities/PowerUp.ts:261	src/entities/PowerUp.ts:261
+1237	CONTEXTUAL	99_OTHER_OR_UNKNOWN	+HP!	src/entities/PowerUp.ts:261	src/entities/PowerUp.ts:261
+1238	CONTEXTUAL	99_OTHER_OR_UNKNOWN	+1 ELÄMÄ!	src/entities/PowerUp.ts:262	src/entities/PowerUp.ts:262
+1239	CONTEXTUAL	99_OTHER_OR_UNKNOWN	GREAT location!	src/entities/RealEstateAgent.ts:27	src/entities/RealEstateAgent.ts:27
+1240	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Just 1.2M euros!	src/entities/RealEstateAgent.ts:28	src/entities/RealEstateAgent.ts:28
+1241	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Sea view potential!	src/entities/RealEstateAgent.ts:29	src/entities/RealEstateAgent.ts:29
+1242	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Investors LOVE it!	src/entities/RealEstateAgent.ts:30	src/entities/RealEstateAgent.ts:30
+1243	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Price is negotiable!	src/entities/RealEstateAgent.ts:31	src/entities/RealEstateAgent.ts:31
+1244	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Have you tried yoga?	src/entities/WellnessWarrior.ts:31	src/entities/WellnessWarrior.ts:31
+1245	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Your energy is so blocked!	src/entities/WellnessWarrior.ts:32	src/entities/WellnessWarrior.ts:32
+1246	CONTEXTUAL	99_OTHER_OR_UNKNOWN	I only eat organic snow	src/entities/WellnessWarrior.ts:33	src/entities/WellnessWarrior.ts:33
+1247	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Namaste your way out	src/entities/WellnessWarrior.ts:34	src/entities/WellnessWarrior.ts:34
+1248	CONTEXTUAL	99_OTHER_OR_UNKNOWN	My chakras are aligned	src/entities/WellnessWarrior.ts:35	src/entities/WellnessWarrior.ts:35
+1249	CONTEXTUAL	99_OTHER_OR_UNKNOWN	This trail needs sage	src/entities/WellnessWarrior.ts:36	src/entities/WellnessWarrior.ts:36
+1250	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[UnhandledError] ${...}	src/main.ts:97	src/main.ts:97
+1251	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[UnhandledRejection] ${...}	src/main.ts:102	src/main.ts:102
+1252	CONTEXTUAL	99_OTHER_OR_UNKNOWN	failed to start the audio device	src/main.ts:109	src/main.ts:109
+1253	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[AudioBackendFallback] WebAudio failed on iOS. Switching to HTML5 backend and reloading once.	src/main.ts:117	src/main.ts:117
+1254	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[unprintable]	src/main.ts:142	src/main.ts:142
+1255	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[NativeSfxBridge] play failed key=${...}	src/main.ts:415	src/main.ts:415
+1256	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[NativeSfxBridge] setup failed key=${...}	src/main.ts:419	src/main.ts:419
+1257	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[NativeSfxBridge] manager.play fallback failed key=${...}	src/main.ts:447	src/main.ts:447
+1258	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[NativeSfxBridge] installed	src/main.ts:453	src/main.ts:453
+1259	CONTEXTUAL	99_OTHER_OR_UNKNOWN	WebGL context lost - iOS background detected	src/main.ts:460	src/main.ts:460
+1260	CONTEXTUAL	99_OTHER_OR_UNKNOWN	WebGL context restored	src/main.ts:464	src/main.ts:464
+1261	CONTEXTUAL	99_OTHER_OR_UNKNOWN	[AudioBootstrap] backend=${...} manager=${...} locked=${...} mute=${...} volume=${...} ctx=${...}	src/main.ts:616	src/main.ts:616
+1262	CONTEXTUAL	99_OTHER_OR_UNKNOWN	eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im56eGNpdHByYXBzaHJiZGthbnlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzMjgzNjcsImV4cCI6MjA2NTkwNDM2N30.rPhNvxjYpo3_kxfluLx_LT2WOOCYmKHx6sxNLX0ZnzE	src/managers/AuthManager.ts:27	src/managers/AuthManager.ts:27 | src/managers/DailyChallengeManager.ts:44 | src/managers/TournamentManager.ts:38
+1263	CONTEXTUAL	99_OTHER_OR_UNKNOWN	AuthManager initialized in OFFLINE mode, profile:	src/managers/AuthManager.ts:54	src/managers/AuthManager.ts:54
+1264	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Guest	src/managers/AuthManager.ts:54	src/managers/AuthManager.ts:54 | src/managers/AuthManager.ts:87
+1265	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Auth state changed:	src/managers/AuthManager.ts:74	src/managers/AuthManager.ts:74
+1266	CONTEXTUAL	99_OTHER_OR_UNKNOWN	AuthManager initialized, profile:	src/managers/AuthManager.ts:87	src/managers/AuthManager.ts:87
+1267	CONTEXTUAL	99_OTHER_OR_UNKNOWN	AuthManager initialization failed:	src/managers/AuthManager.ts:89	src/managers/AuthManager.ts:89
+1268	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Not initialized	src/managers/AuthManager.ts:102	src/managers/AuthManager.ts:102 | src/managers/AuthManager.ts:133 | src/managers/AuthManager.ts:160
+1269	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Unknown error	src/managers/AuthManager.ts:125	src/managers/AuthManager.ts:125 | src/managers/AuthManager.ts:152
+1270	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error creating profile:	src/managers/AuthManager.ts:226	src/managers/AuthManager.ts:226
+1271	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading profile:	src/managers/AuthManager.ts:271	src/managers/AuthManager.ts:271
+1272	CONTEXTUAL	99_OTHER_OR_UNKNOWN	VIERAS	src/managers/AuthManager.ts:289	src/managers/AuthManager.ts:289 | src/managers/AuthManager.ts:397
+1273	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error updating stats:	src/managers/AuthManager.ts:344	src/managers/AuthManager.ts:344
+1274	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error adding badge:	src/managers/AuthManager.ts:366	src/managers/AuthManager.ts:366
+1275	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error notifying auth listener:	src/managers/AuthManager.ts:425	src/managers/AuthManager.ts:425
+1276	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Espoolaisten kauhu	src/managers/DailyChallengeManager.ts:67	src/managers/DailyChallengeManager.ts:67 | src/managers/TournamentManager.ts:207
+1277	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kaada {target} espoolaista ladulta	src/managers/DailyChallengeManager.ts:68	src/managers/DailyChallengeManager.ts:68
+1278	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Pitkän matkan hiihtäjä	src/managers/DailyChallengeManager.ts:74	src/managers/DailyChallengeManager.ts:74
+1279	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Hiihdä {target} metriä	src/managers/DailyChallengeManager.ts:75	src/managers/DailyChallengeManager.ts:75
+1280	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Pisteiden kerääjä	src/managers/DailyChallengeManager.ts:81	src/managers/DailyChallengeManager.ts:81
+1281	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kerää {target} pistettä yhdessä pelissä	src/managers/DailyChallengeManager.ts:82	src/managers/DailyChallengeManager.ts:82
+1282	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tasojen valloittaja	src/managers/DailyChallengeManager.ts:88	src/managers/DailyChallengeManager.ts:88
+1283	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Läpäise {target} tasoa	src/managers/DailyChallengeManager.ts:89	src/managers/DailyChallengeManager.ts:89
+1284	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Stomppimestari	src/managers/DailyChallengeManager.ts:95	src/managers/DailyChallengeManager.ts:95
+1285	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Suorita {target} stomppia	src/managers/DailyChallengeManager.ts:96	src/managers/DailyChallengeManager.ts:96
+1286	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Täydellinen laskeutuja	src/managers/DailyChallengeManager.ts:102	src/managers/DailyChallengeManager.ts:102
+1287	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tee {target} täydellistä laskua	src/managers/DailyChallengeManager.ts:103	src/managers/DailyChallengeManager.ts:103
+1288	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Koskematon	src/managers/DailyChallengeManager.ts:109	src/managers/DailyChallengeManager.ts:109
+1289	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Läpäise taso ottamatta vahinkoa	src/managers/DailyChallengeManager.ts:110	src/managers/DailyChallengeManager.ts:110
+1290	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Pikahiihtäjä	src/managers/DailyChallengeManager.ts:116	src/managers/DailyChallengeManager.ts:116
+1291	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Läpäise taso alle {target} sekunnissa	src/managers/DailyChallengeManager.ts:117	src/managers/DailyChallengeManager.ts:117
+1292	CONTEXTUAL	99_OTHER_OR_UNKNOWN	DailyChallengeManager initialized in OFFLINE mode, challenges:	src/managers/DailyChallengeManager.ts:134	src/managers/DailyChallengeManager.ts:134
+1293	CONTEXTUAL	99_OTHER_OR_UNKNOWN	DailyChallengeManager initialized, challenges:	src/managers/DailyChallengeManager.ts:144	src/managers/DailyChallengeManager.ts:144
+1294	CONTEXTUAL	99_OTHER_OR_UNKNOWN	DailyChallengeManager initialization failed, using local mode:	src/managers/DailyChallengeManager.ts:146	src/managers/DailyChallengeManager.ts:146
+1295	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Challenges table not available, using local mode:	src/managers/DailyChallengeManager.ts:170	src/managers/DailyChallengeManager.ts:170
+1296	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading challenges, using local mode:	src/managers/DailyChallengeManager.ts:208	src/managers/DailyChallengeManager.ts:208
+1297	CONTEXTUAL	99_OTHER_OR_UNKNOWN	{target}	src/managers/DailyChallengeManager.ts:241	src/managers/DailyChallengeManager.ts:241
+1298	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error saving challenges:	src/managers/DailyChallengeManager.ts:298	src/managers/DailyChallengeManager.ts:298
+1299	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading local challenges:	src/managers/DailyChallengeManager.ts:326	src/managers/DailyChallengeManager.ts:326
+1300	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Challenge progress table not available:	src/managers/DailyChallengeManager.ts:348	src/managers/DailyChallengeManager.ts:348
+1301	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading player progress, using local:	src/managers/DailyChallengeManager.ts:381	src/managers/DailyChallengeManager.ts:381
+1302	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading local progress:	src/managers/DailyChallengeManager.ts:412	src/managers/DailyChallengeManager.ts:412
+1303	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error saving local progress:	src/managers/DailyChallengeManager.ts:429	src/managers/DailyChallengeManager.ts:429
+1304	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Challenge completed: ${...}!	src/managers/DailyChallengeManager.ts:466	src/managers/DailyChallengeManager.ts:466
+1305	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error notifying challenge listener:	src/managers/DailyChallengeManager.ts:578	src/managers/DailyChallengeManager.ts:578
+1306	CONTEXTUAL	99_OTHER_OR_UNKNOWN	eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRzenFsc3lpeGJ2bWZuaW5maGVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2NTk4OTIsImV4cCI6MjA4MzIzNTg5Mn0.XQU9o2HhhMPVkTbo62ssIoGXB14oPiKzmBYAgA_c0g0	src/managers/LeaderboardManager.ts:18	src/managers/LeaderboardManager.ts:18
+1307	CONTEXTUAL	99_OTHER_OR_UNKNOWN	LeaderboardManager initialized in OFFLINE mode	src/managers/LeaderboardManager.ts:53	src/managers/LeaderboardManager.ts:53
+1308	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Supabase connection failed, using localStorage:	src/managers/LeaderboardManager.ts:68	src/managers/LeaderboardManager.ts:68
+1309	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Supabase connected, leaderboard loaded:	src/managers/LeaderboardManager.ts:74	src/managers/LeaderboardManager.ts:74
+1310	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Supabase initialization failed, using localStorage:	src/managers/LeaderboardManager.ts:80	src/managers/LeaderboardManager.ts:80
+1311	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Leaderboard update received:	src/managers/LeaderboardManager.ts:100	src/managers/LeaderboardManager.ts:100
+1312	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error refreshing leaderboard:	src/managers/LeaderboardManager.ts:131	src/managers/LeaderboardManager.ts:131
+1313	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error notifying leaderboard listener:	src/managers/LeaderboardManager.ts:152	src/managers/LeaderboardManager.ts:152
+1314	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading local leaderboard:	src/managers/LeaderboardManager.ts:179	src/managers/LeaderboardManager.ts:179
+1315	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error saving local leaderboard:	src/managers/LeaderboardManager.ts:189	src/managers/LeaderboardManager.ts:189
+1316	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Player name is required	src/managers/LeaderboardManager.ts:197	src/managers/LeaderboardManager.ts:197
+1317	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Name must be at least ${...} characters	src/managers/LeaderboardManager.ts:202	src/managers/LeaderboardManager.ts:202
+1318	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Name must be at most ${...} characters	src/managers/LeaderboardManager.ts:206	src/managers/LeaderboardManager.ts:206
+1319	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Name contains inappropriate content	src/managers/LeaderboardManager.ts:213	src/managers/LeaderboardManager.ts:213
+1320	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Invalid score	src/managers/LeaderboardManager.ts:219	src/managers/LeaderboardManager.ts:219
+1321	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Score too low (minimum ${...})	src/managers/LeaderboardManager.ts:223	src/managers/LeaderboardManager.ts:223
+1322	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Score suspiciously high	src/managers/LeaderboardManager.ts:227	src/managers/LeaderboardManager.ts:227
+1323	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Invalid distance	src/managers/LeaderboardManager.ts:232	src/managers/LeaderboardManager.ts:232
+1324	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Invalid enemies defeated count	src/managers/LeaderboardManager.ts:236	src/managers/LeaderboardManager.ts:236
+1325	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Invalid levels completed count	src/managers/LeaderboardManager.ts:241	src/managers/LeaderboardManager.ts:241
+1326	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Score inconsistent with game stats	src/managers/LeaderboardManager.ts:247	src/managers/LeaderboardManager.ts:247
+1327	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Score exceeds plausible maximum for game stats	src/managers/LeaderboardManager.ts:260	src/managers/LeaderboardManager.ts:260
+1328	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Distance per level exceeds plausible maximum	src/managers/LeaderboardManager.ts:267	src/managers/LeaderboardManager.ts:267
+1329	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Enemy defeat rate exceeds plausible maximum	src/managers/LeaderboardManager.ts:273	src/managers/LeaderboardManager.ts:273
+1330	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Too many submissions. Please wait ${...} minutes.	src/managers/LeaderboardManager.ts:296	src/managers/LeaderboardManager.ts:296
+1331	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error saving to Supabase:	src/managers/LeaderboardManager.ts:346	src/managers/LeaderboardManager.ts:346 | src/managers/LeaderboardManager.ts:354
+1332	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Score saved to Supabase:	src/managers/LeaderboardManager.ts:349	src/managers/LeaderboardManager.ts:349
+1333	CONTEXTUAL	99_OTHER_OR_UNKNOWN	None	src/managers/TournamentManager.ts:64	src/managers/TournamentManager.ts:64 | src/managers/TournamentManager.ts:74
+1334	CONTEXTUAL	99_OTHER_OR_UNKNOWN	TournamentManager initialized in OFFLINE mode, tournament:	src/managers/TournamentManager.ts:64	src/managers/TournamentManager.ts:64
+1335	CONTEXTUAL	99_OTHER_OR_UNKNOWN	TournamentManager initialized, tournament:	src/managers/TournamentManager.ts:74	src/managers/TournamentManager.ts:74
+1336	CONTEXTUAL	99_OTHER_OR_UNKNOWN	TournamentManager initialization failed, using local mode:	src/managers/TournamentManager.ts:76	src/managers/TournamentManager.ts:76
+1337	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tournaments table not available, using local mode:	src/managers/TournamentManager.ts:103	src/managers/TournamentManager.ts:103
+1338	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tournament query error, using local mode	src/managers/TournamentManager.ts:122	src/managers/TournamentManager.ts:122
+1339	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading tournament, using local mode:	src/managers/TournamentManager.ts:152	src/managers/TournamentManager.ts:152
+1340	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Mestarikilpailu	src/managers/TournamentManager.ts:205	src/managers/TournamentManager.ts:205
+1341	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Viikon paras hiihtäjä!	src/managers/TournamentManager.ts:205	src/managers/TournamentManager.ts:205
+1342	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kuka kerää eniten pisteitä?	src/managers/TournamentManager.ts:206	src/managers/TournamentManager.ts:206
+1343	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Nopeuskilpailu	src/managers/TournamentManager.ts:206	src/managers/TournamentManager.ts:206
+1344	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Kaada eniten espoolaisia!	src/managers/TournamentManager.ts:207	src/managers/TournamentManager.ts:207
+1345	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Hiihdä pisimmälle!	src/managers/TournamentManager.ts:208	src/managers/TournamentManager.ts:208
+1346	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Maratonhaaste	src/managers/TournamentManager.ts:208	src/managers/TournamentManager.ts:208
+1347	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Laturaivo Cup	src/managers/TournamentManager.ts:209	src/managers/TournamentManager.ts:209
+1348	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Viikottainen mestaruuskisa!	src/managers/TournamentManager.ts:209	src/managers/TournamentManager.ts:209
+1349	CONTEXTUAL	99_OTHER_OR_UNKNOWN	week_${...}_${...}	src/managers/TournamentManager.ts:215	src/managers/TournamentManager.ts:215
+1350	CONTEXTUAL	99_OTHER_OR_UNKNOWN	${...} - Viikko ${...}	src/managers/TournamentManager.ts:216	src/managers/TournamentManager.ts:216
+1351	CONTEXTUAL	99_OTHER_OR_UNKNOWN	🥇 1. sija: Kultainen hiihtolegenda -badge\n🥈 2. sija: Hopea-badge\n🥉 3. sija: Pronssi-badge	src/managers/TournamentManager.ts:222	src/managers/TournamentManager.ts:222
+1352	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error saving tournament:	src/managers/TournamentManager.ts:252	src/managers/TournamentManager.ts:252
+1353	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tournament entries table not available:	src/managers/TournamentManager.ts:273	src/managers/TournamentManager.ts:273
+1354	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading tournament entries, using local:	src/managers/TournamentManager.ts:306	src/managers/TournamentManager.ts:306
+1355	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading local tournament:	src/managers/TournamentManager.ts:339	src/managers/TournamentManager.ts:339
+1356	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error loading local entries:	src/managers/TournamentManager.ts:357	src/managers/TournamentManager.ts:357
+1357	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Tournament update received:	src/managers/TournamentManager.ts:376	src/managers/TournamentManager.ts:376
+1358	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error submitting tournament score:	src/managers/TournamentManager.ts:453	src/managers/TournamentManager.ts:453
+1359	CONTEXTUAL	99_OTHER_OR_UNKNOWN	Error notifying tournament listener:	src/managers/TournamentManager.ts:564	src/managers/TournamentManager.ts:564
+1360	UNUSED_TEST_ONLY	99_OTHER_OR_UNKNOWN	Wait until condition timed out after ${...} frames	src/test/helpers/phaser.ts:73	src/test/helpers/phaser.ts:73
+1361	UNUSED_TEST_ONLY	99_OTHER_OR_UNKNOWN	GameScene (HEADLESS)	src/test/scenes/GameScene.test.ts:24	src/test/scenes/GameScene.test.ts:24
+1362	UNUSED_TEST_ONLY	99_OTHER_OR_UNKNOWN	boots and runs at least a few frames without errors	src/test/scenes/GameScene.test.ts:25	src/test/scenes/GameScene.test.ts:25

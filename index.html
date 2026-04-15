@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <!-- iOS App Store compliant viewport - disable scaling, enable safe area -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <!-- Force landscape orientation on mobile devices -->
+    <meta name="screen-orientation" content="landscape" />
+    <!-- iOS web app capable -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="LATURAIVO" />
+    <!-- PWA Theme Color -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <!-- Disable tap highlight on iOS -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+    <!-- Prevent Safari from auto-detecting phone numbers -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="description" content="Suomalainen hiihto-taistelu arcade-peli." />
+    <meta property="og:title" content="LATURAIVO" />
+    <meta property="og:description" content="Suomalainen hiihto-taistelu arcade-peli." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="og-laturaivo.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>LATURAIVO</title>
+
+    <script>
+      // Earliest possible runtime error reporting (before app bundle executes).
+      (function () {
+        const BOOT_TIMEOUT_MS = 10000;
+        const BOOT_GRACE_TIMEOUT_MS = 18000;
+        const OVERLAY_ID = 'bootstrap-fatal-overlay';
+
+        function htmlEscape(value) {
+          return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+        }
+
+        function showBootstrapOverlay(title, detail) {
+          if (window.__laturaivoBooted) return;
+          if (document.getElementById(OVERLAY_ID)) return;
+
+          const overlay = document.createElement('div');
+          overlay.id = OVERLAY_ID;
+          overlay.style.position = 'fixed';
+          overlay.style.inset = '0';
+          overlay.style.zIndex = '2147483647';
+          overlay.style.display = 'flex';
+          overlay.style.alignItems = 'center';
+          overlay.style.justifyContent = 'center';
+          overlay.style.background = 'rgba(0, 0, 0, 0.94)';
+          overlay.style.color = '#fff';
+          overlay.style.padding = '24px';
+          overlay.style.fontFamily = 'monospace';
+          overlay.innerHTML =
+            '<div style="max-width:720px;text-align:center;">' +
+            '<h2 style="margin:0 0 10px 0;font-size:20px;">' + htmlEscape(title) + '</h2>' +
+            '<p style="margin:0 0 14px 0;opacity:.9;">Yrita ladata peli uudelleen.</p>' +
+            '<pre style="margin:0;background:#111;border:1px solid #333;border-radius:8px;padding:10px;max-height:220px;overflow:auto;text-align:left;white-space:pre-wrap;">' + htmlEscape(detail || 'Tuntematon kaynnistysvirhe') + '</pre>' +
+            '<button id="bootstrap-fatal-reload" style="margin-top:14px;padding:10px 14px;border-radius:8px;border:1px solid #666;background:#1f6feb;color:#fff;font-weight:700;cursor:pointer;">Lataa uudelleen</button>' +
+            '</div>';
+
+          (document.body || document.documentElement).appendChild(overlay);
+          const reloadBtn = document.getElementById('bootstrap-fatal-reload');
+          if (reloadBtn) {
+            reloadBtn.addEventListener('click', function () {
+              window.location.reload();
+            });
+          }
+        }
+
+        function checkBootReadiness() {
+          if (window.__laturaivoBooted) return;
+          const hasCanvas = !!document.querySelector('#game-container canvas');
+          if (hasCanvas) {
+            window.__laturaivoBooted = true;
+            return;
+          }
+          showBootstrapOverlay(
+            'Peli ei kaynnistynyt',
+            'JavaScript-kaynnistys ei valmistunut ajoissa. Tarkista iOS logit (JS Eval / BootstrapError).'
+          );
+        }
+
+        window.__laturaivoBooted = false;
+
+        window.addEventListener('error', function (event) {
+          const target = event && event.target;
+          if (target && target.tagName === 'SCRIPT') {
+            const scriptSource = target.src || 'inline-script';
+            showBootstrapOverlay(
+              'Pelin skriptit eivat latautuneet',
+              'Virhe ladattaessa: ' + scriptSource
+            );
+          }
+
+          const base = event && event.message ? event.message : 'Unknown error';
+          const where = event && event.filename ? ` @ ${event.filename}:${event.lineno || 0}:${event.colno || 0}` : '';
+          console.error('[BootstrapError] ' + base + where);
+        }, true);
+
+        window.addEventListener('unhandledrejection', function (event) {
+          let detail = 'Unknown rejection';
+          try {
+            const reason = event ? event.reason : undefined;
+            if (reason instanceof Error) {
+              detail = reason.name + ': ' + reason.message + (reason.stack ? '\n' + reason.stack : '');
+            } else if (typeof reason === 'string') {
+              detail = reason;
+            } else {
+              detail = JSON.stringify(reason);
+            }
+          } catch (_e) {
+            detail = 'Could not serialize rejection reason';
+          }
+          console.error('[BootstrapRejection] ' + detail);
+        });
+
+        window.addEventListener('DOMContentLoaded', function () {
+          window.setTimeout(checkBootReadiness, BOOT_TIMEOUT_MS);
+          window.setTimeout(checkBootReadiness, BOOT_GRACE_TIMEOUT_MS);
+        });
+      })();
+    </script>
+
+    <style>
+      /* Font Face Definition - RetroPixel */
+      @font-face {
+        font-family: 'RetroPixel';
+        src: url('assets/fronts/retro-pixel-arcade.otf.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      /* Alias PublicPixel to RetroPixel for compatibility */
+      @font-face {
+        font-family: 'PublicPixel';
+        src: url('assets/fronts/retro-pixel-arcade.otf.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      
+      * {
+        font-family: 'PublicPixel', 'RetroPixel', monospace !important;
+        /* Disable text selection on iOS */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        /* Disable touch callout (context menu on long press) */
+        -webkit-touch-callout: none;
+      }
+
+      :root {
+        --vvw: 100vw;
+        --vvh: 100vh;
+      }
+      
+      html, body {
+        background: black;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        width: 100dvw;
+        height: 100dvh;
+        min-width: 100%;
+        min-height: 100%;
+        /* iOS scroll and bounce prevention */
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* Disable overscroll behavior */
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: none;
+        /* Prevent pull-to-refresh */
+        touch-action: none;
+      }
+      
+      #game-container {
+        width: 100vw;
+        height: 100vh;
+        width: 100dvw;
+        height: 100dvh;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        /* Disable touch actions that might interfere */
+        touch-action: manipulation;
+        /* Ensure proper rendering on Retina displays */
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+      
+      /* Mobile controls safe area adjustment */
+      .mobile-controls-left {
+        left: max(16px, env(safe-area-inset-left, 16px)) !important;
+      }
+      
+      .mobile-controls-right {
+        right: max(16px, env(safe-area-inset-right, 16px)) !important;
+      }
+      
+      .mobile-controls-bottom {
+        bottom: max(16px, calc(env(safe-area-inset-bottom, 0px) + 16px)) !important;
+      }
+      
+      /* Ensure canvas fills container properly */
+      #game-container canvas {
+        display: block;
+        margin: 0 auto;
+        touch-action: none;
+      }
+      
+      /* Portrait mode overlay - shows when device is in portrait orientation */
+      #rotate-device-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        z-index: 99999;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        font-family: 'PublicPixel', monospace;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        /* Safe area padding for the overlay too */
+        padding-top: calc(20px + env(safe-area-inset-top));
+        padding-bottom: calc(20px + env(safe-area-inset-bottom));
+      }
+      
+      #rotate-device-overlay .rotate-icon {
+        font-size: 64px;
+        animation: rotatePhone 2s ease-in-out infinite;
+      }
+      
+      #rotate-device-overlay .rotate-text {
+        font-size: 18px;
+        max-width: 300px;
+        line-height: 1.5;
+      }
+      
+      @keyframes rotatePhone {
+        0%, 100% { transform: rotate(0deg); }
+        25% { transform: rotate(-20deg); }
+        75% { transform: rotate(20deg); }
+      }
+      
+      /* Show overlay only on mobile devices in portrait mode */
+      @media screen and (max-width: 900px) and (orientation: portrait) {
+        #rotate-device-overlay {
+          display: flex;
+        }
+        
+        #game-container {
+          display: none;
+        }
+      }
+      
+      /* iOS-specific fixes */
+      @supports (-webkit-touch-callout: none) {
+        /* iOS only styles */
+        body {
+          /* Prevent elastic scrolling on iOS */
+          -webkit-overflow-scrolling: touch;
+          overscroll-behavior: none;
+        }
+      }
+      
+      /* Virtual Joystick Styles */
+      .virtual-joystick-container {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        touch-action: none;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      .virtual-joystick-knob {
+        position: absolute;
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, #666, #333);
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: transform 0.05s ease-out;
+      }
+      
+      .virtual-joystick-knob.active {
+        background: radial-gradient(circle at 30% 30%, #888, #555);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+      }
+      
+      /* Touch button press animation */
+      .touch-btn-pressed {
+        transform: scale(0.92) !important;
+        filter: brightness(0.85);
+      }
+      
+      /* Larger touch targets for iOS */
+      @media (pointer: coarse) {
+        .touch-control-btn {
+          min-width: 72px !important;
+          min-height: 72px !important;
+        }
+      }
+      
+      /* Low Power Mode indicator */
+      .low-power-indicator {
+        position: fixed;
+        top: max(8px, calc(env(safe-area-inset-top, 0px) + 8px));
+        right: max(8px, calc(env(safe-area-inset-right, 0px) + 8px));
+        background: rgba(255, 165, 0, 0.9);
+        color: black;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 10px;
+        z-index: 10000;
+        display: none;
+      }
+      
+      .low-power-indicator.visible {
+        display: block;
+      }
+      
+      /* Gesture hint overlay */
+      .gesture-hint {
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .gesture-hint.visible {
+        opacity: 1;
+      }
+      
+      /* Swipe indicator */
+      .swipe-indicator {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        animation: swipePulse 1s infinite;
+      }
+      
+      @keyframes swipePulse {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.2); opacity: 1; }
+      }
+    </style>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <!-- Rotate device overlay for portrait mode -->
+    <div id="rotate-device-overlay">
+      <div class="rotate-icon">📱↻</div>
+      <div class="rotate-text">Käännä laitteesi vaakatasoon pelataksesi</div>
+    </div>
+    
+    <!-- Low Power Mode indicator -->
+    <div class="low-power-indicator" id="low-power-indicator">🔋 Virransäästö päällä</div>
+    
+    <div id="game-container"></div>
+    
+    <!-- Runtime bootstrap helpers -->
+    <script>
+      (function() {
+        try {
+          // Low Power Mode detection (battery API)
+          if ('getBattery' in navigator && typeof navigator.getBattery === 'function') {
+            navigator.getBattery().then(function(battery) {
+              function updateLowPowerIndicator() {
+                const indicator = document.getElementById('low-power-indicator');
+                if (!indicator) return;
+                // Show warning if battery < 20% or charging is false with low battery
+                if (battery.level < 0.2 && !battery.charging) {
+                  indicator.classList.add('visible');
+                  // Store in global for game to read
+                  window.isLowPowerMode = true;
+                } else {
+                  indicator.classList.remove('visible');
+                  window.isLowPowerMode = false;
+                }
+              }
+              
+              battery.addEventListener('levelchange', updateLowPowerIndicator);
+              battery.addEventListener('chargingchange', updateLowPowerIndicator);
+              updateLowPowerIndicator();
+            }).catch(function(err) {
+              console.error('[BootstrapBatteryError]', err);
+            });
+          }
+          
+          // Prevent iOS rubber-banding on edges
+          document.addEventListener('touchmove', function(e) {
+            const target = e.target;
+            if (target instanceof Element && target.closest('#game-container')) {
+              e.preventDefault();
+            }
+          }, { passive: false });
+          
+          // Lock screen orientation to landscape if possible
+          if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').catch(function() {
+              // Orientation lock not supported or denied
+            });
+          }
+        } catch (bootstrapError) {
+          console.error('[BootstrapFatalError]', bootstrapError);
+        }
+      })();
+    </script>
+  </body>
+</html>

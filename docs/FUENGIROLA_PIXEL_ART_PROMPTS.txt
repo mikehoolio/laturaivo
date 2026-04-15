@@ -1,0 +1,270 @@
+FUENGIROLA PIXEL ART PROMPTS (LEVEL 8 + ENEMY REPLACEMENTS)
+
+GENERAL REQUIREMENTS FOR EVERY PROMPT:
+- style: pixel art, clean 1-2 px outline, consistent retro game palette
+- view: strict side view
+- facing: right
+- background: transparent for sprites, no shadow layer outside sprite
+- output: PNG
+- no text, no watermark, no logos, no UI elements
+
+[BACKGROUND]
+file: public/assets/custom/fuengirola/backgrounds/level_8_background_fuengirola.png
+prompt: Pixel art 2D side-scrolling game background of Fuengirola Spain at sunset, beach promenade, palms, warm hotel lights, sea horizon, distant hill fortress, vibrant holiday colors, clear readable parallax-friendly composition, no characters, no text, 16:9 landscape.
+
+[ENEMIES]
+file: public/assets/custom/fuengirola/enemies/enemy_ski_idle_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, idle stance, calm breathing, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_ski_idle_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, idle stance, slight weight shift, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_ski_walk_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_ski_walk_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_attack_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, attack wind-up, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_attack_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, attack impact follow-through, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_die_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, defeat fall start, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/enemy_die_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish holiday skier in open Hawaiian shirt, shorts over thermal tights, ski boots, cross-country skis and poles, defeat fall end, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/family_adult_walk_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish parent tourist in beach cap, fanny pack, cross-country ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/family_adult_walk_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish parent tourist in beach cap, fanny pack, cross-country ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/family_child_walk_R_frame1.png
+prompt: Pixel art game sprite, Finnish child tourist with floatie armbands, small ski boots, mini skis and tiny poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/family_child_walk_R_frame2.png
+prompt: Pixel art game sprite, Finnish child tourist with floatie armbands, small ski boots, mini skis and tiny poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/drunk_stagger_R_frame1.png
+prompt: Pixel art game sprite, sunburned bar tourist with wrinkled linen shirt, one sandal loose, ski boots, skis and poles, drunk stagger step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/drunk_stagger_R_frame2.png
+prompt: Pixel art game sprite, sunburned bar tourist with wrinkled linen shirt, one sandal loose, ski boots, skis and poles, drunk stagger step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/drunk_attack_R_frame1.png
+prompt: Pixel art game sprite, sunburned bar tourist with wrinkled linen shirt, one sandal loose, ski boots, skis and poles, attack wind-up, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/drunk_attack_R_frame2.png
+prompt: Pixel art game sprite, sunburned bar tourist with wrinkled linen shirt, one sandal loose, ski boots, skis and poles, attack impact follow-through, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/pro_skier_ski_R_frame1.png
+prompt: Pixel art game sprite, athletic Finnish beach-sport skier in neon training singlet, ski boots, high-end skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/pro_skier_ski_R_frame2.png
+prompt: Pixel art game sprite, athletic Finnish beach-sport skier in neon training singlet, ski boots, high-end skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/pro_skier_attack_R_frame1.png
+prompt: Pixel art game sprite, athletic Finnish beach-sport skier in neon training singlet, ski boots, high-end skis and poles, attack wind-up, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/pro_skier_attack_R_frame2.png
+prompt: Pixel art game sprite, athletic Finnish beach-sport skier in neon training singlet, ski boots, high-end skis and poles, attack impact follow-through, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/power_walker_walk_R_frame1.png
+prompt: Pixel art game sprite, tanned Nordic walker in sleeveless top, compression shorts, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/power_walker_walk_R_frame2.png
+prompt: Pixel art game sprite, tanned Nordic walker in sleeveless top, compression shorts, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/headphone_walker_walk_R_frame1.png
+prompt: Pixel art game sprite, tourist walker with big headphones, tank top, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/headphone_walker_walk_R_frame2.png
+prompt: Pixel art game sprite, tourist walker with big headphones, tank top, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/smoking_lady_walk_R_frame1.png
+prompt: Pixel art game sprite, sun-tanned holiday lady with sunglasses and beach scarf, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/smoking_lady_walk_R_frame2.png
+prompt: Pixel art game sprite, sun-tanned holiday lady with sunglasses and beach scarf, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/padel_player_walk_R_frame1.png
+prompt: Pixel art game sprite, padel tourist in sporty top and visor, carrying padel racket on back, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/padel_player_walk_R_frame2.png
+prompt: Pixel art game sprite, padel tourist in sporty top and visor, carrying padel racket on back, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/tennis_player_walk_R_frame1.png
+prompt: Pixel art game sprite, tennis tourist in visor and wristbands, carrying tennis racket on back, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/tennis_player_walk_R_frame2.png
+prompt: Pixel art game sprite, tennis tourist in visor and wristbands, carrying tennis racket on back, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/somali_skier_ski_R_frame1.png
+prompt: Pixel art game sprite, holiday skier with colorful lightweight jacket, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/somali_skier_ski_R_frame2.png
+prompt: Pixel art game sprite, holiday skier with colorful lightweight jacket, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/asian_tech_worker_walk_R_frame1.png
+prompt: Pixel art game sprite, remote-work tourist with lightweight backpack and earbuds, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/asian_tech_worker_walk_R_frame2.png
+prompt: Pixel art game sprite, remote-work tourist with lightweight backpack and earbuds, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/bluetooth_bomber_walk_R_frame1.png
+prompt: Pixel art game sprite, loud video-call tourist with phone in hand, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/bluetooth_bomber_walk_R_frame2.png
+prompt: Pixel art game sprite, loud video-call tourist with phone in hand, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/after_ski_alpha_ski_R_frame1.png
+prompt: Pixel art game sprite, muscular afterski show-off in open beach shirt, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/after_ski_alpha_ski_R_frame2.png
+prompt: Pixel art game sprite, muscular afterski show-off in open beach shirt, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/passive_grandpa_walk_R_frame1.png
+prompt: Pixel art game sprite, sunburned Finnish grandpa in retro short-sleeve shirt, knee socks, cross-country ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/passive_grandpa_walk_R_frame2.png
+prompt: Pixel art game sprite, sunburned Finnish grandpa in retro short-sleeve shirt, knee socks, cross-country ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/city_cyclist_ride_R_frame1.png
+prompt: Pixel art game sprite, holiday cyclist with city helmet and sling bag, skis tied on bike rack style, side-view riding pose, ride frame A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/city_cyclist_ride_R_frame2.png
+prompt: Pixel art game sprite, holiday cyclist with city helmet and sling bag, skis tied on bike rack style, side-view riding pose, ride frame B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/wellness_warrior_walk_R_frame1.png
+prompt: Pixel art game sprite, wellness coach tourist with yoga mat strap, sports shorts, ski boots, skis and poles, walk cycle step A, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/wellness_warrior_walk_R_frame2.png
+prompt: Pixel art game sprite, wellness coach tourist with yoga mat strap, sports shorts, ski boots, skis and poles, walk cycle step B, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/crypto_bro_walker.png
+prompt: Pixel art game sprite, tanned crypto bro tourist with open linen shirt, phone wallet, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/influencer_selfie.png
+prompt: Pixel art game sprite, Finnish influencer tourist taking selfie stick photo, beach outfit, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/escooter_rider.png
+prompt: Pixel art game sprite, tourist on e-scooter, tan skin, beach casual clothing, side view, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/crossfit_bro.png
+prompt: Pixel art game sprite, crossfit tourist with lifting belt and taped wrists, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/brunch_lady.png
+prompt: Pixel art game sprite, brunch tourist lady with sunhat and tote bag, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/golf_cart_driver.png
+prompt: Pixel art game sprite, holiday golfer driving small golf cart with skis strapped on side, side view, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/yacht_owner.png
+prompt: Pixel art game sprite, yacht holiday tourist in white linen set, sunglasses, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/real_estate_agent.png
+prompt: Pixel art game sprite, slick property agent tourist with folder, beach blazer, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/wine_mom.png
+prompt: Pixel art game sprite, wine mom tourist with beach kimono and sunglasses, ski boots, skis and poles, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/private_school_suv.png
+prompt: Pixel art game sprite, luxury suv side-view, beach luggage on roof, small Finnish flags, pixel art vehicle, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/enemies/chihuahua_dog.png
+prompt: Pixel art game sprite, tiny chihuahua beach dog with sunglasses and leash harness, neutral side pose, strict side view, facing right, full body visible, transparent background, no text, no watermark.
+
+[LEVEL 8 BOSS: SUN ISOISA - EXTENDED ATTACK SET]
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_idle_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, idle stance, calm breathing, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_idle_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, idle stance, slight weight shift, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_walk_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, walk cycle step A, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_walk_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, walk cycle step B, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_attack_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, attack wind-up, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_attack_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, attack impact follow-through, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, charge prep, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, charge acceleration frame, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame3.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, charge acceleration frame, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, combo hit 1, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, combo hit 2, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame3.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, combo finisher, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, jump prep, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, airborne rise, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame3.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, airborne strike, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame4.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, landing slam, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, barrage start, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, barrage mid, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame3.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, barrage end, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, special wind-up, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, special release, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame3.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, special aftermath, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_hurt_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, hurt recoil, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_hurt_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, hurt recovery, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_die_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, defeat fall start, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_die_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, defeat fall end, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_enrage_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, enrage start, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_enrage_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, enrage hold, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_taunt_R_frame1.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, taunt start, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.
+
+file: public/assets/custom/fuengirola/boss_isoisa/golf_boss_taunt_R_frame2.png
+prompt: Pixel art boss sprite, Sun Isoisa, tanned Finnish grandpa boss in Fuengirola beach-holiday style, retro short-sleeve shirt, shorts, cross-country ski boots, skis and poles, taunt hold, strict side view, facing right, dramatic readable silhouette, transparent background, no text, no watermark.

@@ -1,0 +1,2896 @@
+{
+  "animation_json": {
+    "files": [
+      {
+        "url": "assets/animations.json",
+        "type": "animation",
+        "key": "animations"
+      }
+    ]
+  },
+  "fonts": {
+    "files": [
+      {
+        "url": "assets/offline/7a364cd2a23ffc6a7b7f12bba43c4e8aa999aed3.woff2",
+        "type": "font",
+        "key": "RetroPixel",
+        "fontType": "opentype"
+      },
+      {
+        "url": "assets/offline/7a364cd2a23ffc6a7b7f12bba43c4e8aa999aed3.woff2",
+        "type": "font",
+        "key": "PublicPixel",
+        "fontType": "opentype"
+      }
+    ]
+  },
+  "player_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "player_ski_idle_R_frame1",
+        "url": "assets/custom/main_character_v2/player_ski_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_ski_idle_R_frame2",
+        "url": "assets/custom/main_character_v2/player_ski_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_ski_walk_R_frame1",
+        "url": "assets/custom/main_character_v2/player_ski_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_ski_walk_R_frame2",
+        "url": "assets/custom/main_character_v2/player_ski_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_punch_R_frame1",
+        "url": "assets/custom/main_character_v2/player_punch_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_punch_R_frame2",
+        "url": "assets/custom/main_character_v2/player_punch_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_pole_strike_R_frame1",
+        "url": "assets/custom/main_character_v2/player_pole_strike_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_pole_strike_R_frame2",
+        "url": "assets/custom/main_character_v2/player_pole_strike_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_axe_attack_R_frame1",
+        "url": "assets/custom/main_character_v2/player_axe_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_axe_attack_R_frame2",
+        "url": "assets/custom/main_character_v2/player_axe_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_dash_axe_attack_R_frame1",
+        "url": "assets/custom/main_character_v2/player_dash_axe_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_dash_axe_attack_R_frame2",
+        "url": "assets/custom/main_character_v2/player_dash_axe_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_die_R_frame1",
+        "url": "assets/custom/main_character_v2/player_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_die_R_frame2",
+        "url": "assets/custom/main_character_v2/player_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "player_jump_R_frame1",
+        "url": "assets/custom/main_character_v2/player_jump_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "player_jump_R_frame2",
+        "url": "assets/custom/main_character_v2/player_jump_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_ski_idle_R_frame1",
+        "url": "assets/offline/f92e5e4533d0ad7b1f8e084551e2ca96e7d151d4.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_ski_idle_R_frame2",
+        "url": "assets/offline/5684d8bc3ac3c4a78c0ca7bf7f40305b0d1d44be.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_ski_walk_R_frame1",
+        "url": "assets/offline/e79fbf82f46743de4c7da1c8fdf7657efd6dbc82.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_ski_walk_R_frame2",
+        "url": "assets/offline/5df17207b5ab6ff641826a2d63c853a4b3913e39.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_jump_R_frame1",
+        "url": "assets/offline/9f1e76ecddb1e49007f234951571bc81630f8184.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_jump_R_frame2",
+        "url": "assets/offline/6fb98c40a5128777d809615b91b51d10aaf854ca.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_pole_strike_R_frame1",
+        "url": "assets/offline/3ee09114c75b71b2b42c0b8a63262db2836792bc.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_pole_strike_R_frame2",
+        "url": "assets/offline/fb2ac0d6a8c58ad9b13014a72f3c7625c30fe78a.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_axe_attack_R_frame1",
+        "url": "assets/offline/4746f68818dc510a49e6881fb79b8206dda2dcf8.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_axe_attack_R_frame2",
+        "url": "assets/offline/44d1d362115d98f7e1e933dbc6027ea5f985ed0b.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_punch_R_frame1",
+        "url": "assets/offline/5740f89a9ddc44d5430acf0d4049902cd3ce5635.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_punch_R_frame2",
+        "url": "assets/offline/54cc211c357e6ccd1041583841b68e143348b2d7.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_die_R_frame1",
+        "url": "assets/offline/225d5522e24309c5f1233dc8c1ffd22507bbaed3.png"
+      },
+      {
+        "type": "image",
+        "key": "female_player_die_R_frame2",
+        "url": "assets/offline/c7b91a44248689eca7845d7559765c2e357aa47b.png"
+      }
+    ]
+  },
+  "enemy_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "enemy_ski_idle_R_frame1",
+        "url": "assets/offline/6b30373beaac14eade05082c68490c96534d9cd2.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_ski_idle_R_frame2",
+        "url": "assets/offline/74598cb4ba1eed11513e26c240e66df1d054970a.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_ski_walk_R_frame1",
+        "url": "assets/offline/f875731394cc3f6b65f09c33b3b09d72a2328249.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_ski_walk_R_frame2",
+        "url": "assets/offline/0fb62f71b3d5ab6dff23859d6de4cdfe845eed7a.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_attack_R_frame1",
+        "url": "assets/offline/166142b09df00db9212c939c3b9951d0ab79db5c.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_attack_R_frame2",
+        "url": "assets/offline/d7092765839720a0e65143ff741b14699c8506a2.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_die_R_frame1",
+        "url": "assets/offline/574864bca70ad30dbff109b465b9808d63a1645f.png"
+      },
+      {
+        "type": "image",
+        "key": "enemy_die_R_frame2",
+        "url": "assets/offline/9cab37ff14e254272fcea3c7f115275e0a46b13f.png"
+      },
+      {
+        "type": "image",
+        "key": "family_adult_walk_R_frame1",
+        "url": "assets/offline/444c853ccd15e5270f2ad73cea01585809df92b4.png"
+      },
+      {
+        "type": "image",
+        "key": "family_adult_walk_R_frame2",
+        "url": "assets/offline/ba2a51c79739cf8db9eae3367e08b933800d1b8e.png"
+      },
+      {
+        "type": "image",
+        "key": "family_child_walk_R_frame1",
+        "url": "assets/offline/b5b3022260749c8aea509d23a40bf4d892034192.png"
+      },
+      {
+        "type": "image",
+        "key": "family_child_walk_R_frame2",
+        "url": "assets/offline/b7608527d40e881942cf79c084aa650a4fc07ea7.png"
+      },
+      {
+        "type": "image",
+        "key": "drunk_stagger_R_frame1",
+        "url": "assets/offline/90c080f538dd7a09695e1de0cf56fff455ab9179.png"
+      },
+      {
+        "type": "image",
+        "key": "drunk_stagger_R_frame2",
+        "url": "assets/offline/1980112cad108a841e519ec4d672c92db84723c0.png"
+      },
+      {
+        "type": "image",
+        "key": "drunk_attack_R_frame1",
+        "url": "assets/offline/7e6fad9d18b25bdc36aa53e6edd90ba5a5366fbc.png"
+      },
+      {
+        "type": "image",
+        "key": "drunk_attack_R_frame2",
+        "url": "assets/offline/b61bc6eaf2b7ee6acc49808eb19217851080034b.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_ski_R_frame1",
+        "url": "assets/custom/final_boss/kanni/pro_skier_ski_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_ski_R_frame2",
+        "url": "assets/custom/final_boss/kanni/pro_skier_ski_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_attack_R_frame1",
+        "url": "assets/custom/final_boss/kanni/pro_skier_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_attack_R_frame2",
+        "url": "assets/custom/final_boss/kanni/pro_skier_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_hurt_R_frame1",
+        "url": "assets/custom/final_boss/kanni/pro_skier_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_hurt_R_frame2",
+        "url": "assets/custom/final_boss/kanni/pro_skier_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_die_R_frame1",
+        "url": "assets/custom/final_boss/kanni/pro_skier_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_die_R_frame2",
+        "url": "assets/custom/final_boss/kanni/pro_skier_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_taunt_R_frame1",
+        "url": "assets/custom/final_boss/kanni/pro_skier_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "pro_skier_taunt_R_frame2",
+        "url": "assets/custom/final_boss/kanni/pro_skier_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "power_walker_walk_R_frame1",
+        "url": "assets/offline/50ff604fef46db15f5c82f8f0c556486dfa921c2.png"
+      },
+      {
+        "type": "image",
+        "key": "power_walker_walk_R_frame2",
+        "url": "assets/offline/5e1ab7a49ad157c5ed964a5f709a4c37abfdb4a9.png"
+      },
+      {
+        "type": "image",
+        "key": "headphone_walker_walk_R_frame1",
+        "url": "assets/offline/711f10d8c3d3d10c3ae7ddeebc45e671908208d6.png"
+      },
+      {
+        "type": "image",
+        "key": "headphone_walker_walk_R_frame2",
+        "url": "assets/offline/8d796b5d88f8310d270b1279784a980b57c2fd63.png"
+      },
+      {
+        "type": "image",
+        "key": "smoking_lady_walk_R_frame1",
+        "url": "assets/offline/c1c51c4e36687f94db67c8a79b53cb273dbfbdcb.png"
+      },
+      {
+        "type": "image",
+        "key": "smoking_lady_walk_R_frame2",
+        "url": "assets/offline/5e2ae637c27ef7ffb62ecbf49a9fa422751ae65f.png"
+      },
+      {
+        "type": "image",
+        "key": "padel_player_walk_R_frame1",
+        "url": "assets/offline/14142c1ffce829c3df8e2544c0dc7e4f06813adb.png"
+      },
+      {
+        "type": "image",
+        "key": "padel_player_walk_R_frame2",
+        "url": "assets/offline/9be3da35d56a7546947145a9d1ef11fb39f1acc0.png"
+      },
+      {
+        "type": "image",
+        "key": "tennis_player_walk_R_frame1",
+        "url": "assets/offline/475d7a3ff1e8ff8f7b50954bbca2ed5a1f4acda0.png"
+      },
+      {
+        "type": "image",
+        "key": "tennis_player_walk_R_frame2",
+        "url": "assets/offline/3e5408fc6755a00ef1e5a3ee514040fffbd3bed1.png"
+      },
+      {
+        "type": "image",
+        "key": "somali_skier_ski_R_frame1",
+        "url": "assets/offline/e5072bdc64f74ebf4ceeeeb51d36b7ecebafed8b.png"
+      },
+      {
+        "type": "image",
+        "key": "somali_skier_ski_R_frame2",
+        "url": "assets/offline/fd4eb82ecc1aeca43138b60c881280da590f2ed1.png"
+      },
+      {
+        "type": "image",
+        "key": "asian_tech_worker_walk_R_frame1",
+        "url": "assets/offline/0d3342a47cffb1700a2ff6730849ae20209dc481.png"
+      },
+      {
+        "type": "image",
+        "key": "asian_tech_worker_walk_R_frame2",
+        "url": "assets/offline/60108adba659be670b6d1537d87d3f013b2aa4ab.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_parody_walk_R_frame1",
+        "url": "assets/offline/0d3342a47cffb1700a2ff6730849ae20209dc481.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_parody_walk_R_frame2",
+        "url": "assets/offline/60108adba659be670b6d1537d87d3f013b2aa4ab.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_parody_idle_R_frame1",
+        "url": "assets/offline/0d3342a47cffb1700a2ff6730849ae20209dc481.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_parody_idle_R_frame2",
+        "url": "assets/offline/60108adba659be670b6d1537d87d3f013b2aa4ab.png"
+      },
+      {
+        "type": "image",
+        "key": "bluetooth_bomber_walk_R_frame1",
+        "url": "assets/offline/6e6a4a93ca19bb09e3e8f04cf7e83383d3c8e413.png"
+      },
+      {
+        "type": "image",
+        "key": "bluetooth_bomber_walk_R_frame2",
+        "url": "assets/offline/1766099389533bf1f615a1dd71510948b9fe3ebb.png"
+      },
+      {
+        "type": "image",
+        "key": "after_ski_alpha_ski_R_frame1",
+        "url": "assets/offline/9fc11d68ab703365441f49c1b60942772da638df.png"
+      },
+      {
+        "type": "image",
+        "key": "after_ski_alpha_ski_R_frame2",
+        "url": "assets/offline/cfd48961df25138c8d988074e0c61141751d0405.png"
+      },
+      {
+        "type": "image",
+        "key": "passive_grandpa_walk_R_frame1",
+        "url": "assets/offline/a350b42ff159359205171ade5acb122639350bc9.png"
+      },
+      {
+        "type": "image",
+        "key": "passive_grandpa_walk_R_frame2",
+        "url": "assets/offline/ab951634bb32d1cb028815a09c968ac460497c5c.png"
+      },
+      {
+        "type": "image",
+        "key": "city_cyclist_ride_R_frame1",
+        "url": "assets/offline/a4344eb0fb790df4451e046fe918ff3b7014677a.png"
+      },
+      {
+        "type": "image",
+        "key": "city_cyclist_ride_R_frame2",
+        "url": "assets/offline/a8c548c6d8f1321d112fb00bbadf875ae79fae92.png"
+      },
+      {
+        "type": "image",
+        "key": "wellness_warrior_walk_R_frame1",
+        "url": "assets/offline/5ce977694c09259c25abfa98b9ec1c2ffcdc4697.png"
+      },
+      {
+        "type": "image",
+        "key": "wellness_warrior_walk_R_frame2",
+        "url": "assets/offline/0b12e04ccd341a6d864bc87c1bb3785b4e3967da.png"
+      }
+    ]
+  },
+  "backgrounds": {
+    "files": [
+      {
+        "type": "image",
+        "key": "snowy_forest_background",
+        "url": "assets/offline/83861249ee95d3669b1177e6f6ff0d16f54a1670.png"
+      },
+      {
+        "type": "image",
+        "key": "title_menu_background",
+        "url": "assets/custom/ui/title_menu_background.jpg"
+      },
+      {
+        "type": "image",
+        "key": "level_2_background_leppavaara",
+        "url": "assets/offline/f81d73a361882bcbb2ff61e42ce0d93577d8a137.png"
+      },
+      {
+        "type": "image",
+        "key": "level_3_background_tapiola",
+        "url": "assets/offline/a85eec7bf741d8e8d2ccdfa7c82e53cd77c9551e.png"
+      },
+      {
+        "type": "image",
+        "key": "level_4_background_lahti",
+        "url": "assets/offline/81261044b91c98b9a1ce7f6bc9d435c35d83114f.png"
+      },
+      {
+        "type": "image",
+        "key": "level_4_background_salpausselka_night",
+        "url": "assets/offline/91fc75e963cd5b1ed88cc555322689965606a738.png"
+      },
+      {
+        "type": "image",
+        "key": "level_5_background_westend",
+        "url": "assets/custom/level5/level_5_background_lapland.png"
+      },
+      {
+        "type": "image",
+        "key": "level_6_background_oulu",
+        "url": "assets/custom/oulu/backgrounds/level_6_background_oulu.jpeg"
+      },
+      {
+        "type": "image",
+        "key": "level_7_background_sello",
+        "url": "assets/offline/bc05d3a3ebc209fecd1924b79b0517554410124f.png"
+      },
+      {
+        "type": "image",
+        "key": "level_7_background_turku_v2",
+        "url": "assets/custom/turku/level_7_background_turku_v2.png"
+      },
+      {
+        "type": "image",
+        "key": "level_8_background_otaniemi",
+        "url": "assets/offline/572dd2d9408867b890ea7b6be559ccc8bbf8e342.png"
+      },
+      {
+        "type": "image",
+        "key": "level_8_background_fuengirola",
+        "url": "assets/custom/fuengirola/backgrounds/level_8_background_fuengirola.png"
+      },
+      {
+        "type": "image",
+        "key": "level_9_background_espoonlahti",
+        "url": "assets/offline/f2ad8a03b285856a4ebe2dd8ee8e44b9cd051716.png"
+      },
+      {
+        "type": "image",
+        "key": "level_10_background_keilaniemi",
+        "url": "assets/custom/keilaniemi/keilaniemi2.png"
+      },
+      {
+        "type": "image",
+        "key": "level_10_background_kantsu",
+        "url": "assets/custom/kantsu/level_10_background_kantsu.jpeg"
+      },
+      {
+        "type": "image",
+        "key": "snowy_forest_background_night",
+        "url": "assets/offline/95e4664146b6f7b87a6d0dbbfa7e8bc21658cf34.png"
+      }
+    ]
+  },
+  "night_lighting": {
+    "files": [
+      {
+        "type": "image",
+        "key": "ski_trail_lamp_post",
+        "url": "assets/offline/5e6b106989b7e66f7da814166700de75db571f90.png"
+      },
+      {
+        "type": "image",
+        "key": "glowing_trail_lantern_variant_1",
+        "url": "assets/offline/ae59ea7d0ae46c4ffbc1bcea346dc2c6c627e86b.png"
+      },
+      {
+        "type": "image",
+        "key": "glowing_trail_lantern_variant_2",
+        "url": "assets/offline/5236a5fa84b53f83521d6f124501e294ee611902.png"
+      },
+      {
+        "type": "image",
+        "key": "glowing_trail_lantern_variant_3",
+        "url": "assets/offline/13830b33330180af476a12336aecf2fc1efeaf27.png"
+      },
+      {
+        "type": "image",
+        "key": "glowing_trail_lantern_variant_4",
+        "url": "assets/offline/eea35542c0eb1a76284ba2f97f580f85ddb1dec1.png"
+      },
+      {
+        "type": "image",
+        "key": "glowing_trail_lantern_variant_5",
+        "url": "assets/offline/29298fa80f9f6e276a3a95c1ab51ae6657672cfe.png"
+      }
+    ]
+  },
+  "story_images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "story_intro",
+        "url": "assets/custom/story/1.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_1",
+        "url": "assets/offline/728ca76c50f6071dcc8989c4527176bd522b64b4.png"
+      },
+      {
+        "type": "image",
+        "key": "story_level_2",
+        "url": "assets/custom/story/interludes/level2_3.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_3",
+        "url": "assets/custom/story/interludes/level3_4.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_4",
+        "url": "assets/custom/story/interludes/level4_5.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_5",
+        "url": "assets/custom/story/interludes/level5_6.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_6",
+        "url": "assets/offline/d66319e6232e57692c7e6dc27c2846e46f88bafe.png"
+      },
+      {
+        "type": "image",
+        "key": "story_level_7",
+        "url": "assets/custom/story/interludes/level7_8.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_8",
+        "url": "assets/custom/story/interludes/level8_9.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_9",
+        "url": "assets/custom/story/interludes/level9_10.jpg"
+      },
+      {
+        "type": "image",
+        "key": "story_level_10",
+        "url": "assets/offline/9b4d5aa1e40bfd53bc197ea56325031e698c199e.png"
+      },
+      {
+        "type": "image",
+        "key": "story_ending",
+        "url": "assets/custom/story/interludes/taso11_valikuva.jpg"
+      }
+    ]
+  },
+  "ui_images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "laturaivo_game_title",
+        "url": "assets/offline/454319807153df310c3dace2a394b27504d58345.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_model_y",
+        "url": "assets/offline/2d357674b9ab1247e722ff100caef12378f63185.png"
+      },
+      {
+        "type": "image",
+        "key": "tuned_car_lahti",
+        "url": "assets/offline/4cf6e882a61cef11187d44d9604fe206d16dc122.png"
+      },
+      {
+        "type": "image",
+        "key": "ski_clubhouse",
+        "url": "assets/offline/0807c31b79e9ba378420370b00d354fa1484317a.png"
+      },
+      {
+        "type": "image",
+        "key": "douche_golf_clubhouse",
+        "url": "assets/offline/0bf2762a10d8e667923a901cc773ea8f43aa151f.png"
+      },
+      {
+        "type": "image",
+        "key": "champagne_bottle",
+        "url": "assets/offline/3170f9569d71005e02437728f249e49d7158024f.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_1",
+        "url": "assets/offline/e2231d3c46a4ecac0329228055889497899ac353.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_2",
+        "url": "assets/offline/5de5f3b2c032ac45846da6e5b668cc669470ddc9.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_3",
+        "url": "assets/offline/d5864012d7a754dfe8f5ec67e64d2a30fe6d95a8.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_4",
+        "url": "assets/offline/2875a3d3f53c9efc6d7dd15f0251300d831a57b2.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_5",
+        "url": "assets/offline/73f4bd48bb613e34dc52fe88d37acb45d4b4fa60.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_6",
+        "url": "assets/offline/7ca9d39d12a60ae561dc1c6c85ddb7fdec2cd401.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_7",
+        "url": "assets/offline/06d5e1803de4bbe2a45f0d3ad3f641a4a90653b1.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_8",
+        "url": "assets/offline/3218acba9756ebc578ce1c90c86bef784ccb55bf.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_9",
+        "url": "assets/offline/16c1ba18eb1ecb43bd86a321656c76bad9627342.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_10",
+        "url": "assets/offline/66866dce64ab901c831b207db285d97196c624bf.png"
+      },
+      {
+        "type": "image",
+        "key": "clubhouse_level_11",
+        "url": "assets/custom/peter_sync/kulttuuritalo.png"
+      }
+    ]
+  },
+  "decorations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "spruce_tree_variant_1",
+        "url": "assets/offline/6557571cd2fef7add69cc57982784b25d4bb8cdd.png"
+      },
+      {
+        "type": "image",
+        "key": "spruce_tree_variant_2",
+        "url": "assets/offline/fc127ce363d5d65bf7f9871835ef88ef96bf45de.png"
+      },
+      {
+        "type": "image",
+        "key": "spruce_tree_variant_3",
+        "url": "assets/offline/916e7a331c87f33ec76e2413cb30bd5c400abb79.png"
+      },
+      {
+        "type": "image",
+        "key": "trail_marker_variant_1",
+        "url": "assets/offline/c4d445fe0fab1d95e99bb618ee923f0a6530b7b2.png"
+      },
+      {
+        "type": "image",
+        "key": "trail_marker_variant_2",
+        "url": "assets/offline/6dbf500ab37ceb48a3eae5a7888f237a38e7ad30.png"
+      },
+      {
+        "type": "image",
+        "key": "snow_pile_variant_1",
+        "url": "assets/offline/a998dae3efec6a38fed3c02856cc4c3a6a45f4b6.png"
+      },
+      {
+        "type": "image",
+        "key": "snow_pile_variant_2",
+        "url": "assets/offline/e134006ae9cb570b18d18e8136dadc401eefb4ca.png"
+      },
+      {
+        "type": "image",
+        "key": "pine_sapling_variant_1",
+        "url": "assets/offline/dea81d2e59767680d6c6132df89b8894a44f8287.png"
+      },
+      {
+        "type": "image",
+        "key": "pine_sapling_variant_2",
+        "url": "assets/offline/7d17cfd332c392cda3de9688379a2b0f80db2986.png"
+      },
+      {
+        "type": "image",
+        "key": "turku_funicular",
+        "url": "assets/custom/turku/turku_funicular.png"
+      },
+      {
+        "type": "image",
+        "key": "level_7_funi_vehicle_v2",
+        "url": "assets/custom/turku/funi_level7_vehicle_v2.png"
+      },
+      {
+        "type": "image",
+        "key": "turku_burger_kiosk",
+        "url": "assets/custom/turku/turku_burger_kiosk.png"
+      },
+      {
+        "type": "image",
+        "key": "turku_aurajoki_bridge",
+        "url": "assets/custom/turku/turku_aurajoki_bridge.png"
+      },
+      {
+        "type": "image",
+        "key": "wooden_fence_variant_1",
+        "url": "assets/offline/6cb7c777a897988a71eda60b9e9f8222920d50e3.png"
+      }
+    ]
+  },
+  "espoo_landmarks": {
+    "files": [
+      {
+        "type": "image",
+        "key": "espoo_sign",
+        "url": "assets/offline/bc4b6dc1862d0df8cf2eb003addcbbe0686868b0.png"
+      },
+      {
+        "type": "image",
+        "key": "haukilahti_water_tower",
+        "url": "assets/offline/7876307f0ade847f129661b809c6fd06b49039b6.png"
+      },
+      {
+        "type": "image",
+        "key": "tapiola_towers",
+        "url": "assets/offline/90a0226c20dd7c5daf3f984b3fe0ece3d05be208.png"
+      },
+      {
+        "type": "image",
+        "key": "espoo_city_sign",
+        "url": "assets/offline/0e167c5ce39eaadad50d64e202e1e8fff4f478bd.png"
+      },
+      {
+        "type": "image",
+        "key": "haukilahti_tower",
+        "url": "assets/offline/6c92df8f7819d6cb1b460a54f7b80abadd36f358.png"
+      },
+      {
+        "type": "image",
+        "key": "tapiola_buildings",
+        "url": "assets/offline/31c23345ed5ca5dc78f392274f2a72cc8696c2f7.png"
+      },
+      {
+        "type": "image",
+        "key": "lahti_sign",
+        "url": "assets/offline/e556b2d27bb94ef27327156707be3acac98990fc.png"
+      },
+      {
+        "type": "image",
+        "key": "lahti_ski_jump_tower",
+        "url": "assets/offline/b15639226dfa24eea9077f2f433c8c2844cdea01.png"
+      },
+      {
+        "type": "image",
+        "key": "lahti_radio_mast",
+        "url": "assets/offline/ed9c679d09ceeb1a831a788b7b0c44fe64023381.png"
+      },
+      {
+        "type": "image",
+        "key": "ravintola_torvi",
+        "url": "assets/offline/e877507adfb5ab230e4f951908528311b0c2f031.png"
+      },
+      {
+        "type": "image",
+        "key": "lahti_salpausselka_stadium",
+        "url": "assets/offline/b15639226dfa24eea9077f2f433c8c2844cdea01.png"
+      },
+      {
+        "type": "image",
+        "key": "turku_cathedral_landmark",
+        "url": "assets/custom/turku/turku_cathedral_landmark.png"
+      }
+    ]
+  },
+  "tilesets": {
+    "files": [
+      {
+        "type": "image",
+        "key": "snow_trail_tileset",
+        "url": "assets/offline/beb07ccef846d5c64c78da26bd57bbe52fcac4a2.png"
+      }
+    ]
+  },
+  "powerups": {
+    "files": [
+      {
+        "type": "image",
+        "key": "euro_20_powerup",
+        "url": "assets/offline/85eade279a1ad8a0be3ea28b296656f664ce8475.png"
+      },
+      {
+        "type": "image",
+        "key": "euro_50_powerup",
+        "url": "assets/offline/3dfa4bd9521e69551e6a9a50cb05513ef9b85c6e.png"
+      },
+      {
+        "type": "image",
+        "key": "euro_100_powerup",
+        "url": "assets/offline/f99be8c5d8245c588f1ff6ef9608ee2a70276650.png"
+      },
+      {
+        "type": "image",
+        "key": "euro_500_powerup",
+        "url": "assets/offline/79f846921ce280f8691d9dc60b7dff3978a6f5ef.png"
+      },
+      {
+        "type": "image",
+        "key": "doping_syringe_powerup",
+        "url": "assets/offline/85eade279a1ad8a0be3ea28b296656f664ce8475.png"
+      },
+      {
+        "type": "image",
+        "key": "doping_cocacola_powerup",
+        "url": "assets/offline/3dfa4bd9521e69551e6a9a50cb05513ef9b85c6e.png"
+      },
+      {
+        "type": "image",
+        "key": "doping_doctorbag_powerup",
+        "url": "assets/offline/f99be8c5d8245c588f1ff6ef9608ee2a70276650.png"
+      }
+    ]
+  },
+  "hazards": {
+    "files": [
+      {
+        "type": "image",
+        "key": "ice_patch",
+        "url": "assets/offline/9ad37836ec7e3a26ecf34dad33a4a6141ea047dd.png"
+      },
+      {
+        "type": "image",
+        "key": "fallen_tree_obstacle",
+        "url": "assets/offline/f99bd9b8604e8a0dc063914f7c0ac2e8930d26e2.png"
+      },
+      {
+        "type": "image",
+        "key": "moose_crossing",
+        "url": "assets/offline/704ebeafd86845dd97d0d4081c3bf8047b0754ef.png"
+      },
+      {
+        "type": "image",
+        "key": "dog_leash_line",
+        "url": "assets/offline/dbd08c71dff5912381293e7b69c19daab5ccb297.png"
+      },
+      {
+        "type": "image",
+        "key": "chihuahua_dog",
+        "url": "assets/offline/c1d3f4e09f282ed0e8adc0da152b2996e7871819.png"
+      },
+      {
+        "type": "image",
+        "key": "snowstorm_overlay",
+        "url": "assets/offline/3fd87ba1f1d232a16ea7abd75a098e5d541e2e7a.png"
+      },
+      {
+        "type": "image",
+        "key": "crypto_bro_walker",
+        "url": "assets/offline/8c3a6957999378c0947cced189e6ceac0b827ba4.png"
+      },
+      {
+        "type": "image",
+        "key": "influencer_selfie",
+        "url": "assets/offline/b877b46b0bde147c82aedafabc25c3740388f335.png"
+      },
+      {
+        "type": "image",
+        "key": "escooter_rider",
+        "url": "assets/offline/fc5258d367cf95b89502cc7a37478b50d1f50d12.png"
+      },
+      {
+        "type": "image",
+        "key": "crossfit_bro",
+        "url": "assets/offline/60612e7388ceb15fb3de9ed1c7899179ebddce76.png"
+      },
+      {
+        "type": "image",
+        "key": "brunch_lady",
+        "url": "assets/offline/c4d44cc136e4dfd5711fa27b9054f916e1329b25.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_cart_driver",
+        "url": "assets/offline/e603afd149213cc9c5ff690c80bd8b16c7959573.png"
+      },
+      {
+        "type": "image",
+        "key": "yacht_owner",
+        "url": "assets/offline/d5c3a730a1ab1036c7c694b0a872038bea7a2584.png"
+      },
+      {
+        "type": "image",
+        "key": "real_estate_agent",
+        "url": "assets/offline/36f48866f1a5abfe49ca07f87ccbbed74c8cd98d.png"
+      },
+      {
+        "type": "image",
+        "key": "wine_mom",
+        "url": "assets/offline/c4148a60d1db39db2e7a4c2b7b58f70837473723.png"
+      },
+      {
+        "type": "image",
+        "key": "private_school_suv",
+        "url": "assets/offline/2e53b309b3bc371ae3fa149493975314917c34bc.png"
+      }
+    ]
+  },
+  "boss_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "karen_boss_idle_R_frame1",
+        "url": "assets/custom/monika/karen_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_idle_R_frame2",
+        "url": "assets/custom/monika/karen_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_walk_R_frame1",
+        "url": "assets/custom/monika/karen_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_walk_R_frame2",
+        "url": "assets/custom/monika/karen_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_attack_R_frame1",
+        "url": "assets/custom/monika/karen_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_attack_R_frame2",
+        "url": "assets/custom/monika/karen_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_idle_R_frame1",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_idle_R_frame2",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_walk_R_frame1",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_walk_R_frame2",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_attack_R_frame1",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "tesla_ceo_boss_attack_R_frame2",
+        "url": "assets/custom/level5/sliizu/sliizu_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_idle_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_idle_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_walk_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_walk_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_attack_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_attack_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_idle_R_frame1",
+        "url": "assets/offline/ddc5e3cc2d6e8d50a32bf16081cfaeeb2a77d20e.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_idle_R_frame2",
+        "url": "assets/offline/87b75f657ef2500338ae1fa483882ea2f30a86cb.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_walk_R_frame1",
+        "url": "assets/offline/226ca9741a4841a8704e848967495e54f2d0cd03.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_walk_R_frame2",
+        "url": "assets/offline/803cb9edd5812670b4d9427d56523684e3d426cb.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_attack_R_frame1",
+        "url": "assets/offline/31ea34f9d0a2bf38006fced1c070389babaa6e1f.png"
+      },
+      {
+        "type": "image",
+        "key": "timo_soini_boss_attack_R_frame2",
+        "url": "assets/offline/2ee45f420c86ebc29e67bde0d2cb0d0e9419999f.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_idle_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_idle_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_walk_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_walk_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_kick_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_kick_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_kick_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_kick_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_die_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_die_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_idle_R_frame1",
+        "url": "assets/custom/turku/pasi/pasi_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_idle_R_frame2",
+        "url": "assets/custom/turku/pasi/pasi_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_walk_R_frame1",
+        "url": "assets/custom/turku/pasi/pasi_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_walk_R_frame2",
+        "url": "assets/custom/turku/pasi/pasi_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_jump_R_frame1",
+        "url": "assets/custom/turku/pasi/pasi_boss_jump_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_jump_R_frame2",
+        "url": "assets/custom/turku/pasi/pasi_boss_jump_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_attack_R_frame1",
+        "url": "assets/custom/turku/pasi/pasi_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "jeti_boss_attack_R_frame2",
+        "url": "assets/custom/turku/pasi/pasi_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "football_projectile",
+        "url": "assets/offline/3e8ec301ee7f05f7dba807660cac2113092cf4dc.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_barrage_R_frame1",
+        "url": "assets/custom/monika/karen_boss_barrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_barrage_R_frame2",
+        "url": "assets/custom/monika/karen_boss_barrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_barrage_R_frame3",
+        "url": "assets/custom/monika/karen_boss_barrage_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_charge_R_frame1",
+        "url": "assets/custom/monika/karen_boss_charge_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_charge_R_frame2",
+        "url": "assets/custom/monika/karen_boss_charge_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_charge_R_frame3",
+        "url": "assets/custom/monika/karen_boss_charge_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_combo_R_frame1",
+        "url": "assets/custom/monika/karen_boss_combo_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_combo_R_frame2",
+        "url": "assets/custom/monika/karen_boss_combo_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_combo_R_frame3",
+        "url": "assets/custom/monika/karen_boss_combo_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_die_R_frame1",
+        "url": "assets/custom/monika/karen_boss_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_die_R_frame2",
+        "url": "assets/custom/monika/karen_boss_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_enrage_R_frame1",
+        "url": "assets/custom/monika/karen_boss_enrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_enrage_R_frame2",
+        "url": "assets/custom/monika/karen_boss_enrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_hurt_R_frame1",
+        "url": "assets/custom/monika/karen_boss_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_hurt_R_frame2",
+        "url": "assets/custom/monika/karen_boss_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_leap_R_frame1",
+        "url": "assets/custom/monika/karen_boss_leap_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_leap_R_frame2",
+        "url": "assets/custom/monika/karen_boss_leap_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_leap_R_frame3",
+        "url": "assets/custom/monika/karen_boss_leap_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_leap_R_frame4",
+        "url": "assets/custom/monika/karen_boss_leap_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_special_R_frame1",
+        "url": "assets/custom/monika/karen_boss_special_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_special_R_frame2",
+        "url": "assets/custom/monika/karen_boss_special_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_special_R_frame3",
+        "url": "assets/custom/monika/karen_boss_special_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "karen_boss_taunt_R_frame2",
+        "url": "assets/custom/monika/karen_boss_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_attack_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_attack_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_barrage_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_barrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_barrage_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_barrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_barrage_R_frame3",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_barrage_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_charge_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_charge_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_charge_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_charge_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_charge_R_frame3",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_charge_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_combo_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_combo_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_combo_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_combo_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_combo_R_frame3",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_combo_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_enrage_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_enrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_enrage_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_enrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_hurt_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_hurt_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_intro_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_intro_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_leap_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_leap_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_leap_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_leap_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_leap_R_frame3",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_leap_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_leap_R_frame4",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_leap_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_special_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_special_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_special_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_special_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_special_R_frame3",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_special_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_taunt_R_frame1",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "litmanen_boss_taunt_R_frame2",
+        "url": "assets/custom/lahti/chiki/litmanen_boss_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_charge_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_charge_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_charge_R_frame3",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_charge_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_combo_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_combo_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_combo_R_frame3",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_combo_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_leap_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_leap_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_leap_R_frame3",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_leap_R_frame4",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_leap_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_barrage_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_barrage_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_barrage_R_frame3",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_barrage_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_special_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_special_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_special_R_frame3",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_special_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_hurt_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_hurt_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_die_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_die_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_enrage_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_enrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_enrage_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_enrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_taunt_R_frame1",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "golf_boss_taunt_R_frame2",
+        "url": "assets/custom/fuengirola/boss_isoisa/golf_boss_taunt_R_frame2.png"
+      }
+    ]
+  },
+  "sound_effects": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "game_over_sound",
+        "url": [
+          "assets/audio_local/game_over_sound.mp3",
+          "assets/audio_local/game_over_sound.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "ui_click_sound",
+        "url": [
+          "assets/audio_local/ui_click_sound.mp3",
+          "assets/audio_local/ui_click_sound.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "ski_swoosh",
+        "url": [
+          "assets/audio_local/ski_swoosh.mp3",
+          "assets/audio_local/ski_swoosh.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "punch_hit",
+        "url": [
+          "assets/audio_local/ugames_sfx/punch_hit.mp3",
+          "assets/audio_local/ugames_sfx/punch_hit.ogg",
+          "assets/audio_local/punch_hit.mp3",
+          "assets/audio_local/punch_hit.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "pole_strike",
+        "url": [
+          "assets/audio_local/ugames_sfx/pole_strike.mp3",
+          "assets/audio_local/ugames_sfx/pole_strike.ogg",
+          "assets/audio_local/pole_strike.mp3",
+          "assets/audio_local/pole_strike.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "axe_swing",
+        "url": [
+          "assets/audio_local/ugames_sfx/axe_swing.mp3",
+          "assets/audio_local/ugames_sfx/axe_swing.ogg",
+          "assets/audio_local/axe_swing.mp3",
+          "assets/audio_local/axe_swing.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "enemy_hit",
+        "url": [
+          "assets/audio_local/ugames_sfx/enemy_hit.mp3",
+          "assets/audio_local/ugames_sfx/enemy_hit.ogg",
+          "assets/audio_local/enemy_hit.mp3",
+          "assets/audio_local/enemy_hit.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "player_hurt",
+        "url": [
+          "assets/audio_local/ugames_sfx/player_hurt.mp3",
+          "assets/audio_local/ugames_sfx/player_hurt.ogg",
+          "assets/audio_local/player_hurt.mp3",
+          "assets/audio_local/player_hurt.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "tesla_horn",
+        "url": [
+          "assets/audio_local/tesla_horn.mp3",
+          "assets/audio_local/tesla_horn.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "tesla_engine",
+        "url": [
+          "assets/audio_local/tesla_engine.mp3",
+          "assets/audio_local/tesla_engine.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combo_hit",
+        "url": [
+          "assets/audio_local/ugames_sfx/combo_hit.mp3",
+          "assets/audio_local/ugames_sfx/combo_hit.ogg",
+          "assets/audio_local/combo_hit.mp3",
+          "assets/audio_local/combo_hit.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "speed_boost",
+        "url": [
+          "assets/audio_local/speed_boost.mp3",
+          "assets/audio_local/speed_boost.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "player_jump",
+        "url": [
+          "assets/audio_local/ugames_sfx/player_jump.mp3",
+          "assets/audio_local/ugames_sfx/player_jump.ogg",
+          "assets/audio_local/player_jump.mp3",
+          "assets/audio_local/player_jump.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "player_land",
+        "url": [
+          "assets/audio_local/ugames_sfx/player_land.mp3",
+          "assets/audio_local/ugames_sfx/player_land.ogg",
+          "assets/audio_local/player_land.mp3",
+          "assets/audio_local/player_land.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "tesla_crash",
+        "url": [
+          "assets/audio_local/tesla_crash.mp3",
+          "assets/audio_local/tesla_crash.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "champagne_pop",
+        "url": [
+          "assets/audio_local/champagne_pop.mp3",
+          "assets/audio_local/champagne_pop.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "axe_explosion",
+        "url": [
+          "assets/audio_local/axe_explosion.mp3",
+          "assets/audio_local/axe_explosion.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "airtime_bonus",
+        "url": [
+          "assets/audio_local/airtime_bonus.mp3",
+          "assets/audio_local/airtime_bonus.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "smoking_cough",
+        "url": [
+          "assets/audio_local/ugames_sfx/smoking_cough.mp3",
+          "assets/audio_local/ugames_sfx/smoking_cough.ogg",
+          "assets/audio_local/smoking_cough.mp3",
+          "assets/audio_local/smoking_cough.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "powerup_collect",
+        "url": [
+          "assets/audio_local/powerup_collect.mp3",
+          "assets/audio_local/powerup_collect.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "speed_boost_active",
+        "url": [
+          "assets/audio_local/speed_boost_active.mp3",
+          "assets/audio_local/speed_boost_active.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "invincibility_active",
+        "url": [
+          "assets/audio_local/invincibility_active.mp3",
+          "assets/audio_local/invincibility_active.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "health_restore",
+        "url": [
+          "assets/audio_local/health_restore.mp3",
+          "assets/audio_local/health_restore.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "ice_slip",
+        "url": [
+          "assets/audio_local/ice_slip.mp3",
+          "assets/audio_local/ice_slip.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "moose_grunt",
+        "url": [
+          "assets/audio_local/moose_grunt.mp3",
+          "assets/audio_local/moose_grunt.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "dog_bark",
+        "url": [
+          "assets/audio_local/dog_bark.mp3",
+          "assets/audio_local/dog_bark.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "trick_flip",
+        "url": [
+          "assets/audio_local/trick_flip.mp3",
+          "assets/audio_local/trick_flip.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "trick_complete",
+        "url": [
+          "assets/audio_local/trick_complete.mp3",
+          "assets/audio_local/trick_complete.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "wind_howl",
+        "url": [
+          "assets/audio_local/wind_howl.mp3",
+          "assets/audio_local/wind_howl.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "fart_death",
+        "url": [
+          "assets/audio_local/fart_death.mp3",
+          "assets/audio_local/fart_death.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "boss_appear",
+        "url": [
+          "assets/audio_local/ugames_sfx/boss_appear.mp3",
+          "assets/audio_local/ugames_sfx/boss_appear.ogg",
+          "assets/audio_local/boss_appear.mp3",
+          "assets/audio_local/boss_appear.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "boss_defeat",
+        "url": [
+          "assets/audio_local/ugames_sfx/boss_defeat.mp3",
+          "assets/audio_local/ugames_sfx/boss_defeat.ogg",
+          "assets/audio_local/boss_defeat.mp3",
+          "assets/audio_local/boss_defeat.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "boss_attack",
+        "url": [
+          "assets/audio_local/ugames_sfx/boss_attack.mp3",
+          "assets/audio_local/ugames_sfx/boss_attack.ogg",
+          "assets/audio_local/boss_attack.mp3",
+          "assets/audio_local/boss_attack.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "life_lost",
+        "url": [
+          "assets/audio_local/ugames_sfx/life_lost.mp3",
+          "assets/audio_local/ugames_sfx/life_lost.ogg",
+          "assets/audio_local/life_lost.mp3",
+          "assets/audio_local/life_lost.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "extra_life",
+        "url": [
+          "assets/audio_local/extra_life.mp3",
+          "assets/audio_local/extra_life.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_1",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_1.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_1.ogg",
+          "assets/audio_local/rage_scream_1.mp3",
+          "assets/audio_local/rage_scream_1.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_2",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_2.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_2.ogg",
+          "assets/audio_local/rage_scream_2.mp3",
+          "assets/audio_local/rage_scream_2.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_3",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_3.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_3.ogg",
+          "assets/audio_local/rage_scream_3.mp3",
+          "assets/audio_local/rage_scream_3.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_4",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_4.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_4.ogg",
+          "assets/audio_local/rage_scream_4.mp3",
+          "assets/audio_local/rage_scream_4.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_5",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_5.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_5.ogg",
+          "assets/audio_local/rage_scream_5.mp3",
+          "assets/audio_local/rage_scream_5.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_6",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_6.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_6.ogg",
+          "assets/audio_local/rage_scream_6.mp3",
+          "assets/audio_local/rage_scream_6.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_7",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_7.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_7.ogg",
+          "assets/audio_local/rage_scream_7.mp3",
+          "assets/audio_local/rage_scream_7.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_8",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_8.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_8.ogg",
+          "assets/audio_local/rage_scream_8.mp3",
+          "assets/audio_local/rage_scream_8.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_9",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_scream_9.mp3",
+          "assets/audio_local/ugames_sfx/rage_scream_9.ogg",
+          "assets/audio_local/rage_scream_9.mp3",
+          "assets/audio_local/rage_scream_9.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_1",
+        "url": [
+          "assets/audio_local/rage_scream_1.mp3",
+          "assets/audio_local/rage_scream_1.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_2",
+        "url": [
+          "assets/audio_local/rage_scream_2.mp3",
+          "assets/audio_local/rage_scream_2.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_3",
+        "url": [
+          "assets/audio_local/rage_scream_3.mp3",
+          "assets/audio_local/rage_scream_3.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_4",
+        "url": [
+          "assets/audio_local/rage_scream_4.mp3",
+          "assets/audio_local/rage_scream_4.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_5",
+        "url": [
+          "assets/audio_local/rage_scream_5.mp3",
+          "assets/audio_local/rage_scream_5.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_6",
+        "url": [
+          "assets/audio_local/rage_scream_6.mp3",
+          "assets/audio_local/rage_scream_6.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_7",
+        "url": [
+          "assets/audio_local/rage_scream_7.mp3",
+          "assets/audio_local/rage_scream_7.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_8",
+        "url": [
+          "assets/audio_local/rage_scream_8.mp3",
+          "assets/audio_local/rage_scream_8.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_scream_legacy_9",
+        "url": [
+          "assets/audio_local/rage_scream_9.mp3",
+          "assets/audio_local/rage_scream_9.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "rage_activate",
+        "url": [
+          "assets/audio_local/ugames_sfx/rage_activate.mp3",
+          "assets/audio_local/ugames_sfx/rage_activate.ogg",
+          "assets/audio_local/rage_activate.mp3",
+          "assets/audio_local/rage_activate.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "football_kick",
+        "url": [
+          "assets/audio_local/football_kick.mp3",
+          "assets/audio_local/football_kick.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "litmanen_taunt",
+        "url": [
+          "assets/audio_local/litmanen_taunt.mp3",
+          "assets/audio_local/litmanen_taunt.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_pole_01",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_pole_01.mp3",
+          "assets/audio_local/ugames_sfx/combat_pole_01.ogg",
+          "assets/audio_local/combat_generated/combat_pole_01.mp3",
+          "assets/audio_local/combat_generated/combat_pole_01.wav",
+          "assets/audio_local/combat_generated/combat_pole_01.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_pole_02",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_pole_02.mp3",
+          "assets/audio_local/ugames_sfx/combat_pole_02.ogg",
+          "assets/audio_local/combat_generated/combat_pole_02.mp3",
+          "assets/audio_local/combat_generated/combat_pole_02.wav",
+          "assets/audio_local/combat_generated/combat_pole_02.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_axe_01",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_axe_01.mp3",
+          "assets/audio_local/ugames_sfx/combat_axe_01.ogg",
+          "assets/audio_local/combat_generated/combat_axe_01.mp3",
+          "assets/audio_local/combat_generated/combat_axe_01.wav",
+          "assets/audio_local/combat_generated/combat_axe_01.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_axe_02",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_axe_02.mp3",
+          "assets/audio_local/ugames_sfx/combat_axe_02.ogg",
+          "assets/audio_local/combat_generated/combat_axe_02.mp3",
+          "assets/audio_local/combat_generated/combat_axe_02.wav",
+          "assets/audio_local/combat_generated/combat_axe_02.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_combo_01",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_combo_01.mp3",
+          "assets/audio_local/ugames_sfx/combat_combo_01.ogg",
+          "assets/audio_local/combat_generated/combat_combo_01.mp3",
+          "assets/audio_local/combat_generated/combat_combo_01.wav",
+          "assets/audio_local/combat_generated/combat_combo_01.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_combo_02",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_combo_02.mp3",
+          "assets/audio_local/ugames_sfx/combat_combo_02.ogg",
+          "assets/audio_local/combat_generated/combat_combo_02.mp3",
+          "assets/audio_local/combat_generated/combat_combo_02.wav",
+          "assets/audio_local/combat_generated/combat_combo_02.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_enemy_hit_01",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_enemy_hit_01.mp3",
+          "assets/audio_local/ugames_sfx/combat_enemy_hit_01.ogg",
+          "assets/audio_local/combat_generated/combat_enemy_hit_01.mp3",
+          "assets/audio_local/combat_generated/combat_enemy_hit_01.wav",
+          "assets/audio_local/combat_generated/combat_enemy_hit_01.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_enemy_hit_02",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_enemy_hit_02.mp3",
+          "assets/audio_local/ugames_sfx/combat_enemy_hit_02.ogg",
+          "assets/audio_local/combat_generated/combat_enemy_hit_02.mp3",
+          "assets/audio_local/combat_generated/combat_enemy_hit_02.wav",
+          "assets/audio_local/combat_generated/combat_enemy_hit_02.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_whoosh_01",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_whoosh_01.mp3",
+          "assets/audio_local/ugames_sfx/combat_whoosh_01.ogg",
+          "assets/audio_local/combat_generated/combat_whoosh_01.mp3",
+          "assets/audio_local/combat_generated/combat_whoosh_01.wav",
+          "assets/audio_local/combat_generated/combat_whoosh_01.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "combat_whoosh_02",
+        "url": [
+          "assets/audio_local/ugames_sfx/combat_whoosh_02.mp3",
+          "assets/audio_local/ugames_sfx/combat_whoosh_02.ogg",
+          "assets/audio_local/combat_generated/combat_whoosh_02.mp3",
+          "assets/audio_local/combat_generated/combat_whoosh_02.wav",
+          "assets/audio_local/combat_generated/combat_whoosh_02.ogg"
+        ]
+      }
+    ]
+  },
+  "peter_sync_boss": {
+    "files": [
+      {
+        "type": "image",
+        "key": "peter_sync_idle_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_idle_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_glide_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_glide_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_glide_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_glide_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_jump_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_jump_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_jump_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_jump_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_spin_attack_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_spin_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_spin_attack_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_spin_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_taunt_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_taunt_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_dash_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_dash_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_dash_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_dash_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_die_R_frame1",
+        "url": "assets/custom/peter_sync/peter_sync_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "peter_sync_die_R_frame2",
+        "url": "assets/custom/peter_sync/peter_sync_die_R_frame2.png"
+      }
+    ]
+  },
+  "ice_club_arena": {
+    "files": [
+      {
+        "type": "image",
+        "key": "ice_club_arena_background",
+        "url": "assets/custom/peter_sync/bglevel11.png"
+      },
+      {
+        "type": "image",
+        "key": "disco_ball",
+        "url": "assets/offline/a998dae3efec6a38fed3c02856cc4c3a6a45f4b6.png"
+      },
+      {
+        "type": "image",
+        "key": "neon_speaker_stack",
+        "url": "assets/offline/6cb7c777a897988a71eda60b9e9f8222920d50e3.png"
+      },
+      {
+        "type": "image",
+        "key": "ice_shockwave_effect",
+        "url": "assets/offline/9ad37836ec7e3a26ecf34dad33a4a6141ea047dd.png"
+      },
+      {
+        "type": "image",
+        "key": "sparkle_spin_effect",
+        "url": "assets/offline/9ad37836ec7e3a26ecf34dad33a4a6141ea047dd.png"
+      },
+      {
+        "type": "image",
+        "key": "neon_snowbank_variant_1",
+        "url": "assets/offline/fdb595230979c83e895fed71e8433ba23d2014dc.png"
+      },
+      {
+        "type": "image",
+        "key": "neon_snowbank_variant_2",
+        "url": "assets/offline/e0201c757ba4f09b9054e8ee78fdc91df0f2cb56.png"
+      },
+      {
+        "type": "image",
+        "key": "neon_snowbank_variant_3",
+        "url": "assets/offline/ceb6311c3709f3606ed1efe702159d262226d690.png"
+      },
+      {
+        "type": "image",
+        "key": "disco_spotlight_variant_1",
+        "url": "assets/offline/be27b4f8bff32893fa5d38fd0f31135e0d909be4.png"
+      },
+      {
+        "type": "image",
+        "key": "disco_spotlight_variant_2",
+        "url": "assets/offline/7e9422e52618ee49f3d23c9869e0af9c72d9085e.png"
+      },
+      {
+        "type": "image",
+        "key": "disco_spotlight_variant_3",
+        "url": "assets/offline/aa04be1737b6da5f3cc022e72002f1ae3a79582c.png"
+      }
+    ]
+  },
+  "peter_sync_sounds": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "ice_skate_glide",
+        "url": [
+          "assets/audio_local/ice_skate_glide.mp3",
+          "assets/audio_local/ice_skate_glide.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "disco_spin_attack",
+        "url": [
+          "assets/audio_local/disco_spin_attack.mp3",
+          "assets/audio_local/disco_spin_attack.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "ice_shockwave_landing",
+        "url": [
+          "assets/audio_local/ice_shockwave_landing.mp3",
+          "assets/audio_local/ice_shockwave_landing.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "boyband_pose_sound",
+        "url": [
+          "assets/audio_local/boyband_pose_sound.mp3",
+          "assets/audio_local/boyband_pose_sound.ogg"
+        ]
+      },
+      {
+        "type": "audio",
+        "key": "backstage_dash",
+        "url": [
+          "assets/audio_local/backstage_dash.mp3",
+          "assets/audio_local/backstage_dash.ogg"
+        ]
+      }
+    ]
+  },
+  "logos": {
+    "files": [
+      {
+        "type": "image",
+        "key": "uber_games_logo",
+        "url": "assets/custom/logos/uber_intro_logo.png"
+      },
+      {
+        "type": "image",
+        "key": "uber_logo",
+        "url": "assets/custom/logos/uber_intro_logo.png"
+      },
+      {
+        "type": "image",
+        "key": "uber_intro_logo",
+        "url": "assets/custom/logos/uber_intro_logo.png"
+      },
+      {
+        "type": "image",
+        "key": "strix_logo",
+        "url": "assets/custom/logos/strix.png"
+      },
+      {
+        "type": "image",
+        "key": "owlfox_logo",
+        "url": "assets/custom/logos/owlfox.png"
+      },
+      {
+        "type": "image",
+        "key": "shart_earth_logo",
+        "url": "assets/custom/logos/shart_earth_logo.png"
+      }
+    ]
+  },
+  "kiia_boss": {
+    "files": [
+      {
+        "type": "image",
+        "key": "kiia_boss_idle_R_frame1",
+        "url": "assets/offline/d49e272b9a87a5e106d17159ece07bfae9c8c856.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_idle_R_frame2",
+        "url": "assets/offline/0071ff55706f19cb287d39a3fd02c34ca12c0b07.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_walk_R_frame1",
+        "url": "assets/offline/2c72a2d6f46773a99ab31eb56a2247b8dba47d46.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_walk_R_frame2",
+        "url": "assets/offline/2ba0a82a45849d85ce9ab3753c611b880c03146e.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_attack_R_frame1",
+        "url": "assets/offline/2012e5d7e3cf4c7faa5fd1f044d2c079e56fede5.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_attack_R_frame2",
+        "url": "assets/offline/48a78c9bd9fd6c3676918aedb02eea640ec7383a.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_die_R_frame1",
+        "url": "assets/offline/8e1a320e98f5d1342c0d84b51c6ae7c8a40afa80.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_die_R_frame2",
+        "url": "assets/offline/87528407c790b9727d6b2b6ca2421904a866c51c.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_taunt_R_frame1",
+        "url": "assets/offline/0eafc2e662b240e146c46eaab70808dbc6be1bf7.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_taunt_R_frame2",
+        "url": "assets/offline/1b94b35697dfe441c5c4e1691ef53af5bac2557b.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_dash_R_frame1",
+        "url": "assets/offline/c282aa4944fb91e32ab2707d6e4bde75fa474347.png"
+      },
+      {
+        "type": "image",
+        "key": "kiia_boss_dash_R_frame2",
+        "url": "assets/offline/27b4c0ca6571b214e95c5e8636bb1bd7bf9dae8a.png"
+      }
+    ]
+  },
+  "level6_tero_afterwork": {
+    "files": [
+      {
+        "type": "image",
+        "key": "level6_boss_attack_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_attack_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_barrage_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_barrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_barrage_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_barrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_barrage_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_barrage_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_briefcase_slam_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_briefcase_slam_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_briefcase_slam_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_briefcase_slam_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_briefcase_slam_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_briefcase_slam_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_charge_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_charge_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_charge_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_charge_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_charge_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_charge_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_combo_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_combo_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_combo_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_combo_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_combo_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_combo_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_die_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_die_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_enrage_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_enrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_enrage_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_enrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_hurt_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_hurt_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_idle_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_idle_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_intro_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_intro_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_intro_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_intro_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_leap_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_leap_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_leap_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_leap_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_leap_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_leap_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_leap_R_frame4",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_leap_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_shuriken_attack_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_shuriken_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_shuriken_attack_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_shuriken_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_shuriken_attack_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_shuriken_attack_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_special_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_special_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_special_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_special_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_special_R_frame3",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_special_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_taunt_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_taunt_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_walk_R_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_boss_walk_R_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_briefcase_burst_vfx_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_briefcase_burst_vfx_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_briefcase_burst_vfx_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_briefcase_burst_vfx_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_charge_skid_fx_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_charge_skid_fx_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_shuriken_trail_vfx_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_shuriken_trail_vfx_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_shuriken_vfx_frame1",
+        "url": "assets/custom/level6/tero_afterwork/level6_shuriken_vfx_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "level6_shuriken_vfx_frame2",
+        "url": "assets/custom/level6/tero_afterwork/level6_shuriken_vfx_frame2.png"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Gambo AI",
+    "version": 1,
+    "showAllFilesInBlocks": false
+  },
+  "elsa_boss": {
+    "files": [
+      {
+        "type": "image",
+        "key": "elsa_boss_attack_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_attack_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_barrage_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_barrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_barrage_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_barrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_barrage_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_barrage_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_charge_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_charge_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_charge_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_charge_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_charge_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_charge_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_combo_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_combo_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_combo_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_combo_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_combo_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_combo_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_die_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_die_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_die_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_die_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_enrage_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_enrage_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_enrage_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_enrage_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_hurt_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_hurt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_hurt_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_hurt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_idle_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_idle_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_idle_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_idle_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_intro_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_intro_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_intro_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_intro_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_leap_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_leap_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_leap_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_leap_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_leap_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_leap_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_leap_R_frame4",
+        "url": "assets/custom/elsa/elsa_boss_leap_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_special_fart_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_special_fart_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_special_fart_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_special_fart_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_special_fart_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_special_fart_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_taunt_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_taunt_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_taunt_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_taunt_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_uzi_attack_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_uzi_attack_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_uzi_attack_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_uzi_attack_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_uzi_attack_R_frame3",
+        "url": "assets/custom/elsa/elsa_boss_uzi_attack_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_walk_R_frame1",
+        "url": "assets/custom/elsa/elsa_boss_walk_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_boss_walk_R_frame2",
+        "url": "assets/custom/elsa/elsa_boss_walk_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_fart_cloud_R_frame1",
+        "url": "assets/custom/elsa/elsa_fart_cloud_R_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_fart_cloud_R_frame2",
+        "url": "assets/custom/elsa/elsa_fart_cloud_R_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_fart_cloud_R_frame3",
+        "url": "assets/custom/elsa/elsa_fart_cloud_R_frame3.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_fart_cloud_R_frame4",
+        "url": "assets/custom/elsa/elsa_fart_cloud_R_frame4.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_rollator_skid_fx_frame1",
+        "url": "assets/custom/elsa/elsa_rollator_skid_fx_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_rollator_skid_fx_frame2",
+        "url": "assets/custom/elsa/elsa_rollator_skid_fx_frame2.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_uzi_muzzle_flash_frame1",
+        "url": "assets/custom/elsa/elsa_uzi_muzzle_flash_frame1.png"
+      },
+      {
+        "type": "image",
+        "key": "elsa_uzi_muzzle_flash_frame2",
+        "url": "assets/custom/elsa/elsa_uzi_muzzle_flash_frame2.png"
+      }
+    ]
+  }
+}

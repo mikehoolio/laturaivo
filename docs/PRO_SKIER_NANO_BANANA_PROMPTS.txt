@@ -1,0 +1,56 @@
+PRO SKIER -> FIGURE SKATER - NANO BANANA PROMPTS
+Project: Laturaivo
+Character key in code: pro_skier
+Visual identity: figure skater (based on provided reference)
+
+Compatibility target (current game)
+- Canvas per frame: 512x512
+- Background: fully transparent alpha
+- Facing: right
+- Framing: full body fully visible, skates fully inside canvas
+- Keep foot/skate contact baseline stable near lower quarter of image
+
+Shared negative prompt (append to every prompt)
+"photorealistic, painterly brush strokes, 3D render, blurry, soft focus, glow bloom, text, logo, watermark, background scenery, extra limbs, cropped body, cut-off skates, wrong facing direction."
+
+Embedded style lock (already included in each prompt below)
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background."
+
+Core animation set (drop-in replacement for existing assets)
+
+1) pro_skier_ski_R_frame1.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Glide frame 1, controlled forward skating stride, arms close to torso, readable game-sprite pose."
+
+2) pro_skier_ski_R_frame2.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Glide frame 2, opposite leg and arm rhythm from frame 1, smooth motion-cycle pair."
+
+3) pro_skier_attack_R_frame1.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Attack wind-up frame, lowered center of gravity, torso coiled, arms preparing a fast spin strike."
+
+4) pro_skier_attack_R_frame2.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Attack follow-through frame, aggressive spin-slash style pose, sharp extended line and dynamic momentum."
+
+Expansion set (hurt/die/taunt)
+
+5) pro_skier_hurt_R_frame1.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Hurt reaction frame 1, upper body recoils backward, one arm raised defensively, balance breaking."
+
+6) pro_skier_hurt_R_frame2.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Hurt recovery frame 2, crouched and unstable, skates skewed slightly, regaining posture."
+
+7) pro_skier_die_R_frame1.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Death start frame, losing balance into a dramatic fall, torso tilting and legs slipping out."
+
+8) pro_skier_die_R_frame2.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Death end frame, low collapsed pose on ice, final defeated silhouette."
+
+9) pro_skier_taunt_R_frame1.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Taunt frame 1, smug elegant posture, chin raised, one hand near chest in showy pose."
+
+10) pro_skier_taunt_R_frame2.png
+"Same character as reference image: adult female figure skater, blonde hair in a bun with a small turquoise hair tie, emerald-green glitter long-sleeve skating dress, white figure skates, elegant athletic build, retro 16-bit pixel-art side-view sprite, right-facing, clean silhouette, transparent alpha background. Taunt frame 2, confident flourish pose, shoulders rotated and dress hem with slight motion."
+
+Generation tips
+- Attach your reference image on every generation.
+- Keep all frames in one session for best character consistency.
+- If identity drifts, prepend: "exact same character design, same colors, same proportions, same camera distance".

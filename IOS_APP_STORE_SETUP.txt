@@ -1,0 +1,261 @@
+================================================================================
+LATURAIVO - iOS App Store Setup Guide
+================================================================================
+
+This guide walks you through building and submitting your Phaser game to the 
+iOS App Store using Capacitor.
+
+CANONICAL iOS PROJECT
+- Use ios/App/Laturaivo.xcodeproj
+- Use scheme: Laturaivo
+- Use bundle ID: fi.ubercreative.laturaivo
+- Do NOT use App.xcodeproj for release, Game Center, or App Store uploads
+
+================================================================================
+PREREQUISITES
+================================================================================
+
+1. macOS computer with Xcode 15+ installed
+2. Apple Developer Account ($99/year) - https://developer.apple.com
+3. Node.js 18+ and npm installed
+4. CocoaPods installed: sudo gem install cocoapods
+
+================================================================================
+STEP 1: BUILD AND INITIALIZE iOS PROJECT
+================================================================================
+
+Run these commands in order:
+
+# 1. Install dependencies (if not already done)
+npm install
+
+# 2. Build the web app to /dist folder
+npm run build
+
+# 3. Initialize Capacitor (only needed once)
+npx cap init LATURAIVO fi.ubercreative.laturaivo --web-dir dist
+
+# 4. Add iOS platform (only needed once)
+npx cap add ios
+
+# 5. Sync web build to iOS project
+npx cap sync ios
+
+# 6. Open in Xcode
+open ios/App/Laturaivo.xcodeproj
+
+OR use the convenience scripts:
+
+npm run ios:open    # Builds, syncs, and opens Xcode in one command
+npm run ios:xcode:build:sim
+npm run ios:xcode:archive
+
+================================================================================
+STEP 2: CONFIGURE XCODE PROJECT
+================================================================================
+
+After opening in Xcode:
+
+A. SET BUNDLE IDENTIFIER
+   1. Select the "Laturaivo" project in the navigator
+   2. Select the "Laturaivo" target
+   3. Go to "Signing & Capabilities" tab
+   4. Keep Bundle Identifier as "fi.ubercreative.laturaivo" unless you are
+      intentionally changing the production app identity everywhere
+      (App Store Connect, Game Center, provisioning, TestFlight)
+   5. Select your Team (Apple Developer account)
+
+B. VERIFY ORIENTATION SETTINGS (General tab)
+   - Under "Deployment Info" > "Device Orientation":
+   - ✅ Landscape Left
+   - ✅ Landscape Right  
+   - ❌ Portrait (MUST be unchecked)
+   - ❌ Upside Down (MUST be unchecked)
+
+C. SET VERSION AND BUILD NUMBERS
+   - Version: 1.1 (or your next release version)
+   - Build: increment before each upload
+
+D. SET MINIMUM iOS VERSION
+   - Recommended: iOS 14.0 or higher
+
+================================================================================
+STEP 3: ADD APP ICONS
+================================================================================
+
+You MUST provide all required icon sizes. Create these PNG files:
+
+Required iPhone icons:
+- Icon-App-20x20@2x.png (40x40 pixels)
+- Icon-App-20x20@3x.png (60x60 pixels)
+- Icon-App-29x29@2x.png (58x58 pixels)
+- Icon-App-29x29@3x.png (87x87 pixels)
+- Icon-App-40x40@2x.png (80x80 pixels)
+- Icon-App-40x40@3x.png (120x120 pixels)
+- Icon-App-60x60@2x.png (120x120 pixels)
+- Icon-App-60x60@3x.png (180x180 pixels)
+
+Required iPad icons:
+- Icon-App-20x20@1x.png (20x20 pixels)
+- Icon-App-20x20@2x.png (40x40 pixels)
+- Icon-App-29x29@1x.png (29x29 pixels)
+- Icon-App-29x29@2x.png (58x58 pixels)
+- Icon-App-40x40@1x.png (40x40 pixels)
+- Icon-App-40x40@2x.png (80x80 pixels)
+- Icon-App-76x76@1x.png (76x76 pixels)
+- Icon-App-76x76@2x.png (152x152 pixels)
+- Icon-App-83.5x83.5@2x.png (167x167 pixels)
+
+App Store icon (REQUIRED):
+- Icon-App-1024x1024@1x.png (1024x1024 pixels)
+
+Place all icons in:
+ios/App/App/Assets.xcassets/AppIcon.appiconset/
+
+TIP: Use a tool like https://appicon.co to generate all sizes from one image.
+
+================================================================================
+STEP 4: BUILD AND TEST
+================================================================================
+
+A. TEST ON SIMULATOR
+   1. Select an iPhone or iPad simulator from the device menu
+   2. Press Cmd+R or click the Play button
+   3. Verify the game runs in landscape mode
+   4. Test audio plays after first touch
+   5. Check notch areas are handled correctly
+
+B. TEST ON REAL DEVICE
+   1. Connect your iPhone/iPad via USB
+   2. Select your device from the device menu
+   3. Press Cmd+R to build and run
+   4. You may need to trust the developer certificate on the device:
+      Settings > General > Device Management > Trust
+
+================================================================================
+STEP 5: ARCHIVE AND UPLOAD
+================================================================================
+
+A. CREATE ARCHIVE
+   1. Select "Any iOS Device (arm64)" from device menu
+   2. Menu: Product > Archive
+   3. Wait for build to complete
+
+B. UPLOAD TO APP STORE CONNECT
+   1. When archive completes, Organizer window opens
+   2. Select your archive
+   3. Click "Distribute App"
+   4. Choose "App Store Connect"
+   5. Choose "Upload"
+   6. Follow prompts to upload
+
+================================================================================
+STEP 6: APP STORE CONNECT CONFIGURATION
+================================================================================
+
+Go to https://appstoreconnect.apple.com
+
+A. CREATE APP LISTING
+   1. My Apps > + > New App
+   2. Platform: iOS
+   3. Name: LATURAIVO
+   4. Primary Language: Finnish (or your choice)
+   5. Bundle ID: Select your bundle identifier
+   6. SKU: laturaivo-ios-1
+
+B. REQUIRED INFORMATION
+   - App description
+   - Keywords
+   - Support URL
+   - Privacy Policy URL (REQUIRED even if no data collected)
+   - Screenshots (at least for 6.5" and 5.5" displays)
+   - App icon (1024x1024)
+   - Age rating questionnaire
+   - App category: Games > Action (or appropriate)
+
+C. SCREENSHOTS REQUIRED
+   Landscape screenshots needed for:
+   - iPhone 6.7" Display (1290 x 2796 or 2796 x 1290 for landscape)
+   - iPhone 6.5" Display (1284 x 2778 or 2778 x 1284 for landscape)
+   - iPhone 5.5" Display (1242 x 2208 or 2208 x 1242 for landscape)
+   - iPad Pro 12.9" (2048 x 2732 or 2732 x 2048 for landscape)
+
+================================================================================
+STEP 7: TESTFLIGHT
+================================================================================
+
+A. INTERNAL TESTING
+   1. In App Store Connect, go to TestFlight
+   2. Your uploaded build appears after processing (5-30 min)
+   3. Add internal testers (up to 100)
+   4. Install via TestFlight app
+
+B. EXTERNAL TESTING (Optional)
+   1. Submit build for Beta App Review
+   2. Once approved, invite up to 10,000 testers
+   3. Testers get email with TestFlight link
+
+================================================================================
+STEP 8: SUBMIT FOR REVIEW
+================================================================================
+
+1. Go to your app in App Store Connect
+2. Select the build under "Build"
+3. Fill out all required metadata
+4. Click "Submit for Review"
+5. Wait 24-48 hours (typically) for review
+
+================================================================================
+COMMON ISSUES AND SOLUTIONS
+================================================================================
+
+ISSUE: Audio doesn't play on iOS
+SOLUTION: The game includes iOS audio unlock code. Ensure the first 
+         touch/tap triggers audio unlock before any sound plays.
+
+ISSUE: Game shows in portrait mode
+SOLUTION: Check Info.plist only has landscape orientations.
+         In Xcode, verify only Landscape Left/Right are checked.
+
+ISSUE: White bars appear around game
+SOLUTION: Ensure viewport-fit=cover is in index.html meta tag.
+         Check safe-area-inset padding in CSS.
+
+ISSUE: Build fails with signing errors
+SOLUTION: Go to Signing & Capabilities, select your Team,
+         and let Xcode manage signing automatically.
+
+ISSUE: App rejected for missing privacy policy
+SOLUTION: Create a simple privacy policy page (even if you collect no data)
+         and add the URL to App Store Connect.
+
+================================================================================
+UPDATING THE APP
+================================================================================
+
+When you need to update:
+
+1. Make your code changes
+2. Increment the build number in Xcode
+3. Run: npm run ios:build
+4. Archive again from Laturaivo.xcodeproj / scheme Laturaivo
+5. Submit for review in App Store Connect
+
+================================================================================
+CHECKLIST BEFORE SUBMISSION
+================================================================================
+
+[ ] Bundle identifier is fi.ubercreative.laturaivo
+[ ] All app icons are added
+[ ] Launch screen displays correctly
+[ ] Game runs in landscape only
+[ ] Audio plays after first interaction
+[ ] Notch/safe areas handled properly
+[ ] Version and build numbers set
+[ ] Privacy policy URL added
+[ ] Screenshots uploaded for all required sizes
+[ ] App description and keywords filled in
+[ ] Age rating completed
+[ ] No debug tools or localhost references in code
+
+================================================================================

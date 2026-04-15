@@ -1,0 +1,2513 @@
+{
+  "anims": [
+    {
+      "key": "player_ski_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_ski_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "player_ski_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "player_ski_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_ski_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "player_ski_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.358,
+      "originY": 1
+    },
+    {
+      "key": "player_punch_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_punch_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "player_punch_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.18,
+      "originY": 1
+    },
+    {
+      "key": "player_pole_strike_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_pole_strike_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "player_pole_strike_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.217,
+      "originY": 1
+    },
+    {
+      "key": "player_axe_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_axe_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "player_axe_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.243,
+      "originY": 1
+    },
+    {
+      "key": "player_dash_axe_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_dash_axe_attack_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "player_dash_axe_attack_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.16,
+      "originY": 1
+    },
+    {
+      "key": "player_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_die_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "player_die_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.307,
+      "originY": 1
+    },
+    {
+      "key": "enemy_ski_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "enemy_ski_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "enemy_ski_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "enemy_ski_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "enemy_ski_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "enemy_ski_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "enemy_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "enemy_attack_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "enemy_attack_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.177,
+      "originY": 1
+    },
+    {
+      "key": "enemy_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "enemy_die_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "enemy_die_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.252,
+      "originY": 1
+    },
+    {
+      "key": "player_jump_up_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_jump_R_frame1",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.32,
+      "originY": 1
+    },
+    {
+      "key": "player_jump_down_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "player_jump_R_frame2",
+          "duration": 200
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.32,
+      "originY": 1
+    },
+    {
+      "key": "family_adult_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "family_adult_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "family_adult_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.374,
+      "originY": 1
+    },
+    {
+      "key": "family_child_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "family_child_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "family_child_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.386,
+      "originY": 1
+    },
+    {
+      "key": "drunk_stagger_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "drunk_stagger_R_frame1",
+          "duration": 400
+        },
+        {
+          "key": "drunk_stagger_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.316,
+      "originY": 1
+    },
+    {
+      "key": "drunk_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "drunk_attack_R_frame1",
+          "duration": 100
+        },
+        {
+          "key": "drunk_attack_R_frame2",
+          "duration": 150
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.231,
+      "originY": 1
+    },
+    {
+      "key": "pro_skier_ski_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "pro_skier_ski_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "pro_skier_ski_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.294,
+      "originY": 1
+    },
+    {
+      "key": "pro_skier_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "pro_skier_attack_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "pro_skier_attack_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.203,
+      "originY": 1
+    },
+    {
+      "key": "pro_skier_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "pro_skier_hurt_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "pro_skier_hurt_R_frame2",
+          "duration": 110
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.294,
+      "originY": 1
+    },
+    {
+      "key": "pro_skier_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "pro_skier_die_R_frame1",
+          "duration": 160
+        },
+        {
+          "key": "pro_skier_die_R_frame2",
+          "duration": 240
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.294,
+      "originY": 1
+    },
+    {
+      "key": "pro_skier_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "pro_skier_taunt_R_frame1",
+          "duration": 180
+        },
+        {
+          "key": "pro_skier_taunt_R_frame2",
+          "duration": 240
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.294,
+      "originY": 1
+    },
+    {
+      "key": "power_walker_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "power_walker_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "power_walker_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "headphone_walker_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "headphone_walker_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "headphone_walker_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.478,
+      "originY": 1
+    },
+    {
+      "key": "smoking_lady_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "smoking_lady_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "smoking_lady_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.455,
+      "originY": 1
+    },
+    {
+      "key": "padel_player_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "padel_player_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "padel_player_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.417,
+      "originY": 1
+    },
+    {
+      "key": "tennis_player_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "tennis_player_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "tennis_player_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.475,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "karen_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "karen_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.411,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "karen_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.165,
+      "originY": 1
+    },
+    {
+      "key": "tesla_ceo_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "tesla_ceo_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "tesla_ceo_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "tesla_ceo_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "tesla_ceo_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "tesla_ceo_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.479,
+      "originY": 1
+    },
+    {
+      "key": "tesla_ceo_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "tesla_ceo_boss_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "tesla_ceo_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.171,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "golf_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "golf_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "golf_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.205,
+      "originY": 1
+    },
+    {
+      "key": "jeti_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "jeti_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "jeti_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "jeti_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "jeti_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "jeti_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "jeti_boss_jump_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "jeti_boss_jump_R_frame1",
+          "duration": 240
+        },
+        {
+          "key": "jeti_boss_jump_R_frame2",
+          "duration": 260
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "jeti_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "jeti_boss_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "jeti_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.205,
+      "originY": 1
+    },
+    {
+      "key": "timo_soini_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "timo_soini_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "timo_soini_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "timo_soini_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "timo_soini_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "timo_soini_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "timo_soini_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "timo_soini_boss_attack_R_frame1",
+          "duration": 100
+        },
+        {
+          "key": "timo_soini_boss_attack_R_frame2",
+          "duration": 150
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.203,
+      "originY": 1
+    },
+    {
+      "key": "somali_skier_ski_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "somali_skier_ski_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "somali_skier_ski_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.41,
+      "originY": 1
+    },
+    {
+      "key": "asian_tech_worker_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "asian_tech_worker_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "asian_tech_worker_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.475,
+      "originY": 1
+    },
+    {
+      "key": "female_player_ski_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_ski_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "female_player_ski_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "female_player_ski_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_ski_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "female_player_ski_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "female_player_jump_up_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_jump_R_frame1",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.255,
+      "originY": 1
+    },
+    {
+      "key": "female_player_jump_down_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_jump_R_frame2",
+          "duration": 200
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.255,
+      "originY": 1
+    },
+    {
+      "key": "female_player_pole_strike_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_pole_strike_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "female_player_pole_strike_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.215,
+      "originY": 1
+    },
+    {
+      "key": "female_player_axe_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_axe_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "female_player_axe_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.269,
+      "originY": 1
+    },
+    {
+      "key": "female_player_punch_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_punch_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "female_player_punch_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.24,
+      "originY": 1
+    },
+    {
+      "key": "female_player_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "female_player_die_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "female_player_die_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.25,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_parody_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_parody_walk_R_frame1",
+          "duration": 400
+        },
+        {
+          "key": "litmanen_parody_walk_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_parody_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_parody_idle_R_frame1",
+          "duration": 500
+        },
+        {
+          "key": "litmanen_parody_idle_R_frame2",
+          "duration": 500
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "bluetooth_bomber_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "bluetooth_bomber_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "bluetooth_bomber_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.447,
+      "originY": 1
+    },
+    {
+      "key": "after_ski_alpha_ski_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "after_ski_alpha_ski_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "after_ski_alpha_ski_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.315,
+      "originY": 1
+    },
+    {
+      "key": "passive_grandpa_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "passive_grandpa_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "passive_grandpa_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.462,
+      "originY": 1
+    },
+    {
+      "key": "city_cyclist_ride_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "city_cyclist_ride_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "city_cyclist_ride_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.287,
+      "originY": 1
+    },
+    {
+      "key": "wellness_warrior_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "wellness_warrior_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "wellness_warrior_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.186,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "peter_sync_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_glide_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_glide_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "peter_sync_glide_R_frame2",
+          "duration": 200
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.4,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_jump_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_jump_R_frame1",
+          "duration": 100
+        },
+        {
+          "key": "peter_sync_jump_R_frame2",
+          "duration": 200
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_spin_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_spin_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "peter_sync_spin_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_taunt_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "peter_sync_taunt_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_dash_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_dash_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "peter_sync_dash_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.3,
+      "originY": 1
+    },
+    {
+      "key": "peter_sync_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "peter_sync_die_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "peter_sync_die_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "kiia_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "kiia_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.348,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_attack_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "kiia_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.163,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_die_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "kiia_boss_die_R_frame2",
+          "duration": 400
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.165,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_taunt_R_frame1",
+          "duration": 200
+        },
+        {
+          "key": "kiia_boss_taunt_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.209,
+      "originY": 1
+    },
+    {
+      "key": "kiia_boss_dash_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "kiia_boss_dash_R_frame1",
+          "duration": 50
+        },
+        {
+          "key": "kiia_boss_dash_R_frame2",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.129,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_charge_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_charge_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "karen_boss_charge_R_frame2",
+          "duration": 110
+        },
+        {
+          "key": "karen_boss_charge_R_frame3",
+          "duration": 90
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_combo_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_combo_R_frame1",
+          "duration": 75
+        },
+        {
+          "key": "karen_boss_combo_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "karen_boss_combo_R_frame3",
+          "duration": 105
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.18,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_leap_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_leap_R_frame1",
+          "duration": 110
+        },
+        {
+          "key": "karen_boss_leap_R_frame2",
+          "duration": 120
+        },
+        {
+          "key": "karen_boss_leap_R_frame3",
+          "duration": 120
+        },
+        {
+          "key": "karen_boss_leap_R_frame4",
+          "duration": 110
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.28,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_barrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_barrage_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "karen_boss_barrage_R_frame2",
+          "duration": 100
+        },
+        {
+          "key": "karen_boss_barrage_R_frame3",
+          "duration": 110
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.19,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_special_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_special_R_frame1",
+          "duration": 130
+        },
+        {
+          "key": "karen_boss_special_R_frame2",
+          "duration": 150
+        },
+        {
+          "key": "karen_boss_special_R_frame3",
+          "duration": 130
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_hurt_R_frame1",
+          "duration": 100
+        },
+        {
+          "key": "karen_boss_hurt_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_die_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "karen_boss_die_R_frame2",
+          "duration": 260
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_enrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_enrage_R_frame1",
+          "duration": 140
+        },
+        {
+          "key": "karen_boss_enrage_R_frame2",
+          "duration": 160
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "karen_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "karen_boss_taunt_R_frame2",
+          "duration": 220
+        },
+        {
+          "key": "karen_boss_taunt_R_frame2",
+          "duration": 220
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.2,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "level6_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "level6_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_intro_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_intro_R_frame1",
+          "duration": 240
+        },
+        {
+          "key": "level6_boss_intro_R_frame2",
+          "duration": 280
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_attack_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "level6_boss_attack_R_frame2",
+          "duration": 125
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_charge_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_charge_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "level6_boss_charge_R_frame2",
+          "duration": 110
+        },
+        {
+          "key": "level6_boss_charge_R_frame3",
+          "duration": 95
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_combo_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_combo_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "level6_boss_combo_R_frame2",
+          "duration": 105
+        },
+        {
+          "key": "level6_boss_combo_R_frame3",
+          "duration": 110
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_briefcase_slam_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_briefcase_slam_R_frame1",
+          "duration": 105
+        },
+        {
+          "key": "level6_boss_briefcase_slam_R_frame2",
+          "duration": 115
+        },
+        {
+          "key": "level6_boss_briefcase_slam_R_frame3",
+          "duration": 130
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_leap_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_leap_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "level6_boss_leap_R_frame2",
+          "duration": 95
+        },
+        {
+          "key": "level6_boss_leap_R_frame3",
+          "duration": 100
+        },
+        {
+          "key": "level6_boss_leap_R_frame4",
+          "duration": 105
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_barrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_barrage_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "level6_boss_barrage_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "level6_boss_barrage_R_frame3",
+          "duration": 100
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_shuriken_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_shuriken_attack_R_frame1",
+          "duration": 85
+        },
+        {
+          "key": "level6_boss_shuriken_attack_R_frame2",
+          "duration": 95
+        },
+        {
+          "key": "level6_boss_shuriken_attack_R_frame3",
+          "duration": 105
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_special_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_special_R_frame1",
+          "duration": 120
+        },
+        {
+          "key": "level6_boss_special_R_frame2",
+          "duration": 135
+        },
+        {
+          "key": "level6_boss_special_R_frame3",
+          "duration": 155
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_hurt_R_frame1",
+          "duration": 140
+        },
+        {
+          "key": "level6_boss_hurt_R_frame2",
+          "duration": 185
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_die_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "level6_boss_die_R_frame2",
+          "duration": 430
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_enrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_enrage_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "level6_boss_enrage_R_frame2",
+          "duration": 280
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_boss_taunt_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "level6_boss_taunt_R_frame2",
+          "duration": 290
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "level6_briefcase_burst_vfx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_briefcase_burst_vfx_frame1",
+          "duration": 90
+        },
+        {
+          "key": "level6_briefcase_burst_vfx_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "level6_shuriken_vfx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_shuriken_vfx_frame1",
+          "duration": 70
+        },
+        {
+          "key": "level6_shuriken_vfx_frame2",
+          "duration": 95
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "level6_charge_skid_fx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_charge_skid_fx_frame1",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "level6_shuriken_trail_vfx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "level6_shuriken_trail_vfx_frame1",
+          "duration": 100
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "litmanen_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_idle_R_frame1",
+          "duration": 800
+        },
+        {
+          "key": "litmanen_boss_idle_R_frame2",
+          "duration": 800
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_walk_R_frame1",
+          "duration": 300
+        },
+        {
+          "key": "litmanen_boss_walk_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_intro_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_intro_R_frame1",
+          "duration": 260
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_attack_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "litmanen_boss_attack_R_frame2",
+          "duration": 125
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_kick_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_kick_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "litmanen_boss_kick_R_frame2",
+          "duration": 115
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_charge_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_charge_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "litmanen_boss_charge_R_frame2",
+          "duration": 110
+        },
+        {
+          "key": "litmanen_boss_charge_R_frame3",
+          "duration": 95
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_combo_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_combo_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "litmanen_boss_combo_R_frame2",
+          "duration": 105
+        },
+        {
+          "key": "litmanen_boss_combo_R_frame3",
+          "duration": 115
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_leap_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_leap_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "litmanen_boss_leap_R_frame2",
+          "duration": 95
+        },
+        {
+          "key": "litmanen_boss_leap_R_frame3",
+          "duration": 100
+        },
+        {
+          "key": "litmanen_boss_leap_R_frame4",
+          "duration": 110
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_barrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_barrage_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "litmanen_boss_barrage_R_frame2",
+          "duration": 95
+        },
+        {
+          "key": "litmanen_boss_barrage_R_frame3",
+          "duration": 105
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_special_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_special_R_frame1",
+          "duration": 120
+        },
+        {
+          "key": "litmanen_boss_special_R_frame2",
+          "duration": 135
+        },
+        {
+          "key": "litmanen_boss_special_R_frame3",
+          "duration": 150
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_hurt_R_frame1",
+          "duration": 145
+        },
+        {
+          "key": "litmanen_boss_hurt_R_frame2",
+          "duration": 190
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_enrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_enrage_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "litmanen_boss_enrage_R_frame2",
+          "duration": 280
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_taunt_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "litmanen_boss_taunt_R_frame2",
+          "duration": 300
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "litmanen_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "litmanen_boss_die_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "litmanen_boss_die_R_frame2",
+          "duration": 430
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_idle_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_idle_R_frame1",
+          "duration": 700
+        },
+        {
+          "key": "elsa_boss_idle_R_frame2",
+          "duration": 700
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_walk_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_walk_R_frame1",
+          "duration": 260
+        },
+        {
+          "key": "elsa_boss_walk_R_frame2",
+          "duration": 260
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_intro_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_intro_R_frame1",
+          "duration": 280
+        },
+        {
+          "key": "elsa_boss_intro_R_frame2",
+          "duration": 320
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_attack_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "elsa_boss_attack_R_frame2",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_charge_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_charge_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "elsa_boss_charge_R_frame2",
+          "duration": 110
+        },
+        {
+          "key": "elsa_boss_charge_R_frame3",
+          "duration": 90
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_combo_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_combo_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "elsa_boss_combo_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "elsa_boss_combo_R_frame3",
+          "duration": 95
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_leap_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_leap_R_frame1",
+          "duration": 110
+        },
+        {
+          "key": "elsa_boss_leap_R_frame2",
+          "duration": 110
+        },
+        {
+          "key": "elsa_boss_leap_R_frame3",
+          "duration": 100
+        },
+        {
+          "key": "elsa_boss_leap_R_frame4",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_barrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_barrage_R_frame1",
+          "duration": 95
+        },
+        {
+          "key": "elsa_boss_barrage_R_frame2",
+          "duration": 85
+        },
+        {
+          "key": "elsa_boss_barrage_R_frame3",
+          "duration": 105
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_uzi_attack_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_uzi_attack_R_frame1",
+          "duration": 65
+        },
+        {
+          "key": "elsa_boss_uzi_attack_R_frame2",
+          "duration": 70
+        },
+        {
+          "key": "elsa_boss_uzi_attack_R_frame3",
+          "duration": 85
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_special_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_special_fart_R_frame1",
+          "duration": 130
+        },
+        {
+          "key": "elsa_boss_special_fart_R_frame2",
+          "duration": 120
+        },
+        {
+          "key": "elsa_boss_special_fart_R_frame3",
+          "duration": 140
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_hurt_R_frame1",
+          "duration": 130
+        },
+        {
+          "key": "elsa_boss_hurt_R_frame2",
+          "duration": 170
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_die_R_frame1",
+          "duration": 220
+        },
+        {
+          "key": "elsa_boss_die_R_frame2",
+          "duration": 460
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_enrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_enrage_R_frame1",
+          "duration": 150
+        },
+        {
+          "key": "elsa_boss_enrage_R_frame2",
+          "duration": 170
+        }
+      ],
+      "repeat": 1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_boss_taunt_R_frame1",
+          "duration": 210
+        },
+        {
+          "key": "elsa_boss_taunt_R_frame2",
+          "duration": 280
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "elsa_fart_cloud_vfx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_fart_cloud_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "elsa_fart_cloud_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "elsa_fart_cloud_R_frame3",
+          "duration": 90
+        },
+        {
+          "key": "elsa_fart_cloud_R_frame4",
+          "duration": 130
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "elsa_rollator_skid_fx_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_rollator_skid_fx_frame1",
+          "duration": 70
+        },
+        {
+          "key": "elsa_rollator_skid_fx_frame2",
+          "duration": 90
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "elsa_uzi_muzzle_flash_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "elsa_uzi_muzzle_flash_frame1",
+          "duration": 40
+        },
+        {
+          "key": "elsa_uzi_muzzle_flash_frame2",
+          "duration": 55
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 0.5
+    },
+    {
+      "key": "golf_boss_charge_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_charge_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "golf_boss_charge_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "golf_boss_charge_R_frame3",
+          "duration": 110
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_combo_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_combo_R_frame1",
+          "duration": 70
+        },
+        {
+          "key": "golf_boss_combo_R_frame2",
+          "duration": 70
+        },
+        {
+          "key": "golf_boss_combo_R_frame3",
+          "duration": 95
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.205,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_leap_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_leap_R_frame1",
+          "duration": 80
+        },
+        {
+          "key": "golf_boss_leap_R_frame2",
+          "duration": 80
+        },
+        {
+          "key": "golf_boss_leap_R_frame3",
+          "duration": 90
+        },
+        {
+          "key": "golf_boss_leap_R_frame4",
+          "duration": 100
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.457,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_barrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_barrage_R_frame1",
+          "duration": 65
+        },
+        {
+          "key": "golf_boss_barrage_R_frame2",
+          "duration": 65
+        },
+        {
+          "key": "golf_boss_barrage_R_frame3",
+          "duration": 90
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.205,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_special_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_special_R_frame1",
+          "duration": 90
+        },
+        {
+          "key": "golf_boss_special_R_frame2",
+          "duration": 90
+        },
+        {
+          "key": "golf_boss_special_R_frame3",
+          "duration": 120
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.205,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_hurt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_hurt_R_frame1",
+          "duration": 120
+        },
+        {
+          "key": "golf_boss_hurt_R_frame2",
+          "duration": 140
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_die_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_die_R_frame1",
+          "duration": 180
+        },
+        {
+          "key": "golf_boss_die_R_frame2",
+          "duration": 220
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_enrage_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_enrage_R_frame1",
+          "duration": 140
+        },
+        {
+          "key": "golf_boss_enrage_R_frame2",
+          "duration": 140
+        }
+      ],
+      "repeat": -1,
+      "originX": 0.5,
+      "originY": 1
+    },
+    {
+      "key": "golf_boss_taunt_anim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "golf_boss_taunt_R_frame1",
+          "duration": 160
+        },
+        {
+          "key": "golf_boss_taunt_R_frame2",
+          "duration": 160
+        }
+      ],
+      "repeat": 0,
+      "originX": 0.5,
+      "originY": 1
+    }
+  ]
+}

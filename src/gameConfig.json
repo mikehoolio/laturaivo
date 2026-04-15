@@ -1,0 +1,323 @@
+{
+  "difficultyConfig": {
+    "espoo": {
+      "value": 0.7,
+      "type": "number",
+      "description": "Easy difficulty multiplier for enemy damage and health"
+    },
+    "vantaa": {
+      "value": 1.0,
+      "type": "number",
+      "description": "Medium difficulty multiplier (default)"
+    },
+    "lahti": {
+      "value": 1.0,
+      "type": "number",
+      "description": "Lahti uses Vantaa combat difficulty while keeping longer tracks"
+    }
+  },
+  "screenSize": {
+    "width": {
+      "value": 1280,
+      "type": "number",
+      "description": "Screen width (16:9 720p - better performance)"
+    },
+    "height": {
+      "value": 720,
+      "type": "number",
+      "description": "Screen height (16:9 720p - better performance)"
+    }
+  },
+  "debugConfig": {
+    "debug": {
+      "value": false,
+      "type": "boolean",
+      "description": "Enable debug mode"
+    },
+    "godMode": {
+      "value": false,
+      "type": "boolean",
+      "description": "God mode - player cannot die or take damage"
+    }
+  },
+  "renderConfig": {
+    "pixelArt": {
+      "value": true,
+      "type": "boolean",
+      "description": "Whether to enable pixel art rendering"
+    }
+  },
+  "livesConfig": {
+    "startingLives": {
+      "value": 3,
+      "type": "number",
+      "description": "Number of lives player starts with"
+    },
+    "maxLives": {
+      "value": 10,
+      "type": "number",
+      "description": "Maximum number of lives player can have"
+    }
+  },
+  "bossConfig": {
+    "miniBossHealth": {
+      "value": 900,
+      "type": "number",
+      "description": "Mini-boss health (levels 2, 5, 8)"
+    },
+    "finalBossHealth": {
+      "value": 2200,
+      "type": "number",
+      "description": "Final boss Timo Soini health (level 10)"
+    },
+    "miniBossDamage": {
+      "value": 25,
+      "type": "number",
+      "description": "Mini-boss attack damage"
+    },
+    "finalBossDamage": {
+      "value": 40,
+      "type": "number",
+      "description": "Final boss attack damage"
+    },
+    "bossScoreValue": {
+      "value": 1000,
+      "type": "number",
+      "description": "Score for defeating a boss"
+    }
+  },
+  "playerConfig": {
+    "maxHealth": {
+      "value": 100,
+      "type": "number",
+      "description": "Player maximum health"
+    },
+    "healthRegenPerTick": {
+      "value": 1,
+      "type": "number",
+      "description": "Passive health regenerated each tick"
+    },
+    "healthRegenIntervalMs": {
+      "value": 2000,
+      "type": "number",
+      "description": "Delay between passive health regeneration ticks in ms"
+    },
+    "jumpPower": {
+      "value": 600,
+      "type": "number",
+      "description": "Player jump velocity"
+    },
+    "gravityY": {
+      "value": 1000,
+      "type": "number",
+      "description": "Player gravity"
+    },
+    "stompDamage": {
+      "value": 50,
+      "type": "number",
+      "description": "Damage dealt when landing on enemies"
+    },
+    "stompBounce": {
+      "value": 400,
+      "type": "number",
+      "description": "Upward bounce velocity after stomping enemy"
+    },
+    "maxEnergy": {
+      "value": 100,
+      "type": "number",
+      "description": "Player maximum energy for axe attacks"
+    },
+    "energyRegenRate": {
+      "value": 5,
+      "type": "number",
+      "description": "Energy regeneration per second"
+    },
+    "axeEnergyCost": {
+      "value": 0,
+      "type": "number",
+      "description": "Energy cost per axe attack (0 = unlimited axe uses)"
+    },
+    "poleEnergyCost": {
+      "value": 5,
+      "type": "number",
+      "description": "Energy cost per pole strike (5% of max energy)"
+    },
+    "stompEnergyRecovery": {
+      "value": 3,
+      "type": "number",
+      "description": "Energy recovered when stomping an enemy (3% of max energy)"
+    },
+    "baseSpeed": {
+      "value": 240,
+      "type": "number",
+      "description": "Base skiing speed in pixels per second"
+    },
+    "maxSpeed": {
+      "value": 480,
+      "type": "number",
+      "description": "Maximum skiing speed in pixels per second"
+    },
+    "distanceScale": {
+      "value": 0.05,
+      "type": "number",
+      "description": "Multiplier to convert pixels to meters for distance traveled (lower = slower distance gain)"
+    },
+    "poleDamage": {
+      "value": 15,
+      "type": "number",
+      "description": "Pole strike damage"
+    },
+    "axeDamage": {
+      "value": 100,
+      "type": "number",
+      "description": "Axe attack damage"
+    },
+    "spinKickDamage": {
+      "value": 25,
+      "type": "number",
+      "description": "Spin kick attack damage"
+    },
+    "hurtingDuration": {
+      "value": 100,
+      "type": "number",
+      "description": "Hurt stun duration in ms"
+    },
+    "invulnerableTime": {
+      "value": 1000,
+      "type": "number",
+      "description": "Invulnerability duration after being hit in ms"
+    },
+    "healthRestoreOnKill": {
+      "value": 1,
+      "type": "number",
+      "description": "Percentage of max health restored when killing an enemy"
+    }
+  },
+  "abilityUnlockConfig": {
+    "jumpUnlockLevel": {
+      "value": 1,
+      "type": "number",
+      "description": "Level at which jump ability is unlocked"
+    },
+    "poleStrikeUnlockLevel": {
+      "value": 1,
+      "type": "number",
+      "description": "Level at which pole strike (Z) is unlocked"
+    },
+    "axeAttackUnlockLevel": {
+      "value": 2,
+      "type": "number",
+      "description": "Level at which axe attack (X) is unlocked"
+    },
+    "rageUnlockLevel": {
+      "value": 3,
+      "type": "number",
+      "description": "Level at which rage/laturaivo (V) is unlocked"
+    },
+    "powerUpsUnlockLevel": {
+      "value": 2,
+      "type": "number",
+      "description": "Level at which power-ups start spawning"
+    }
+  },
+  "rageConfig": {
+    "maxRage": {
+      "value": 100,
+      "type": "number",
+      "description": "Maximum rage meter value"
+    },
+    "rageGainPerHit": {
+      "value": 5,
+      "type": "number",
+      "description": "Rage gained per successful hit"
+    },
+    "rageGainPerStomp": {
+      "value": 8,
+      "type": "number",
+      "description": "Rage gained per successful stomp"
+    },
+    "rageDuration": {
+      "value": 2000,
+      "type": "number",
+      "description": "Duration of rage mode in ms (scream + kill effect)"
+    }
+  },
+  "enemyConfig": {
+    "maxHealth": {
+      "value": 30,
+      "type": "number",
+      "description": "Enemy maximum health"
+    },
+    "damage": {
+      "value": 15,
+      "type": "number",
+      "description": "Enemy attack damage"
+    },
+    "attackCooldown": {
+      "value": 2000,
+      "type": "number",
+      "description": "Enemy attack cooldown in ms"
+    },
+    "speed": {
+      "value": 280,
+      "type": "number",
+      "description": "Enemy skiing speed"
+    },
+    "scoreValue": {
+      "value": 100,
+      "type": "number",
+      "description": "Score points for defeating enemy"
+    }
+  },
+  "teslaConfig": {
+    "damage": {
+      "value": 30,
+      "type": "number",
+      "description": "Damage from Tesla collision"
+    },
+    "speed": {
+      "value": 350,
+      "type": "number",
+      "description": "Tesla driving speed"
+    },
+    "spawnInterval": {
+      "value": 8000,
+      "type": "number",
+      "description": "Time between Tesla spawns in ms"
+    }
+  },
+  "gameConfig": {
+    "enemySpawnInterval": {
+      "value": 3000,
+      "type": "number",
+      "description": "Time between enemy spawns in ms"
+    },
+    "comboTimeWindow": {
+      "value": 2000,
+      "type": "number",
+      "description": "Time window for combo hits in ms"
+    },
+    "groundY": {
+      "value": 620,
+      "type": "number",
+      "description": "Y position of ground level (adjusted for 720p)"
+    },
+    "totalLevels": {
+      "value": 10,
+      "type": "number",
+      "description": "Total number of levels in the game"
+    }
+  },
+  "levelConfig": {
+    "level1Distance": {
+      "value": 1000,
+      "type": "number",
+      "description": "Distance to complete level 1 in meters"
+    },
+    "distanceIncreasePerLevel": {
+      "value": 500,
+      "type": "number",
+      "description": "Additional distance per level in meters"
+    }
+  }
+}

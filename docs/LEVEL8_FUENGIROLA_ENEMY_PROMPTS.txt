@@ -1,0 +1,115 @@
+LEVEL 8 (FUENGIROLA) NORMAL ENEMY SPRITE PROMPTS FOR NANO BANANA
+Output format for every image: PNG, transparent alpha background (no checkerboard), side view, full body centered, fixed foot baseline, crisp pixel art outline, retro 16-bit game sprite style.
+Target folder in project:
+/Users/mikkoantikainen/Documents/New project/latu2_ios_ready/public/assets/custom/fuengirola/enemies/
+
+enemy_ski_idle_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, full-body Finnish holiday skier in Fuengirola, slightly tanned skin, sporty light jacket and ski pants, cross-country skis and poles, idle stance looking right, neutral breathing pose, clean 1px outline, retro 16-bit.
+
+enemy_ski_idle_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same Finnish holiday skier character as frame1, cross-country skis and poles, tiny idle bounce variation, shoulders slightly shifted, looking right, clean 1px outline, retro 16-bit.
+
+enemy_ski_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy character, cross-country ski stride to the right, front ski forward, rear ski back, poles mid-swing, energetic walking/skiing frame, crisp retro 16-bit.
+
+enemy_ski_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy character, opposite cross-country ski stride to the right, rear ski forward, front ski back, poles opposite swing, retro 16-bit sprite.
+
+enemy_attack_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy, attack wind-up with ski pole pulled back, aggressive face, right-facing combat pose, retro 16-bit game sprite.
+
+enemy_attack_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy, attack release with ski pole thrust forward, dynamic forward lean, right-facing strike frame, retro 16-bit game sprite.
+
+enemy_die_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy hit reaction, torso twisted, knees buckling, poles loose, right-facing death start frame, retro 16-bit.
+
+enemy_die_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same skier enemy collapse frame, falling backward/down, skis skewed, poles slipping from hands, right-facing death end frame, retro 16-bit.
+
+family_adult_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, Finnish holiday parent in Fuengirola winter-comedy style, casual outdoor clothes, carrying small beach tote, walking right, step frame 1, retro 16-bit.
+
+family_adult_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same family adult character, walking right, opposite step frame 2, tote swinging lightly, retro 16-bit.
+
+family_child_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, Finnish holiday child character in colorful hoodie and cap, walking right, step frame 1, playful expression, retro 16-bit.
+
+family_child_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same family child character, walking right, opposite step frame 2, playful motion, retro 16-bit.
+
+drunk_stagger_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, comedic drunk tourist in Fuengirola, wrinkled shirt and shorts, unsteady posture, staggering right frame 1, retro 16-bit sprite.
+
+drunk_stagger_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same drunk tourist character, opposite stagger step right frame 2, unstable balance, retro 16-bit.
+
+drunk_attack_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same drunk tourist character, attack wind-up with arm raised, aggressive stumble, right-facing frame, retro 16-bit.
+
+drunk_attack_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same drunk tourist character, attack follow-through with arm swing forward, right-facing strike frame, retro 16-bit.
+
+pro_skier_ski_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, elite pro skier enemy in sleek race suit, mirrored sunglasses, cross-country skis and poles, rightward glide frame 1, crisp retro 16-bit.
+
+pro_skier_ski_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same pro skier character, rightward glide frame 2 with opposite leg/pole position, retro 16-bit.
+
+pro_skier_attack_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same pro skier, aggressive attack prep with pole pulled back, athletic tension, right-facing, retro 16-bit.
+
+pro_skier_attack_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same pro skier, attack strike with pole thrust forward, dynamic sports action, right-facing, retro 16-bit.
+
+power_walker_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, power walker tourist with Nordic walking poles, sporty outfit and visor, walking right frame 1, retro 16-bit.
+
+power_walker_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same power walker character, walking right frame 2 opposite step/pole position, retro 16-bit.
+
+headphone_walker_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, headphone walker enemy, large over-ear headphones, phone armband, casual sportswear, walking right frame 1, retro 16-bit.
+
+headphone_walker_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same headphone walker character, walking right frame 2 opposite step, retro 16-bit.
+
+smoking_lady_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, stylish smoker lady tourist with sunglasses and light jacket, walking right frame 1, confident posture, retro 16-bit.
+
+smoking_lady_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same smoking lady character, walking right frame 2 opposite step, confident stride, retro 16-bit.
+
+passive_grandpa_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, passive grandpa tourist with cap and cardigan, slow walk right frame 1, calm face, retro 16-bit.
+
+passive_grandpa_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same passive grandpa character, slow walk right frame 2 opposite step, retro 16-bit.
+
+city_cyclist_ride_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, city cyclist enemy on compact bicycle, casual summer-winter mix outfit, pedaling right frame 1, retro 16-bit.
+
+city_cyclist_ride_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same city cyclist character, pedaling right frame 2 opposite pedal position, retro 16-bit.
+
+wellness_warrior_walk_R_frame1.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, wellness warrior tourist with fitness clothing and reusable bottle, purposeful walk right frame 1, retro 16-bit.
+
+wellness_warrior_walk_R_frame2.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, same wellness warrior character, walk right frame 2 opposite step, retro 16-bit.
+
+influencer_selfie.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, social media influencer tourist taking selfie with smartphone on stick, fashionable beachwear layered for winter parody, right-facing pose, retro 16-bit.
+
+escooter_rider.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, tourist riding e-scooter, right-facing, casual travel clothes, compact silhouette readable in-game, retro 16-bit.
+
+crossfit_bro.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, muscular crossfit bro tourist, sleeveless top, sport shorts, carrying kettlebell in one hand, right-facing ready pose, retro 16-bit.
+
+brunch_lady.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, brunch lady tourist with oversized sunglasses, tote bag and coffee cup, right-facing relaxed pose, retro 16-bit.
+
+wine_mom.png
+Prompt: Pixel art side-view game sprite, transparent alpha background, wine mom tourist with chic jacket and handbag, right-facing confident pose, readable silhouette, retro 16-bit.
