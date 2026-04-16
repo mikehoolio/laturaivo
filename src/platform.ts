@@ -2,12 +2,22 @@ export interface PlatformCapabilities {
   isWeb: boolean;
   isIOS: boolean;
   isCapacitorIOS: boolean;
+  isElectron: boolean;
+  isSteam: boolean;
   isMobile: boolean;
   hasTouch: boolean;
   hasCoarsePointer: boolean;
   hasKeyboard: boolean;
   supportsGameCenter: boolean;
+  supportsSteamServices: boolean;
   isWebReleaseBuild: boolean;
+  isSteamBuild: boolean;
+}
+
+interface DesktopRuntimeBridge {
+  isElectron?: boolean;
+  isSteam?: boolean;
+  platform?: string;
 }
 
 const getNavigator = (): Navigator | undefined => {
@@ -81,9 +91,33 @@ export const isWebReleaseBuild = (): boolean => {
   return import.meta.env.VITE_LATURAIVO_WEB_RELEASE === "1";
 };
 
+export const isSteamBuild = (): boolean => {
+  return import.meta.env.VITE_LATURAIVO_STEAM === "1";
+};
+
+const getDesktopRuntimeBridge = (): DesktopRuntimeBridge | undefined => {
+  try {
+    return (window as unknown as { laturaivoDesktop?: DesktopRuntimeBridge }).laturaivoDesktop;
+  } catch {
+    return undefined;
+  }
+};
+
+export const isElectronRuntime = (): boolean => {
+  const bridge = getDesktopRuntimeBridge();
+  return bridge?.isElectron === true || /Electron/i.test(getNavigator()?.userAgent || "");
+};
+
+export const isSteamRuntime = (): boolean => {
+  const bridge = getDesktopRuntimeBridge();
+  return bridge?.isSteam === true || isSteamBuild();
+};
+
 export const getPlatformCapabilities = (): PlatformCapabilities => {
   const ios = isIOSLike();
   const capacitorIOS = isCapacitorIOS();
+  const electron = isElectronRuntime();
+  const steam = isSteamRuntime();
   const touch = hasTouchInput();
   const coarse = hasCoarsePointer();
   const mobile = capacitorIOS || isMobileWebRuntime();
@@ -92,12 +126,16 @@ export const getPlatformCapabilities = (): PlatformCapabilities => {
     isWeb: !isCapacitorNativePlatform(),
     isIOS: ios,
     isCapacitorIOS: capacitorIOS,
+    isElectron: electron,
+    isSteam: steam,
     isMobile: mobile,
     hasTouch: touch,
     hasCoarsePointer: coarse,
     hasKeyboard: !coarse || !mobile,
     supportsGameCenter: capacitorIOS,
-    isWebReleaseBuild: isWebReleaseBuild()
+    supportsSteamServices: steam,
+    isWebReleaseBuild: isWebReleaseBuild(),
+    isSteamBuild: isSteamBuild()
   };
 };
 

@@ -3,6 +3,7 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 const isWebReleaseBuild = process.env.VITE_LATURAIVO_WEB_RELEASE === "1";
+const isSteamBuild = process.env.VITE_LATURAIVO_STEAM === "1";
 
 const pathExists = async (target) => {
   try {
@@ -60,12 +61,12 @@ const webReleaseAssetsPlugin = () => {
         });
       }
 
-      if (!isWebReleaseBuild) return;
-
       const webPublicDir = path.resolve(process.cwd(), "public_web");
-      if (await pathExists(webPublicDir)) {
+      if ((isWebReleaseBuild || isSteamBuild) && await pathExists(webPublicDir)) {
         await fs.cp(webPublicDir, outDir, { recursive: true, force: true });
       }
+
+      if (!isWebReleaseBuild) return;
 
       const removedMovieFiles = await removeMatchingFiles(
         path.join(outDir, "assets", "custom", "story"),

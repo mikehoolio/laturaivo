@@ -2,7 +2,7 @@ import { getPlatformCapabilities } from "./platform";
 
 export const shouldUseKeyboardControlCopy = (): boolean => {
   const platform = getPlatformCapabilities();
-  return platform.isWeb && !platform.isCapacitorIOS;
+  return (platform.isWeb || platform.isSteam) && !platform.isCapacitorIOS;
 };
 
 export const getContinuePromptText = (): string => {

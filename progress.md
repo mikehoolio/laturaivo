@@ -3517,6 +3517,22 @@ Update 2026-04-14 (Unlimited axe use)
   - `npm run sync:ios-assets` passed.
   - `npm run ios:xcode:build:sim` passed.
 
+Update 2026-04-16 (Steam desktop first pass)
+- Started a Steam desktop packaging path without changing the iOS/Capacitor build.
+- Added Electron desktop shell files under `desktop/`.
+- Added `VITE_LATURAIVO_STEAM` platform capability flags.
+- Added Steam build/package scripts and `STEAM_RELEASE.md`.
+- Validation:
+  - `npm run build:steam` passed.
+  - `npm run steam:smoke` passed.
+  - `npm run steam:package:mac` produced `release/steam/Laturaivo-darwin-arm64`.
+  - Packaged macOS app smoke-test loaded `dist-steam/index.html`.
+  - `npm run build` passed for the iOS/Capacitor web build path.
+  - `npm run build:web` passed.
+- Notes:
+  - Steam stage is about 784 MB because it preserves MOV cutscenes; convert all shipped MOV files to MP4 before Windows/Steam release QA.
+  - Steamworks account/app setup, app ID, SteamPipe upload, achievements, Steam Cloud save file path, and controller QA are still pending.
+
 Update 2026-04-14 (Axe 3 second rhythm limit)
 - Added a 3 second axe cooldown to prevent continuous axe spamming.
   - Axe still costs 0 energy, so it remains unlimited rather than ammo/stamina based.
