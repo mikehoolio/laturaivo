@@ -731,6 +731,7 @@ for (const eventName of wakeAudioEvents) {
   window.addEventListener(eventName, wakeGameAudio, { passive: true, capture: true });
 }
 
+window.addEventListener("keydown", wakeGameAudio, { capture: true });
 window.addEventListener("focus", wakeGameAudio);
 window.setTimeout(wakeGameAudio, 100);
 window.setTimeout(wakeGameAudio, 500);

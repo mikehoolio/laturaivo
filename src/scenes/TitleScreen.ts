@@ -19,6 +19,10 @@ export class TitleScreen extends Phaser.Scene {
   private static readonly TIKTOK_URL = "https://www.tiktok.com/@laturaivogame";
   private static readonly DISCORD_APP_URL = "discord://invite/ssHFejRejq";
   private static readonly DISCORD_URL = "https://discord.gg/ssHFejRejq";
+  private static readonly TITLE_THEME_URLS = [
+    "assets/music/laturaivo_maintheme.mp3",
+    "assets/music/laturaivo_maintheme.ogg"
+  ];
 
   // UI elements
   uiContainer!: Phaser.GameObjects.DOMElement;
@@ -861,25 +865,44 @@ export class TitleScreen extends Phaser.Scene {
       console.log(
         `[TitleScreenAudio] locked=${String((this.sound as any).locked)} mute=${String(this.sound.mute)} volume=${String((this.sound as any).volume)}`
       );
-      if (utils.isIOS()) {
-        this.startNativeBackgroundMusicFallback();
-        return;
-      }
-      if (this.backgroundMusic) {
-        this.backgroundMusic.play();
-        this.time.delayedCall(600, () => {
-          if (!this.backgroundMusic?.isPlaying && !this.sound.mute) {
-            this.startNativeBackgroundMusicFallback();
-          }
-        });
-      } else if (!this.sound.mute) {
-        // Lazy path: no cached Phaser music yet, use HTMLAudio fallback directly.
-        this.startNativeBackgroundMusicFallback();
-      }
+      this.recoverTitleMusicPlayback();
+      this.time.delayedCall(600, () => {
+        if (!this.hasTitleMusicPlayback() && !this.sound.mute) {
+          this.startNativeBackgroundMusicFallback();
+        }
+      });
     } catch (error) {
       console.error("[TitleScreenAudio] Initial play failed", error);
       this.startNativeBackgroundMusicFallback();
     }
+  }
+
+  private hasTitleMusicPlayback(): boolean {
+    return this.backgroundMusic?.isPlaying === true || this.isNativeFallbackMusicPlaying();
+  }
+
+  private recoverTitleMusicPlayback(): void {
+    utils.ensureSceneAudioReady(this);
+    if (this.sound.mute || this.hasTitleMusicPlayback()) return;
+
+    if (utils.isIOS()) {
+      this.startNativeBackgroundMusicFallback();
+      return;
+    }
+
+    if (this.backgroundMusic) {
+      try {
+        this.backgroundMusic.play();
+      } catch (error) {
+        console.debug("[TitleScreenAudio] Phaser play failed, using fallback", error);
+        this.startNativeBackgroundMusicFallback();
+      }
+      return;
+    }
+
+    // Web release keeps title music out of the eager core pack, so retry the
+    // direct HTMLAudio fallback on the next user gesture instead of waiting.
+    this.startNativeBackgroundMusicFallback();
   }
 
   private startAudioBootstrap(): void {
@@ -908,15 +931,11 @@ export class TitleScreen extends Phaser.Scene {
           return;
         }
 
-        if (!this.sound.mute && this.backgroundMusic && !this.backgroundMusic.isPlaying) {
-          try {
-            this.backgroundMusic.play();
-          } catch {
-            // Keep retrying during bootstrap window.
-          }
+        if (!this.sound.mute && !this.hasTitleMusicPlayback()) {
+          this.recoverTitleMusicPlayback();
         }
 
-        if (!this.backgroundMusic?.isPlaying && attempts >= 24) {
+        if (!this.hasTitleMusicPlayback() && attempts >= 24) {
           console.error(
             `[TitleScreenAudio] bootstrap-timeout locked=${String((this.sound as any).locked)} mute=${String(this.sound.mute)} volume=${String((this.sound as any).volume)}`
           );
@@ -924,7 +943,7 @@ export class TitleScreen extends Phaser.Scene {
           this.recoverIOSAudioBackendFromTimeout();
         }
 
-        if (this.backgroundMusic?.isPlaying || this.isNativeFallbackMusicPlaying() || attempts >= 24) {
+        if (this.hasTitleMusicPlayback() || attempts >= 24) {
           this.stopAudioBootstrap();
         }
       }
@@ -955,7 +974,7 @@ export class TitleScreen extends Phaser.Scene {
   }
 
   private isNativeFallbackRequestValid(token: number): boolean {
-    return token === this.nativeFallbackRequestToken && this.sys.isActive() && !this.isStarting;
+    return token === this.nativeFallbackRequestToken && !this.isStarting;
   }
 
   private startNativeBackgroundMusicWithUrl(url: string, requestToken?: number): void {
@@ -1035,6 +1054,12 @@ export class TitleScreen extends Phaser.Scene {
           console.error("[TitleScreenAudioFallback] resume failed", error);
         });
       }
+      return;
+    }
+
+    const directUrl = utils.pickPreferredAudioUrl(TitleScreen.TITLE_THEME_URLS);
+    if (directUrl) {
+      this.startNativeBackgroundMusicWithUrl(directUrl, requestToken);
       return;
     }
 
@@ -1135,13 +1160,8 @@ export class TitleScreen extends Phaser.Scene {
         }
         return;
       }
-      if (!this.sound.mute && this.backgroundMusic && !this.backgroundMusic.isPlaying) {
-        try {
-          this.backgroundMusic.play();
-        } catch (error) {
-          console.debug("[TitleScreenAudio] Retry play failed", error);
-          return;
-        }
+      if (!this.sound.mute && !this.hasTitleMusicPlayback()) {
+        this.recoverTitleMusicPlayback();
       }
       if (!this.sound.locked) {
         this.removeAudioRetryHandlers();
@@ -1153,6 +1173,7 @@ export class TitleScreen extends Phaser.Scene {
     window.addEventListener("touchstart", handler, { passive: true, capture: true });
     window.addEventListener("pointerdown", handler, { passive: true, capture: true });
     window.addEventListener("click", handler, { passive: true, capture: true });
+    window.addEventListener("keydown", handler, { capture: true });
     document.addEventListener("visibilitychange", handler, { capture: true });
   }
 
@@ -1162,6 +1183,7 @@ export class TitleScreen extends Phaser.Scene {
     window.removeEventListener("touchstart", handler, { capture: true });
     window.removeEventListener("pointerdown", handler, { capture: true });
     window.removeEventListener("click", handler, { capture: true });
+    window.removeEventListener("keydown", handler, { capture: true });
     document.removeEventListener("visibilitychange", handler, { capture: true });
     this.audioRetryHandler = undefined;
     this.audioRetryHandlersInstalled = false;
@@ -1196,12 +1218,8 @@ export class TitleScreen extends Phaser.Scene {
         return;
       }
 
-      if (!this.sound.mute && this.backgroundMusic && !this.backgroundMusic.isPlaying) {
-        try {
-          this.backgroundMusic.play();
-        } catch {
-          // Retry path handles eventual recovery.
-        }
+      if (!this.sound.mute && !this.hasTitleMusicPlayback()) {
+        this.recoverTitleMusicPlayback();
       }
     };
 

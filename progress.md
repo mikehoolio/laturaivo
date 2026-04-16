@@ -3542,3 +3542,14 @@ Update 2026-04-14 (Axe 3 second rhythm limit)
   - `npm run build` passed.
   - `npm run sync:ios-assets` passed.
   - `npm run ios:xcode:build:sim` passed.
+
+Update 2026-04-16 (Web menu music startup)
+- Fixed delayed title/menu music startup in the public web build.
+  - The web release can keep title music outside the eager Phaser core pack, so the retry path now restarts the direct HTMLAudio fallback instead of waiting on a missing cached Phaser sound.
+  - Added keyboard-triggered audio wake handling for browser players who skip the splash or start the menu with Enter/Space.
+  - Kept iOS/Capacitor behavior on the existing native-safe fallback path.
+- Validation:
+  - Browser smoke in Chromium with autoplay restrictions showed the title theme fallback starting immediately after the first menu interaction.
+  - `npm run build` passed for the iOS/Capacitor web bundle path.
+  - `npm run build:web` passed for the public Netlify web bundle.
+  - `npm run build:steam` passed for the desktop bundle path.
