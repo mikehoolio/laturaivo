@@ -6,6 +6,8 @@ import { GAME_CENTER_ACHIEVEMENT_IDS, GameCenterAchievementManager } from '../ma
 import { LeaderboardManager } from '../managers/LeaderboardManager';
 import { GameCenterManager } from '../managers/GameCenterManager';
 import type { LeaderboardEntry } from '../managers/LeaderboardManager';
+import { getContinuePromptText } from '../controlPrompts';
+import { shouldIgnoreKeyboardEvent } from '../platform';
 
 
 export class VictoryUIScene extends Phaser.Scene {
@@ -36,6 +38,7 @@ export class VictoryUIScene extends Phaser.Scene {
   private continuePromptText: string = 'NAPAUTA JATKAAKSESI ➡️';
   private continueClickHandler?: () => void;
   private continueTouchEndHandler?: (event: TouchEvent) => void;
+  private continueKeydownHandler?: (event: KeyboardEvent) => void;
   
 
 
@@ -82,7 +85,7 @@ export class VictoryUIScene extends Phaser.Scene {
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, this.shutdown, this);
     this.events.once(Phaser.Scenes.Events.DESTROY, this.shutdown, this);
 
-    this.continuePromptText = pickHumorLine(this, CONTINUE_LINES, this.continuePromptText);
+    this.continuePromptText = pickHumorLine(this, CONTINUE_LINES, getContinuePromptText());
     if (this.currentLevel === 1) {
       void GameCenterAchievementManager.unlock(GAME_CENTER_ACHIEVEMENT_IDS.tutorialComplete);
     }
@@ -405,6 +408,13 @@ export class VictoryUIScene extends Phaser.Scene {
 
     // Touch/pointer proceed.
     this.input.on('pointerdown', () => this.goToNextLevel());
+    this.continueKeydownHandler = (event: KeyboardEvent) => {
+      if (shouldIgnoreKeyboardEvent(event)) return;
+      if (event.code !== "Enter" && event.code !== "Space") return;
+      event.preventDefault();
+      this.goToNextLevel();
+    };
+    window.addEventListener("keydown", this.continueKeydownHandler, { capture: true });
   }
 
   private fadeOutGameplayMusicAndContinue(currentScene: any, onComplete: () => void): void {
@@ -461,6 +471,10 @@ export class VictoryUIScene extends Phaser.Scene {
 
   shutdown(): void {
     this.input.off('pointerdown');
+    if (this.continueKeydownHandler && typeof window !== "undefined") {
+      window.removeEventListener("keydown", this.continueKeydownHandler, { capture: true } as EventListenerOptions);
+      this.continueKeydownHandler = undefined;
+    }
 
     if (this.createUiTimer) {
       this.createUiTimer.destroy();

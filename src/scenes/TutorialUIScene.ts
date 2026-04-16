@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import * as utils from "../utils";
+import { shouldUseKeyboardControlCopy } from "../controlPrompts";
 
 type TutorialStepId =
   | "welcome"
@@ -119,6 +120,58 @@ const STEP_LIST: TutorialStep[] = [
     autoAdvanceMs: 1400
   }
 ];
+
+const getKeyboardTutorialStep = (step: TutorialStep): TutorialStep => {
+  if (!shouldUseKeyboardControlCopy()) return step;
+
+  const overrides: Partial<Record<TutorialStepId, Partial<TutorialStep>>> = {
+    welcome: {
+      hint: "Voit ohittaa tutorialtason OHITA TUTORIAALI -napilla. Näppäimistö toimii myös koko pelissä."
+    },
+    movement: {
+      description: "Liiku vasemmalle ja oikealle näppäimistöllä tai touch-ohjaimella.",
+      hint: "A/D tai ←/→. Tee molemmat suunnat: vasen + oikea."
+    },
+    dodge: {
+      description: "Tee nopea väistöliike taaksepäin.",
+      hint: "S, ↓ tai Shift. Touchilla paina VÄISTÄ."
+    },
+    jump: {
+      description: "Hyppää kerran väistääksesi esteitä.",
+      hint: "W, ↑ tai Space. Touchilla pyyhkäise ylös."
+    },
+    pole: {
+      description: "Käytä sauvaiskua lähietäisyydellä.",
+      hint: "J tai Z. Touchilla vihreä SAUVA-painike."
+    },
+    axe: {
+      description: "Tee kirvesisku (tasolla 1 tämä on tutorialissa avattu).",
+      hint: "K tai X. Touchilla oranssi KIRVES-painike."
+    },
+    voltti: {
+      description: "Tee voltti ilmassa lyhyellä painalluksella.",
+      hint: "Hyppää ensin, paina sitten L tai C."
+    },
+    rage: {
+      description: "Aktivoi raivo kun mittari on täynnä.",
+      hint: "R tai V. Touchilla punainen RAIVO-painike."
+    },
+    tornado: {
+      description: "Pidä L/C pohjassa noin 1.0 s ja vapauta.",
+      hint: "Tämä kuluttaa energian ja pyörii 2 sekuntia."
+    },
+    superPole: {
+      description: "Pidä J/Z pohjassa noin 1.0 s ja vapauta.",
+      hint: "Tämä kuluttaa energian ja osuu ympäriinsä 2 sekuntia."
+    },
+    superDash: {
+      description: "Pidä K/X pohjassa noin 1.0 s ja vapauta.",
+      hint: "Tämä tekee pitkän syöksyn eteenpäin."
+    }
+  };
+
+  return { ...step, ...(overrides[step.id] || {}) };
+};
 
 export class TutorialUIScene extends Phaser.Scene {
   private currentGameSceneKey: string = "GameScene";
@@ -523,9 +576,10 @@ export class TutorialUIScene extends Phaser.Scene {
     this.resetStepFlags();
 
     const step = STEP_LIST[stepIndex];
+    const displayStep = getKeyboardTutorialStep(step);
     this.preparePlayerForStep(step.id);
     this.primeStepFromLatchedSupers(step.id);
-    this.renderStep(step, stepIndex);
+    this.renderStep(displayStep, stepIndex);
 
     // Re-check immediately so abilities used during step transition are not missed.
     this.refreshStepLiveState();

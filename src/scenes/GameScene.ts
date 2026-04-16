@@ -61,6 +61,7 @@ import {
 import { getDifficultyLevelMusicKey, normalizeDifficultyTier, shouldDifficultyShowVideos } from "../content/DifficultyPresentation";
 import { FLAVOR_TEXT_ENABLED, sanitizePlayerFacingText } from "../content/PlayerTextPolicy";
 import { shouldIgnoreKeyboardEvent } from "../platform";
+import { formatSkipHintLine } from "../controlPrompts";
 
 type WeaponMasteryKey = "pole" | "axe" | "voltti";
 type StyleRank = "D" | "C" | "B" | "A" | "S";
@@ -3055,7 +3056,7 @@ export class GameScene extends Phaser.Scene {
       this.events.emit("bossMidfightVideoRequested", {
         bossType: "peter_sync",
         videoUrl: midfightVideoUrl,
-        hintText: "SPICE BOYS TULEE - NAPAUTA OHITTAKSESI",
+        hintText: formatSkipHintLine("SPICE BOYS TULEE - NAPAUTA OHITTAKSESI"),
       });
     }
 

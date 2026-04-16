@@ -11,6 +11,8 @@ import { LeaderboardManager } from '../managers/LeaderboardManager';
 import { GameCenterManager } from '../managers/GameCenterManager';
 import type { LeaderboardEntry } from '../managers/LeaderboardManager';
 import { normalizeDifficultyTier } from '../content/DifficultyPresentation';
+import { getContinuePromptText } from '../controlPrompts';
+import { shouldIgnoreKeyboardEvent } from '../platform';
 
 export class GameCompleteUIScene extends Phaser.Scene {
   private currentLevelKey: string | null;
@@ -42,6 +44,7 @@ export class GameCompleteUIScene extends Phaser.Scene {
   private celebrationComplete: boolean;
   private interviewQuestion: string = 'Jälkipelihaastattelu: Miltä nyt tuntuu?';
   private dailyExcuse: string = 'Päivän tekosyy: lumi oli vino.';
+  private returnKeydownHandler?: (event: KeyboardEvent) => void;
   
 
 
@@ -107,6 +110,11 @@ export class GameCompleteUIScene extends Phaser.Scene {
 
   create(): void {
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      this.input.off('pointerdown');
+      if (this.returnKeydownHandler) {
+        window.removeEventListener("keydown", this.returnKeydownHandler, { capture: true } as EventListenerOptions);
+        this.returnKeydownHandler = undefined;
+      }
       if (this.musicFadeTimer) {
         this.musicFadeTimer.destroy();
         this.musicFadeTimer = undefined;
@@ -532,7 +540,7 @@ export class GameCompleteUIScene extends Phaser.Scene {
           <div id="press-enter-text" class="text-green-400 font-bold pointer-events-none mt-4 text-lg" style="
             text-shadow: 3px 3px 0px #000000;
             animation: blink 0.8s ease-in-out infinite alternate;
-          ">NAPAUTA JATKAAKSESI</div>
+          ">${getContinuePromptText()}</div>
           
           <!-- Menu button -->
           <div class="game-pixel-container-clickable-green-600 px-6 py-3 mt-2 cursor-pointer active:scale-95 transition-transform" id="mobile-menu-btn">
@@ -574,6 +582,13 @@ export class GameCompleteUIScene extends Phaser.Scene {
     this.input.off('pointerdown');
 
     this.input.on('pointerdown', () => this.returnToMenu());
+    this.returnKeydownHandler = (event: KeyboardEvent) => {
+      if (shouldIgnoreKeyboardEvent(event)) return;
+      if (event.code !== "Enter" && event.code !== "Space") return;
+      event.preventDefault();
+      this.returnToMenu();
+    };
+    window.addEventListener("keydown", this.returnKeydownHandler, { capture: true });
   }
 
   private fadeOutGameplayMusicAndContinue(currentScene: any, onComplete: () => void): void {

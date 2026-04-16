@@ -4,7 +4,8 @@ import { LevelManager } from '../LevelManager';
 import { pickHumorLine, TITLE_START_LINES } from '../humor/HumorPack';
 import { GameCenterAchievementManager } from '../managers/GameCenterAchievementManager';
 import { GameCenterManager, type GameCenterAuthResult } from '../managers/GameCenterManager';
-import { shouldIgnoreKeyboardEvent } from '../platform';
+import { getPlatformCapabilities, shouldIgnoreKeyboardEvent } from '../platform';
+import { getStartPromptText } from '../controlPrompts';
 
 
 export class TitleScreen extends Phaser.Scene {
@@ -86,7 +87,7 @@ export class TitleScreen extends Phaser.Scene {
     // Create animated snowfall
     this.createSnowfall();
     
-    this.startPromptText = pickHumorLine(this, TITLE_START_LINES, this.startPromptText);
+    this.startPromptText = pickHumorLine(this, TITLE_START_LINES, getStartPromptText());
     
     // Create DOM UI (UI elements only, no background)
     this.createDOMUI();
@@ -241,7 +242,8 @@ export class TitleScreen extends Phaser.Scene {
     const instagramIconSrc = "assets/custom/ui/social/instagram-placeholder.svg";
     const youtubeIconSrc = "assets/custom/ui/social/youtube-placeholder.svg";
     const tiktokIconSrc = "assets/custom/ui/social/tiktok-placeholder.svg";
-    const continueSaveHtml = this.renderContinueSaveHtml(utils.getCampaignSave());
+    const platform = getPlatformCapabilities();
+    const continueSaveHtml = platform.isWeb ? "" : this.renderContinueSaveHtml(utils.getCampaignSave());
 
     let uiHTML = `
       <div id="title-screen-container" class="absolute top-0 left-0 w-full h-full z-[1000] flex flex-col items-center overflow-hidden" style="font-family: 'PublicPixel'; padding-top: calc(env(safe-area-inset-top, 0px) + 4px); padding-right: calc(env(safe-area-inset-right, 0px) + 6px); padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 4px); padding-left: calc(env(safe-area-inset-left, 0px) + 6px);">
@@ -268,7 +270,7 @@ export class TitleScreen extends Phaser.Scene {
             ${this.taglineText}
           </div>
 
-          <!-- Tap to Start Text - Mobile only -->
+          <!-- Start prompt -->
           <div id="press-enter-text" class="text-yellow-400 font-bold pointer-events-none flex-shrink-0 py-2" style="
             font-size: 20px;
             text-shadow: 2px 2px 0px #000000, 0 0 10px rgba(255,200,0,0.5);

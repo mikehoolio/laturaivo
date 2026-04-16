@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import * as utils from '../utils';
 import { LevelManager } from '../LevelManager';
+import { getNameInputHintText, getStartButtonHintText } from '../controlPrompts';
 
 // Character type definition - only male character available
 export type CharacterType = 'male';
@@ -249,7 +250,7 @@ export class NameInputScene extends Phaser.Scene {
               class="w-full px-3 py-2 text-base md:text-xl text-center text-white bg-gray-900 border-4 border-gray-600 focus:border-yellow-400 focus:outline-none uppercase"
               style="font-family: 'PublicPixel'; text-shadow: 2px 2px 0px #000; -webkit-user-select: text; user-select: text; -webkit-touch-callout: default;"
             />
-            <span class="text-gray-400 text-xs" style="font-family: 'PublicPixel';">Napauta kenttää kirjoittaaksesi • enintään 12 merkkiä</span>
+            <span class="text-gray-400 text-xs" style="font-family: 'PublicPixel';">${getNameInputHintText()}</span>
             <span id="name-validation-label" class="text-red-300 text-xs hidden" style="font-family: 'PublicPixel';">Nimi on pakollinen</span>
           </div>
           
@@ -307,7 +308,7 @@ export class NameInputScene extends Phaser.Scene {
             ALOITA PELI ▶️
           </button>
           <div class="text-gray-300 text-[10px] mt-1" style="font-family: 'PublicPixel'; text-shadow: 1px 1px 0px #000;">
-            Napauta aloittaaksesi
+            ${getStartButtonHintText()}
           </div>
         </div>
 

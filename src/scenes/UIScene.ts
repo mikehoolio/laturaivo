@@ -5,7 +5,14 @@ import { normalizeDifficultyTier, shouldDifficultyShowVideos } from "../content/
 import { abilityUnlockConfig, debugConfig } from "../gameConfig.json";
 import { PAUSE_HEADLINES, PAUSE_PROMPTS, pickHumorLine } from "../humor/HumorPack";
 import { FLAVOR_TEXT_ENABLED, sanitizePlayerFacingText } from "../content/PlayerTextPolicy";
-import { getPlatformCapabilities } from "../platform";
+import { getPlatformCapabilities, shouldIgnoreKeyboardEvent } from "../platform";
+import {
+  formatSkipHintLine,
+  getConfirmAgainText,
+  getContinuePromptText,
+  getPausePromptText,
+  shouldUseKeyboardControlCopy
+} from "../controlPrompts";
 
 export default class UIScene extends Phaser.Scene {
   public currentGameSceneKey: string | null;
@@ -118,6 +125,7 @@ export default class UIScene extends Phaser.Scene {
   private superGuideTapHandler?: (event: Event) => void;
   private superGuideForcedPause: boolean = false;
   private levelStartTwoSecondSuperGuideShown: boolean = false;
+  private overlayKeydownHandler?: (event: KeyboardEvent) => void;
 
   constructor() {
     super({
@@ -203,6 +211,7 @@ export default class UIScene extends Phaser.Scene {
     this.superGuideTapHandler = undefined;
     this.superGuideForcedPause = false;
     this.levelStartTwoSecondSuperGuideShown = false;
+    this.overlayKeydownHandler = undefined;
     this.isPaused = false;
     this.joystickActive = false;
     this.joystickTouchId = null;
@@ -264,11 +273,12 @@ export default class UIScene extends Phaser.Scene {
   create(): void {
     this.isCleanedUp = false;
     this.pauseHeadlineText = pickHumorLine(this, PAUSE_HEADLINES, this.pauseHeadlineText);
-    this.pausePromptText = pickHumorLine(this, PAUSE_PROMPTS, this.pausePromptText);
+    this.pausePromptText = pickHumorLine(this, PAUSE_PROMPTS, getPausePromptText());
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, this.shutdown, this);
     this.events.once(Phaser.Scenes.Events.DESTROY, this.shutdown, this);
 
     this.createDOMUI();
+    this.setupOverlayKeyboardDismissal();
     this.setupEventListeners();
     this.setupAudioToggle();
     this.setupTutorialSkipButton();
@@ -278,6 +288,53 @@ export default class UIScene extends Phaser.Scene {
     
     // Note: Ability unlock notifications are handled by AbilityUnlockUIScene launched from GameScene
     // Do not show duplicate notifications here
+  }
+
+  private setupOverlayKeyboardDismissal(): void {
+    if (!shouldUseKeyboardControlCopy() || typeof window === "undefined") return;
+
+    this.overlayKeydownHandler = (event: KeyboardEvent) => {
+      if (shouldIgnoreKeyboardEvent(event)) return;
+      if (event.code !== "Enter" && event.code !== "Space") return;
+
+      const consume = (): void => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      };
+
+      if (this.bossPreIntroVideoActive) {
+        consume();
+        if (this.bossPreIntroVideoTapReady && this.bossPreIntroVideoTapHandler) {
+          this.bossPreIntroVideoTapHandler(event);
+        }
+        return;
+      }
+
+      if (this.bossMidfightVideoActive) {
+        consume();
+        if (this.bossMidfightVideoTapReady && this.bossMidfightVideoTapHandler) {
+          this.bossMidfightVideoTapHandler(event);
+        }
+        return;
+      }
+
+      if (this.bossIntroActive) {
+        consume();
+        if (this.bossIntroTapReady && this.bossIntroTapHandler) {
+          this.bossIntroTapHandler(event);
+        }
+        return;
+      }
+
+      if (this.superGuideActive) {
+        consume();
+        if (this.superGuideTapReady && this.superGuideTapHandler) {
+          this.superGuideTapHandler(event);
+        }
+      }
+    };
+
+    window.addEventListener("keydown", this.overlayKeydownHandler, { capture: true });
   }
   
   // Show notifications for newly unlocked abilities at the start of levels 2, 3, 4
@@ -1559,7 +1616,7 @@ export default class UIScene extends Phaser.Scene {
     if (!pauseMainMenuBtn) return;
     const label = pauseMainMenuBtn.querySelector("span");
     if (!label) return;
-    label.textContent = isConfirmArmed ? "🏠 NAPAUTA UUDESTA (VARMISTA)" : "🏠 PÄÄVALIKKO";
+    label.textContent = isConfirmArmed ? getConfirmAgainText() : "🏠 PÄÄVALIKKO";
   }
 
   private resetPauseMainMenuConfirmation(): void {
@@ -1986,6 +2043,10 @@ export default class UIScene extends Phaser.Scene {
     this.hideMonikaPreIntroVideo();
     this.hideBossIntroCard();
     this.resetPauseMainMenuConfirmation();
+    if (this.overlayKeydownHandler && typeof window !== "undefined") {
+      window.removeEventListener("keydown", this.overlayKeydownHandler, { capture: true } as EventListenerOptions);
+      this.overlayKeydownHandler = undefined;
+    }
 
     // Remove event listeners
     this.removeEventListeners();
@@ -2590,7 +2651,7 @@ export default class UIScene extends Phaser.Scene {
     return {
       assetKey: `${resolvedBossType || "boss"}_intro_video`,
       fallbackUrl: resolvedBossConfig.bossIntroVideoUrl,
-      hintText: `${hintName} SAAPUU - NAPAUTA OHITTAKSESI`,
+      hintText: formatSkipHintLine(`${hintName} SAAPUU - NAPAUTA OHITTAKSESI`),
     };
   }
 
@@ -2803,7 +2864,8 @@ export default class UIScene extends Phaser.Scene {
     overlay.style.opacity = "0";
     overlay.style.pointerEvents = "auto";
     if (hint) {
-      hint.textContent = sanitizePlayerFacingText(data?.hintText || "SPICE BOYS TULEE - NAPAUTA OHITTAKSESI") || "NAPAUTA OHITTAKSESI";
+      const hintText = formatSkipHintLine(String(data?.hintText || "SPICE BOYS TULEE - NAPAUTA OHITTAKSESI"));
+      hint.textContent = sanitizePlayerFacingText(hintText) || formatSkipHintLine("NAPAUTA OHITTAKSESI");
       hint.style.opacity = "0.55";
     }
 
@@ -3264,7 +3326,7 @@ export default class UIScene extends Phaser.Scene {
 
     title.textContent = sanitizePlayerFacingText(content.title) || "SUPERKYKY";
     description.textContent = sanitizePlayerFacingText(content.description) || "Käytä superia tehokkaasti oikeassa hetkessä.";
-    continueText.textContent = "NAPAUTA JATKAAKSESI";
+    continueText.textContent = getContinuePromptText();
     continueText.style.opacity = "0.55";
 
     overlay.style.transition = "opacity 180ms ease";
@@ -3405,7 +3467,7 @@ export default class UIScene extends Phaser.Scene {
     title.textContent = `TASO ${this.currentLevel} • ${data.isFinalBoss ? "PÄÄBOSSI" : "BOSSI"}`;
     name.textContent = safeBossName;
     description.textContent = safeDescription;
-    continueText.textContent = "NAPAUTA RUUTUA JATKAAKSESI";
+    continueText.textContent = getContinuePromptText();
     continueText.style.opacity = "0.55";
 
     if (portrait) {
@@ -3718,7 +3780,7 @@ export default class UIScene extends Phaser.Scene {
           <video id="boss-preintro-video" class="absolute inset-0 w-full h-full object-cover" playsinline webkit-playsinline preload="auto"></video>
           <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.12) 50%, rgba(0, 0, 0, 0.24) 100%);"></div>
           <div id="boss-preintro-video-hint" class="absolute left-1/2 transform -translate-x-1/2 text-green-300 text-xs md:text-sm font-bold" style="bottom: max(20px, calc(env(safe-area-inset-bottom, 0px) + 20px)); text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite; opacity: 0.55;">
-            BOSSI SAAPUU - NAPAUTA OHITTAKSESI
+            ${formatSkipHintLine("BOSSI SAAPUU - NAPAUTA OHITTAKSESI")}
           </div>
         </div>
 
@@ -3726,7 +3788,7 @@ export default class UIScene extends Phaser.Scene {
           <video id="boss-midfight-video" class="absolute inset-0 w-full h-full object-cover" playsinline webkit-playsinline preload="auto"></video>
           <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.12) 50%, rgba(0, 0, 0, 0.24) 100%);"></div>
           <div id="boss-midfight-video-hint" class="absolute left-1/2 transform -translate-x-1/2 text-green-300 text-xs md:text-sm font-bold" style="bottom: max(20px, calc(env(safe-area-inset-bottom, 0px) + 20px)); text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite; opacity: 0.55;">
-            SPICE BOYS TULEE - NAPAUTA OHITTAKSESI
+            ${formatSkipHintLine("SPICE BOYS TULEE - NAPAUTA OHITTAKSESI")}
           </div>
         </div>
 
@@ -3742,7 +3804,7 @@ export default class UIScene extends Phaser.Scene {
                   <span id="boss-intro-desc" class="text-white text-sm md:text-base text-center md:text-left leading-snug max-w-lg" style="text-shadow: 1px 1px 0px #000;">Bossi saapui ladulle.</span>
                 </div>
               </div>
-              <span id="boss-intro-continue" class="text-green-300 text-xs md:text-sm font-bold text-center mt-2" style="text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite;">NAPAUTA RUUTUA JATKAAKSESI</span>
+              <span id="boss-intro-continue" class="text-green-300 text-xs md:text-sm font-bold text-center mt-2" style="text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite;">${getContinuePromptText()}</span>
             </div>
           </div>
         </div>
@@ -3753,7 +3815,7 @@ export default class UIScene extends Phaser.Scene {
             <div id="super-guide-card" class="game-pixel-container-blue-700 px-4 md:px-6 py-4 md:py-5 w-full max-w-xl flex flex-col items-center gap-2 md:gap-3" style="border: 3px solid #22d3ee; background-color: rgba(0, 0, 0, 0.84);">
               <span id="super-guide-title" class="text-cyan-200 text-lg md:text-2xl font-bold text-center uppercase" style="text-shadow: 2px 2px 0px #000;">SUPERKYKY</span>
               <span id="super-guide-desc" class="text-white text-sm md:text-base text-center leading-snug max-w-lg" style="text-shadow: 1px 1px 0px #000;">Superin käytöstä näytetään lyhyt ohje.</span>
-              <span id="super-guide-continue" class="text-green-300 text-xs md:text-sm font-bold text-center mt-1" style="text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite;">NAPAUTA JATKAAKSESI</span>
+              <span id="super-guide-continue" class="text-green-300 text-xs md:text-sm font-bold text-center mt-1" style="text-shadow: 1px 1px 0px #000; animation: bossIntroContinuePulse 1.1s ease-in-out infinite;">${getContinuePromptText()}</span>
             </div>
           </div>
         </div>

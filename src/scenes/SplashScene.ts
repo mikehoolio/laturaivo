@@ -1,11 +1,14 @@
 import Phaser from "phaser";
 import * as utils from "../utils";
+import { getSkipScreenPromptText } from "../controlPrompts";
+import { shouldIgnoreKeyboardEvent } from "../platform";
 
 export class SplashScene extends Phaser.Scene {
   private logo!: Phaser.GameObjects.Image;
   private messageText!: Phaser.GameObjects.Text;
   private skipText!: Phaser.GameObjects.Text;
   private canSkip: boolean = false;
+  private keydownHandler?: (event: KeyboardEvent) => void;
 
   constructor() {
     super("SplashScene");
@@ -36,7 +39,7 @@ export class SplashScene extends Phaser.Scene {
 
     // Skip instruction - using PublicPixel for smaller UI text
     this.skipText = this.add.text(centerX, this.scale.height - 50, 
-      "Napauta ruutua ohittaaksesi", {
+      getSkipScreenPromptText(), {
       fontSize: "16px",
       fontFamily: "PublicPixel",
       color: "#666666"
@@ -83,6 +86,21 @@ export class SplashScene extends Phaser.Scene {
     this.input.on("pointerdown", () => {
       if (this.canSkip) {
         this.transitionToTitle();
+      }
+    });
+
+    this.keydownHandler = (event: KeyboardEvent) => {
+      if (shouldIgnoreKeyboardEvent(event)) return;
+      if (event.code !== "Enter" && event.code !== "Space") return;
+      if (!this.canSkip) return;
+      event.preventDefault();
+      this.transitionToTitle();
+    };
+    window.addEventListener("keydown", this.keydownHandler, { capture: true });
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      if (this.keydownHandler) {
+        window.removeEventListener("keydown", this.keydownHandler, { capture: true } as EventListenerOptions);
+        this.keydownHandler = undefined;
       }
     });
   }

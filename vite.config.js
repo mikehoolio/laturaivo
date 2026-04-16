@@ -33,6 +33,14 @@ const removeMatchingFiles = async (root, predicate) => {
   return removed;
 };
 
+const shouldSkipPublicAsset = (publicDir, sourcePath) => {
+  const relative = path.relative(publicDir, sourcePath);
+  if (!relative || relative.startsWith("..")) return false;
+
+  const parts = relative.split(path.sep);
+  return parts.some((part) => /^_?backup/i.test(part)) || path.basename(sourcePath) === ".DS_Store";
+};
+
 const webReleaseAssetsPlugin = () => {
   let outDir = "";
 
@@ -43,6 +51,15 @@ const webReleaseAssetsPlugin = () => {
       outDir = path.resolve(config.root, config.build.outDir);
     },
     async closeBundle() {
+      const publicDir = path.resolve(process.cwd(), "public");
+      if (await pathExists(publicDir)) {
+        await fs.cp(publicDir, outDir, {
+          recursive: true,
+          force: true,
+          filter: async (sourcePath) => !shouldSkipPublicAsset(publicDir, sourcePath),
+        });
+      }
+
       if (!isWebReleaseBuild) return;
 
       const webPublicDir = path.resolve(process.cwd(), "public_web");
@@ -69,6 +86,7 @@ const webReleaseAssetsPlugin = () => {
 // https://vite.dev/config/
 export default defineConfig({
   base: "",
+  publicDir: false,
   build: {
     // Keep Vite-generated bundles separate from /public/assets to avoid
     // directory name collisions (e.g. "offline 3") in iOS web asset copies.

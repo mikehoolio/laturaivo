@@ -4,7 +4,8 @@ import { CONTINUE_LINES, pickHumorLine } from "../humor/HumorPack";
 import { LevelManager } from "../LevelManager";
 import { LAHTI_ENDING_MUSIC_KEY, normalizeDifficultyTier, shouldDifficultyShowVideos } from "../content/DifficultyPresentation";
 import { sanitizePlayerFacingText } from "../content/PlayerTextPolicy";
-import { resolvePlatformVideoUrl } from "../platform";
+import { resolvePlatformVideoUrl, shouldIgnoreKeyboardEvent } from "../platform";
+import { getContinuePromptText, getSkipPromptText } from "../controlPrompts";
 
 /**
  * Story Scene - Displays cinematic story screens between levels
@@ -196,6 +197,7 @@ export class StoryScene extends Phaser.Scene {
   private domContinueClickHandler?: (event: Event) => void;
   private domContinueTouchStartHandler?: (event: Event) => void;
   private domContinueTouchHandler?: (event: Event) => void;
+  private keydownHandler?: (event: KeyboardEvent) => void;
   private domAdvanceTargets: Set<HTMLElement> = new Set();
   private lastAdvanceAt: number = 0;
   private continuePromptText: string = "NAPAUTA JATKAAKSESI";
@@ -320,7 +322,7 @@ export class StoryScene extends Phaser.Scene {
     const content = this.resolveStoryContent(this.storyKey) || STORY_CONTENT.intro;
     this.activeStoryData = content;
     this.fullText = sanitizePlayerFacingText(content.text);
-    this.continuePromptText = pickHumorLine(this, CONTINUE_LINES, this.continuePromptText);
+    this.continuePromptText = pickHumorLine(this, CONTINUE_LINES, getContinuePromptText());
 
     // Setup input and cleanup hooks first to support optional intro video stage.
     this.setupInput();
@@ -403,7 +405,7 @@ export class StoryScene extends Phaser.Scene {
           animation: promptPulse 1.35s ease-in-out infinite;
           z-index: 2;
         ">
-          NAPAUTA JATKAAKSESI
+          ${getContinuePromptText()}
         </div>
         <style>
           @keyframes promptPulse {
@@ -668,7 +670,7 @@ export class StoryScene extends Phaser.Scene {
           font-family: 'RetroPixel', monospace;
           font-size: 12px;
         ">
-          NAPAUTA = OHITA
+          ${getSkipPromptText()}
         </div>
         
         <!-- Custom animations -->
@@ -729,6 +731,13 @@ export class StoryScene extends Phaser.Scene {
       event.preventDefault();
       handleAdvance();
     };
+    this.keydownHandler = (event: KeyboardEvent) => {
+      if (shouldIgnoreKeyboardEvent(event)) return;
+      if (event.code !== "Enter" && event.code !== "Space") return;
+      event.preventDefault();
+      handleAdvance();
+    };
+    window.addEventListener("keydown", this.keydownHandler, { capture: true });
     this.attachDomAdvanceHandlers();
   }
 
@@ -874,6 +883,9 @@ export class StoryScene extends Phaser.Scene {
     } else {
       this.input.off("pointerup");
     }
+    if (this.keydownHandler && typeof window !== "undefined") {
+      window.removeEventListener("keydown", this.keydownHandler, { capture: true } as EventListenerOptions);
+    }
 
     for (const target of this.domAdvanceTargets) {
       if (this.domContinueClickHandler) {
@@ -893,6 +905,7 @@ export class StoryScene extends Phaser.Scene {
     this.domContinueClickHandler = undefined;
     this.domContinueTouchStartHandler = undefined;
     this.domContinueTouchHandler = undefined;
+    this.keydownHandler = undefined;
   }
 
   // Static helper to get story key for a level number

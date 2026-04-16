@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import * as utils from "../utils";
+import { shouldUseKeyboardControlCopy } from "../controlPrompts";
 
 export class GameGuideScene extends Phaser.Scene {
   private uiContainer: Phaser.GameObjects.DOMElement | null = null;
@@ -34,6 +35,20 @@ export class GameGuideScene extends Phaser.Scene {
   }
 
   private createDOMUI(): void {
+    const keyboardCopy = shouldUseKeyboardControlCopy();
+    const controlsDescription = keyboardCopy
+      ? "Näppäimistö: A/D tai ←/→ liikkuu. W/↑/Space hyppää. S/↓/Shift väistää. Touchilla käytä vasenta ohjainta ja oikean puolen nappeja."
+      : "Liiku vasemman alakulman ohjaimella. Hyppy, sauvaisku, voltti, kirves ja raivo löytyvät oikean puolen napeista tason mukaan.";
+    const attackDescription = keyboardCopy
+      ? "Sauvaisku J/Z, kirves K/X, voltti L/C ja raivo R/V. Sauva on nopea lähihyökkäys, kirves tekee kovaa vahinkoa, voltti auttaa lähialueella ja väistöissä."
+      : "Sauvaisku toimii nopeana lähihyökkäyksenä. Kirves tekee kovaa vahinkoa, mutta kuluttaa energiaa. Voltti osuu lähialueelle ja auttaa väistöissä.";
+    const superDescription = keyboardCopy
+      ? "Kun superit avautuvat, pidä samaa hyökkäysnäppäintä noin 1 sekunti pohjassa ja vapauta. L/C tekee Myrskyvoltin, J/Z Supersauvan ja K/X Supersyöksyn."
+      : "Kun superit avautuvat, pidä nappia noin 1 sekunti pohjassa: Myrskyvoltti ja Supersauva kestävät noin 2 sekuntia. Myöhemmin Supersyöksy kirveellä avautuu korkeammalla tasolla.";
+    const quickTips = keyboardCopy
+      ? "Pidä vauhti yllä, vältä turhat osumat ja käytä pausea Esc/P-näppäimellä jos ruutu menee sekavaksi. Äänen saat päälle/pois M-näppäimellä."
+      : "Pidä vauhti yllä, vältä turhat osumat ja käytä pausea jos ruutu menee sekavaksi. Jos ääni joskus katkeaa iOS:llä, pause -> resume käynnistää musiikin uudelleen.";
+
     const uiHTML = `
       <div id="game-guide-container" class="absolute top-0 left-0 w-full h-full z-[1000] flex flex-col justify-start items-center overflow-hidden" style="font-family: 'PublicPixel';">
         <div class="w-full" style="padding-top: env(safe-area-inset-top, 16px);"></div>
@@ -61,12 +76,12 @@ export class GameGuideScene extends Phaser.Scene {
             <div class="flex flex-col gap-3 text-left">
               <section class="game-pixel-container-blue-800 p-3">
                 <h3 class="text-yellow-300 text-sm md:text-base font-bold mb-1">PERUSOHJAUS</h3>
-                <p class="text-white text-xs md:text-sm leading-relaxed">Liiku vasemman alakulman ohjaimella. Hyppy, sauvaisku, voltti, kirves ja raivo löytyvät oikean puolen napeista tason mukaan.</p>
+                <p class="text-white text-xs md:text-sm leading-relaxed">${controlsDescription}</p>
               </section>
 
               <section class="game-pixel-container-green-800 p-3">
                 <h3 class="text-yellow-300 text-sm md:text-base font-bold mb-1">TAISTELU</h3>
-                <p class="text-white text-xs md:text-sm leading-relaxed">Sauvaisku toimii nopeana lähihyökkäyksenä. Kirves tekee kovaa vahinkoa, mutta kuluttaa energiaa. Voltti osuu lähialueelle ja auttaa väistöissä.</p>
+                <p class="text-white text-xs md:text-sm leading-relaxed">${attackDescription}</p>
               </section>
 
               <section class="game-pixel-container-purple-700 p-3">
@@ -76,7 +91,7 @@ export class GameGuideScene extends Phaser.Scene {
 
               <section class="game-pixel-container-red-800 p-3">
                 <h3 class="text-yellow-300 text-sm md:text-base font-bold mb-1">SUPERIT (HOLD)</h3>
-                <p class="text-white text-xs md:text-sm leading-relaxed">Kun superit avautuvat, pidä nappia noin 1 sekunti pohjassa: Myrskyvoltti ja Supersauva kestävät noin 2 sekuntia. Myöhemmin Supersyöksy kirveellä avautuu korkeammalla tasolla.</p>
+                <p class="text-white text-xs md:text-sm leading-relaxed">${superDescription}</p>
               </section>
 
               <section class="game-pixel-container-orange-700 p-3">
@@ -91,7 +106,7 @@ export class GameGuideScene extends Phaser.Scene {
 
               <section class="game-pixel-container-cyan-900 p-3">
                 <h3 class="text-yellow-300 text-sm md:text-base font-bold mb-1">VINKIT PIKAAN</h3>
-                <p class="text-white text-xs md:text-sm leading-relaxed">Pidä vauhti yllä, vältä turhat osumat ja käytä pausea jos ruutu menee sekavaksi. Jos ääni joskus katkeaa iOS:llä, pause -> resume käynnistää musiikin uudelleen.</p>
+                <p class="text-white text-xs md:text-sm leading-relaxed">${quickTips}</p>
               </section>
             </div>
           </div>
